@@ -205,8 +205,10 @@ def render_turn(turn):
     with st.chat_message("assistant", avatar="🔎"):
         st.markdown(cite_html(turn["answer"]), unsafe_allow_html=True)
         not_found = "could not find this" in turn["answer"].lower()
+        n_hits = len(turn["hits"])
+        status = "Not in documents" if not_found else f"Grounded in {n_hits} chunks"
         pills = [
-            f'<span class="pill {"warn" if not_found else "ok"}">● {"Not in documents" if not_found else f"Grounded in {len(turn["hits"])} chunks"}</span>',
+            f'<span class="pill {"warn" if not_found else "ok"}">● {status}</span>',
             f'<span class="pill">✦ {html.escape(turn["engine"])}</span>',
             f'<span class="pill">retrieval {turn["t_retrieve"]:.1f} ms</span>',
             f'<span class="pill">total {turn["t_total"]:.2f} s</span>',
