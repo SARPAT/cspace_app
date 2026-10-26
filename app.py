@@ -19,6 +19,7 @@ from rag.engine import (
     chunk_text,
     extract_text,
     extractive_answer,
+    list_models,
     load_builtin,
     run_benchmark,
     stream_answer,
@@ -110,6 +111,14 @@ if "index" not in st.session_state:
 index: HybridIndex = st.session_state.index
 _, BENCH = builtin_data()
 
+@st.cache_data(ttl=3600, show_spinner=False)
+def available_models(provider: str, key: str) -> list[str]:
+    try:
+        return list_models(provider, key)
+    except Exception:  # noqa: BLE001 - wrong key or no network: fall back to a typed model name
+        return []
+
+
 # --------------------------------------------------------------------------- sidebar
 with st.sidebar:
     st.markdown("### 🔎 DocQuery RAG")
@@ -135,7 +144,11 @@ with st.sidebar:
             st.caption("Free key: console.groq.com → API Keys")
         elif provider.startswith("Grok"):
             st.caption("Key: console.x.ai → API Keys")
-    model = st.text_input("Model", value=cfg["model"])
+    models = available_models(provider, api_key) if (api_key or cfg["secret"] is None) else []
+    if models:
+        model = st.selectbox("Model", models, index=0, help="Live list from the provider; the best available model is preselected.")
+    else:
+        model = st.text_input("Model", value=cfg["model"])
     llm_ready = bool(api_key) or cfg["secret"] is None
     if not llm_ready:
         st.info("No key: answers use the offline extractive mode.", icon="ℹ️")
@@ -240,11 +253,27 @@ def answer(question: str):
             try:
                 placeholder = st.empty()
                 placeholder.markdown("_Reading the sources…_")
-                for piece in stream_answer(provider, api_key, model, build_prompt(question, hits)):
+                prompt = build_prompt(question, hits)
+                use_model = model
+                try:
+                    pieces = stream_answer(provider, api_key, use_model, prompt)
+                    first = next(pieces, "")
+                except Exception as e:  # noqa: BLE001 - retired model name: switch to a live one
+                    if type(e).__name__ not in ("NotFoundError", "BadRequestError"):
+                        raise
+                    alts = [m for m in available_models(provider, api_key) if m != model]
+                    if not alts:
+                        raise
+                    use_model = alts[0]
+                    turn["note"] = f"Model {model} is not available, so {use_model} was used."
+                    pieces = stream_answer(provider, api_key, use_model, prompt)
+                    first = next(pieces, "")
+                text = first
+                for piece in pieces:
                     text += piece
                     placeholder.markdown(cite_html(text) + " ▍", unsafe_allow_html=True)
                 placeholder.empty()
-                text, engine = text.strip(), f"{provider.split(' (')[0]} · {model}"
+                text, engine = text.strip(), f"{provider.split(' (')[0]} · {use_model}"
             except Exception as e:  # noqa: BLE001 - show the reason, fall back to extractive
                 text = extractive_answer(index, question, hits)
                 engine = "Extractive (fallback)"

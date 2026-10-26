@@ -269,6 +269,30 @@ PROVIDERS = {
 }
 
 
+NON_CHAT = re.compile(r"whisper|tts|audio|guard|embed|moderation|image|vision-preview|playai|distil|compound", re.I)
+PREFERRED = [
+    "llama-3.3-70b", "gpt-oss-120b", "llama-4-maverick", "llama-4-scout", "qwen3", "gpt-oss-20b",
+    "kimi-k2", "llama-3.1-8b", "grok-4", "grok-3-mini", "grok-3", "gpt-4o-mini", "gpt-4.1-mini",
+]
+
+
+def list_models(provider: str, api_key: str) -> list[str]:
+    """Chat-capable model ids the key can use, best first (empty list if the call fails)."""
+    from openai import OpenAI
+
+    cfg = PROVIDERS[provider]
+    client = OpenAI(api_key=api_key or "ollama", base_url=cfg["base_url"], timeout=20)
+    ids = sorted({m.id for m in client.models.list().data if not NON_CHAT.search(m.id)})
+
+    def rank(mid: str) -> int:
+        for i, p in enumerate(PREFERRED):
+            if p in mid:
+                return i
+        return len(PREFERRED)
+
+    return sorted(ids, key=lambda m: (rank(m), m))
+
+
 def stream_answer(provider: str, api_key: str, model: str, prompt: str):
     """Yield answer text pieces from an OpenAI-compatible chat endpoint."""
     from openai import OpenAI
