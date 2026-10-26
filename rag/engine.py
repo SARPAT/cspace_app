@@ -17,7 +17,7 @@ import uuid
 from dataclasses import dataclass, field
 from pathlib import Path
 
-# Streamlit Community Cloud ships an old sqlite3; ChromaDB needs >= 3.35.
+# Some Linux hosts ship an old sqlite3; ChromaDB needs >= 3.35.
 try:  # pragma: no cover - only relevant on Linux hosts with pysqlite3-binary installed
     __import__("pysqlite3")
     sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
