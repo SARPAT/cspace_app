@@ -4,6 +4,8 @@
 
 Ask questions about documents (built-in corpus of Indian public documents, or your own PDF / Word / TXT uploads) and get answers generated **only** from retrieved passages, with every claim cited back to its source chunk.
 
+![Ask view](docs/screenshot-ask.png)
+
 ## Features
 
 - **Ask** — chat-style Q&A. Hybrid retrieval (BM25 + ChromaDB vectors), grounded prompt, LLM answer with `[n]` citations, source chunks shown beside every answer.
@@ -11,6 +13,8 @@ Ask questions about documents (built-in corpus of Indian public documents, or yo
 - **LLM providers** — Groq (free tier), Grok (xAI), OpenAI or local Ollama, through one OpenAI-compatible client. No key? An offline extractive mode still answers with citations.
 - **Evaluation** — EDA of `data/dataset.csv` (4 charts, key findings) and a live retriever benchmark (Hit@1, Hit@3, MRR, latency).
 - **Architecture** — pipeline, level-0 DFD, tech stack and the exact prompt template.
+
+![Evaluation view](docs/screenshot-evaluation.png)
 
 ## Tech stack
 
