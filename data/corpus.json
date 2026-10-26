@@ -1,0 +1,220 @@
+{
+ "documents": [
+  {
+   "id": "CON-PRE",
+   "title": "Constitution of India: Preamble",
+   "cat": "Constitution of India",
+   "type": "PDF",
+   "chunks": [
+    "WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation.",
+    "The Constitution was adopted by the Constituent Assembly on 26 November 1949, which is now observed as Constitution Day. It came into force on 26 January 1950, celebrated every year as Republic Day. Dr. B. R. Ambedkar chaired the Drafting Committee.",
+    "The words SOCIALIST and SECULAR were added to the Preamble by the Constitution (Forty-second Amendment) Act, 1976, which also changed 'unity of the Nation' to 'unity and integrity of the Nation'."
+   ]
+  },
+  {
+   "id": "CON-FR",
+   "title": "Constitution of India: Fundamental Rights (Part III)",
+   "cat": "Constitution of India",
+   "type": "PDF",
+   "chunks": [
+    "Article 14, Equality before law: The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India. Article 15 prohibits discrimination on grounds only of religion, race, caste, sex or place of birth.",
+    "Article 17 abolishes untouchability and forbids its practice in any form. The enforcement of any disability arising out of untouchability is an offence punishable in accordance with law.",
+    "Article 19 protects six freedoms of citizens: freedom of speech and expression; to assemble peaceably and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; and to practise any profession, or to carry on any occupation, trade or business. These are subject to reasonable restrictions.",
+    "Article 21, Protection of life and personal liberty: No person shall be deprived of his life or personal liberty except according to procedure established by law. Courts have read the right to privacy, dignity and a clean environment into Article 21.",
+    "Article 21A, Right to education: The State shall provide free and compulsory education to all children of the age of six to fourteen years. It was inserted by the Constitution (Eighty-sixth Amendment) Act, 2002.",
+    "Article 32, Right to constitutional remedies: A person may move the Supreme Court directly for the enforcement of Fundamental Rights. The Court can issue writs of habeas corpus, mandamus, prohibition, quo warranto and certiorari. Dr. Ambedkar described Article 32 as the heart and soul of the Constitution."
+   ]
+  },
+  {
+   "id": "CON-FD",
+   "title": "Constitution of India: Fundamental Duties (Article 51A)",
+   "cat": "Constitution of India",
+   "type": "Word",
+   "chunks": [
+    "Fundamental Duties were added as Article 51A in Part IVA by the Forty-second Amendment Act, 1976, on the recommendation of the Swaran Singh Committee. There are now eleven duties; the eleventh was added by the Eighty-sixth Amendment Act, 2002.",
+    "Duties include abiding by the Constitution and respecting the National Flag and National Anthem, upholding the sovereignty, unity and integrity of India, protecting the natural environment, developing scientific temper, safeguarding public property, and for parents or guardians, providing opportunities for education to their child between six and fourteen years."
+   ]
+  },
+  {
+   "id": "CON-AMD",
+   "title": "Constitution of India: Elections and Amendment",
+   "cat": "Constitution of India",
+   "type": "HTML",
+   "chunks": [
+    "Article 324 vests the superintendence, direction and control of elections to Parliament, State Legislatures and the offices of President and Vice-President in the Election Commission of India.",
+    "Article 368 gives Parliament the power to amend the Constitution. An amendment bill must be passed in each House by a majority of the total membership and by a two-thirds majority of members present and voting. Amendments affecting federal provisions also need ratification by at least half of the State Legislatures.",
+    "In Kesavananda Bharati v. State of Kerala (1973) the Supreme Court held that Parliament cannot use Article 368 to alter the basic structure of the Constitution."
+   ]
+  },
+  {
+   "id": "SCH-KISAN",
+   "title": "PM-KISAN: Pradhan Mantri Kisan Samman Nidhi",
+   "cat": "Government schemes",
+   "type": "PDF",
+   "chunks": [
+    "PM-KISAN is a Central Sector scheme, fully funded by the Government of India, launched in February 2019 to supplement the financial needs of landholding farmer families.",
+    "Under PM-KISAN, an income support of Rs 6,000 per year is paid to eligible farmer families in three equal instalments of Rs 2,000 each, transferred directly into their bank accounts through Direct Benefit Transfer (DBT).",
+    "Exclusions apply to higher-income groups, for example institutional landholders, constitutional post holders, serving or retired government officers, income-tax payers in the last assessment year, and professionals such as doctors, engineers and lawyers. e-KYC is mandatory for registered farmers."
+   ]
+  },
+  {
+   "id": "SCH-PMJAY",
+   "title": "Ayushman Bharat: PM Jan Arogya Yojana",
+   "cat": "Government schemes",
+   "type": "Word",
+   "chunks": [
+    "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) was launched on 23 September 2018. It is implemented by the National Health Authority and is one of the largest publicly funded health assurance schemes in the world.",
+    "PM-JAY provides a health cover of Rs 5 lakh per family per year for secondary and tertiary care hospitalisation. Services are cashless and paperless at empanelled public and private hospitals across India, and there is no cap on family size or age.",
+    "Beneficiaries are identified from deprivation and occupational criteria of the Socio-Economic Caste Census (SECC) 2011. In 2024 the scheme was extended to all senior citizens aged 70 years and above, irrespective of income, through the Ayushman Vay Vandana card."
+   ]
+  },
+  {
+   "id": "SCH-PMJDY",
+   "title": "Pradhan Mantri Jan Dhan Yojana",
+   "cat": "Government schemes",
+   "type": "TXT",
+   "chunks": [
+    "Pradhan Mantri Jan-Dhan Yojana (PMJDY) is the National Mission for Financial Inclusion, launched on 28 August 2014, to ensure access to banking, savings, remittance, credit, insurance and pension in an affordable manner.",
+    "A PMJDY account is a basic savings bank deposit account that needs no minimum balance. Account holders receive a RuPay debit card with built-in accident insurance cover of Rs 2 lakh for accounts opened after 28 August 2018, and an overdraft facility of up to Rs 10,000 for eligible holders."
+   ]
+  },
+  {
+   "id": "SCH-NREGA",
+   "title": "MGNREGA: Rural Employment Guarantee",
+   "cat": "Government schemes",
+   "type": "Markdown",
+   "chunks": [
+    "The Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (MGNREGA) guarantees at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work.",
+    "Work must be provided within 15 days of applying, failing which an unemployment allowance is payable. Work should be given within 5 km of the applicant's village, and at least one-third of the beneficiaries must be women. Wages are paid directly into bank or post office accounts."
+   ]
+  },
+  {
+   "id": "SCH-SBM",
+   "title": "Swachh Bharat Mission",
+   "cat": "Government schemes",
+   "type": "HTML",
+   "chunks": [
+    "Swachh Bharat Mission was launched on 2 October 2014 with the aim of making India open defecation free (ODF) by 2 October 2019, the 150th birth anniversary of Mahatma Gandhi, through construction of household and community toilets and behaviour change.",
+    "Swachh Bharat Mission (Grameen) Phase II focuses on ODF Plus: sustaining open defecation free status and managing solid and liquid waste in villages."
+   ]
+  },
+  {
+   "id": "SCH-DI",
+   "title": "Digital India Programme",
+   "cat": "Government schemes",
+   "type": "Markdown",
+   "chunks": [
+    "Digital India was launched on 1 July 2015 to transform India into a digitally empowered society and knowledge economy. It is centred on three vision areas: digital infrastructure as a core utility to every citizen, governance and services on demand, and digital empowerment of citizens.",
+    "Key platforms under Digital India include Aadhaar, DigiLocker for storing official documents, UMANG for mobile access to government services, and the Common Services Centres that deliver e-services in rural areas."
+   ]
+  },
+  {
+   "id": "ACT-RTI",
+   "title": "Right to Information Act, 2005: Citizen manual",
+   "cat": "Acts and technical manuals",
+   "type": "PDF",
+   "chunks": [
+    "Under the Right to Information Act, 2005 any citizen may request information from a public authority by applying in writing or electronically to the Public Information Officer (PIO). The applicant does not need to give a reason for the request.",
+    "The PIO must reply within 30 days of receiving the request. If the information concerns the life or liberty of a person, it must be provided within 48 hours. For central public authorities the application fee is Rs 10; applicants below the poverty line pay no fee.",
+    "If no reply is received or the applicant is not satisfied, a first appeal lies to a senior officer within 30 days. A second appeal can be filed with the Central or State Information Commission within 90 days. Section 8 lists exemptions, such as information affecting national security or personal privacy."
+   ]
+  },
+  {
+   "id": "ACT-DPDP",
+   "title": "Digital Personal Data Protection Act, 2023",
+   "cat": "Acts and technical manuals",
+   "type": "Word",
+   "chunks": [
+    "The Digital Personal Data Protection Act, 2023 governs the processing of digital personal data in India. A Data Fiduciary may process personal data only for a lawful purpose with the consent of the Data Principal, or for certain legitimate uses.",
+    "Data Principals have the right to access information about their data, the right to correction and erasure, the right to grievance redressal, and the right to nominate another person. Consent must be free, specific, informed, unconditional and unambiguous, and can be withdrawn.",
+    "The Act establishes the Data Protection Board of India to inquire into breaches. Penalties can reach Rs 250 crore for failing to take reasonable security safeguards to prevent a personal data breach."
+   ]
+  },
+  {
+   "id": "MAN-UPI",
+   "title": "UPI: Unified Payments Interface user guide",
+   "cat": "Acts and technical manuals",
+   "type": "TXT",
+   "chunks": [
+    "Unified Payments Interface (UPI) is a real-time payment system developed by the National Payments Corporation of India (NPCI) and launched in 2016. It lets users link multiple bank accounts to one mobile app and transfer money instantly, 24x7.",
+    "To set up UPI, install a UPI app, verify your mobile number registered with the bank, select your bank account, and create a Virtual Payment Address (VPA) such as name@bank. Set a 4 or 6 digit UPI PIN using your debit card details. Never share your UPI PIN; it is needed only to send money, not to receive it."
+   ]
+  },
+  {
+   "id": "MAN-AADHAAR",
+   "title": "Aadhaar: enrolment and authentication handbook",
+   "cat": "Acts and technical manuals",
+   "type": "HTML",
+   "chunks": [
+    "Aadhaar is a 12-digit unique identity number issued by the Unique Identification Authority of India (UIDAI) to residents of India, based on demographic and biometric information: fingerprints, iris scans and a facial photograph. It is governed by the Aadhaar Act, 2016.",
+    "Aadhaar authentication verifies identity by matching an Aadhaar number with demographic data, a one-time password (OTP) sent to the registered mobile, or biometrics. Residents can lock their biometrics and use a 16-digit Virtual ID instead of sharing the Aadhaar number."
+   ]
+  }
+ ],
+ "benchmark": [
+  {
+   "question": "How much income support does PM-KISAN give per year?",
+   "expected_doc": "SCH-KISAN"
+  },
+  {
+   "question": "What is the health cover amount under Ayushman Bharat?",
+   "expected_doc": "SCH-PMJAY"
+  },
+  {
+   "question": "Which article guarantees protection of life and personal liberty?",
+   "expected_doc": "CON-FR"
+  },
+  {
+   "question": "When did the Constitution come into force?",
+   "expected_doc": "CON-PRE"
+  },
+  {
+   "question": "What is the time limit for a reply to an RTI application?",
+   "expected_doc": "ACT-RTI"
+  },
+  {
+   "question": "What penalty can the Data Protection Board impose?",
+   "expected_doc": "ACT-DPDP"
+  },
+  {
+   "question": "How many days of employment does the rural guarantee act provide?",
+   "expected_doc": "SCH-NREGA"
+  },
+  {
+   "question": "What is a Virtual Payment Address?",
+   "expected_doc": "MAN-UPI"
+  },
+  {
+   "question": "Who issues the 12-digit identity number?",
+   "expected_doc": "MAN-AADHAAR"
+  },
+  {
+   "question": "Which body controls elections in India?",
+   "expected_doc": "CON-AMD"
+  },
+  {
+   "question": "What is the overdraft limit for Jan Dhan accounts?",
+   "expected_doc": "SCH-PMJDY"
+  },
+  {
+   "question": "When was the open defecation free target date?",
+   "expected_doc": "SCH-SBM"
+  },
+  {
+   "question": "What are the three vision areas of Digital India?",
+   "expected_doc": "SCH-DI"
+  },
+  {
+   "question": "Which amendment added fundamental duties?",
+   "expected_doc": "CON-FD"
+  },
+  {
+   "question": "What majority is needed to amend the Constitution?",
+   "expected_doc": "CON-AMD"
+  },
+  {
+   "question": "Which writs can the Supreme Court issue?",
+   "expected_doc": "CON-FR"
+  }
+ ]
+}
