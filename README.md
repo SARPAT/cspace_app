@@ -1,41 +1,42 @@
-# DocQuery RAG — Document Q&A with cited answers
+# PolicyPal — HR policy assistant
 
 **RAG-Based Document Q&A System** · HCLTech Career Shaper Programme 2025-26 · Project No. 72 · Domain: LLM / Python
 
-Ask questions about documents (built-in corpus of Indian public documents, or your own PDF / Word / TXT uploads) and get answers generated **only** from retrieved passages, with every claim cited back to its source chunk.
+PolicyPal answers employees' HR questions (leave, pay, travel, conduct, exit) from the company handbook. Every answer is generated **only** from retrieved policy clauses, and each claim is cited back to its source. You can also upload your own PDF or Word policy and ask questions about it.
 
 ![Ask view](docs/screenshot-ask.png)
 
 ## Features
 
-- **Ask** — chat-style Q&A. Hybrid retrieval (BM25 + ChromaDB vectors), grounded prompt, LLM answer with `[n]` citations, source chunks shown beside every answer.
-- **Upload** — PDF, Word (.docx), TXT, Markdown, HTML. Chunked with LangChain's text splitter and indexed instantly.
-- **LLM providers** — Groq (free tier), Grok (xAI), OpenAI or local Ollama, through one OpenAI-compatible client. No key? An offline extractive mode still answers with citations.
-- **Evaluation** — EDA of `data/dataset.csv` (4 charts, key findings) and a live retriever benchmark (Hit@1, Hit@3, MRR, latency).
-- **Architecture** — pipeline, level-0 DFD, tech stack and the exact prompt template.
+- **Ask**: chat-style Q&A. Hybrid retrieval (BM25 + ChromaDB vectors), a grounded prompt, and an LLM answer with `[n]` citations. The source clauses are shown under every answer, and questions outside the handbook get "not found".
+- **Add document**: upload PDF, Word (.docx), TXT, Markdown or HTML. It is chunked and indexed instantly.
+- **Policies**: browse the built-in handbook (15 policies of a fictional company, Orbitline Technologies) by category.
+- **Insights**: analysis of `data/dataset_cleaned.csv` (confidence tiers, quality by policy area, retrieval vs answer quality) and a live retriever benchmark (Hit@1, Hit@3, MRR, latency).
+- **How it works**: the pipeline, the stack, the guardrails and the exact prompt template.
+- **LLM providers**: Groq (free tier, default), Grok (xAI), OpenAI or local Ollama, through one OpenAI-compatible client. Without a key, an offline extractive mode still answers with citations.
 
-![Evaluation view](docs/screenshot-evaluation.png)
+![Insights view](docs/screenshot-evaluation.png)
 
 ## Tech stack
 
 | Layer | Technology |
 |---|---|
 | UI | Streamlit |
-| Chunking | LangChain `RecursiveCharacterTextSplitter` |
-| Vector store | ChromaDB (all-MiniLM-L6-v2 embeddings) + BM25 (`rank-bm25`) |
-| LLM | Groq / Grok / OpenAI / Ollama via the `openai` SDK |
+| Chunking | LangChain `RecursiveCharacterTextSplitter` (700 chars, 100 overlap) |
+| Retrieval | ChromaDB (all-MiniLM-L6-v2) + BM25 (`rank-bm25`), score = 0.6 × BM25 + 0.4 × cosine |
+| LLM | Groq (Llama 3.3 70B) / Grok / OpenAI / Ollama via the `openai` SDK |
 | Parsing | pypdf, python-docx |
 | Charts | Plotly |
 
 ## Project structure
 
 ```
-app.py                 Streamlit app (Ask, Documents, Evaluation, Architecture)
-rag/engine.py          RAG pipeline: ingestion, hybrid index, prompt, generation, extractive fallback, benchmark
-data/corpus.json       Built-in corpus (14 public-domain documents) + 16-question benchmark
-data/dataset.csv       Project dataset (500 rows x 7 columns)
+app.py                  Streamlit app (Ask, Policies, Insights, How it works)
+rag/engine.py           RAG pipeline: ingestion, hybrid index, prompt, generation, extractive fallback, benchmark
+data/corpus.json        Built-in HR handbook (15 policies, 61 clauses) + 16-question benchmark
+data/dataset.csv        Project dataset (500 rows x 7 columns)
 data/dataset_cleaned.csv, data/data_dictionary.csv   Cleaned dataset and column descriptions
-.streamlit/config.toml Dark theme
+.streamlit/config.toml  Theme
 .streamlit/secrets.toml.example   Template for the API key
 ```
 
@@ -47,26 +48,30 @@ Requires Python 3.10–3.12.
 git clone https://github.com/SARPAT/cspace_app.git
 cd cspace_app
 python -m venv .venv
-# Windows:    .venv\Scripts\activate
+# Windows:     .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The app opens at <http://localhost:8501>.
+The app opens at <http://localhost:8501>. The first start downloads a small embedding model.
 
 ## Configuration
 
-Choose an LLM provider in the sidebar and paste its API key (kept only for that session), or store it in `.streamlit/secrets.toml`:
+Open **Settings** (the arrow at the top left), choose a provider and paste its API key (kept only for that session), or store it in `.streamlit/secrets.toml`:
 
 ```toml
-GROQ_API_KEY = "your-key"     # Groq
+GROQ_API_KEY = "your-key"     # Groq (free at console.groq.com)
 # XAI_API_KEY = "your-key"    # Grok (xAI)
 # OPENAI_API_KEY = "your-key" # OpenAI
 ```
 
-A template is in `.streamlit/secrets.toml.example`; `secrets.toml` is git-ignored. Without a key the app answers in offline extractive mode. The model name can be changed in the sidebar.
+`secrets.toml` is git-ignored. The model list is loaded live from the provider.
 
 ## Ethics
 
-RAG systems can still hallucinate. This app always shows the source chunks beside each answer, instructs the model to use only the retrieved context, and reports *"I could not find this in the documents"* when the answer is missing. Not for legal or medical advice without expert review. API keys live only in server secrets or the user's session; uploads stay in memory and are not stored.
+The model is told to use only the retrieved clauses and to say when the policy is silent, and the source clauses are always shown beside the answer. PolicyPal is not legal advice; HR has the final word. API keys live only in server secrets or the user's session, and uploads stay in memory.
+
+## Credits
+
+Saransh Patel (Roll No. 2300320120225) · Mentor: Sir S.P Gautam · ABES Engineering College · 2026

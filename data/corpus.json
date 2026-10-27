@@ -1,220 +1,251 @@
 {
  "documents": [
   {
-   "id": "CON-PRE",
-   "title": "Constitution of India: Preamble",
-   "cat": "Constitution of India",
+   "id": "HR-LEAVE",
+   "title": "Leave Policy",
+   "cat": "Leave & time",
    "type": "PDF",
    "chunks": [
-    "WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation.",
-    "The Constitution was adopted by the Constituent Assembly on 26 November 1949, which is now observed as Constitution Day. It came into force on 26 January 1950, celebrated every year as Republic Day. Dr. B. R. Ambedkar chaired the Drafting Committee.",
-    "The words SOCIALIST and SECULAR were added to the Preamble by the Constitution (Forty-second Amendment) Act, 1976, which also changed 'unity of the Nation' to 'unity and integrity of the Nation'."
+    "Leave Policy, version 4.2, effective 1 April 2026. This policy of Orbitline Technologies Pvt. Ltd. (\"the Company\") applies to all permanent and probationary employees in India. The leave year runs from 1 January to 31 December. Leave is applied for and approved in the HRMS portal; the reporting manager approves and HR keeps the record.",
+    "Earned leave (privilege leave): every employee earns 18 days of earned leave per year, credited at 1.5 days per completed month of service. Up to 30 days of unused earned leave can be carried forward to the next year. Earned leave above 30 days lapses on 31 December. Earned leave must be applied for at least 7 days in advance when it is longer than 3 days.",
+    "Casual leave: employees get 8 days of casual leave per year for personal or urgent matters. Casual leave cannot be carried forward and is not encashable. Not more than 3 days of casual leave can be taken at a time, and it cannot be combined with earned leave.",
+    "Sick leave: employees get 12 days of paid sick leave per year. A medical certificate from a registered medical practitioner is required for sick leave of more than 2 consecutive days. Unused sick leave can be accumulated up to 45 days for long illness, but it is not encashable.",
+    "Maternity leave: women employees are entitled to 26 weeks of paid maternity leave for the first two children, as per the Maternity Benefit Act, 1961 (amended 2017). For the third child onwards, maternity leave is 12 weeks. A commissioning or adopting mother of a child below 3 months gets 12 weeks. After maternity leave, the employee may work from home by mutual agreement.",
+    "Paternity leave: male employees get 10 working days of paid paternity leave, to be taken within 3 months of the birth or adoption of a child. Bereavement leave: 5 days of paid leave on the death of an immediate family member (spouse, child, parent, sibling or parent-in-law).",
+    "Leave encashment: unused earned leave up to a maximum of 45 days is encashed at the time of separation, calculated on basic salary. During service, an employee may encash up to 10 days of earned leave once a year in December. Leave without pay (LWP) is applied when no paid leave balance is left; unauthorised absence for 3 or more consecutive days is treated as LWP and may lead to disciplinary action."
    ]
   },
   {
-   "id": "CON-FR",
-   "title": "Constitution of India: Fundamental Rights (Part III)",
-   "cat": "Constitution of India",
-   "type": "PDF",
-   "chunks": [
-    "Article 14, Equality before law: The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India. Article 15 prohibits discrimination on grounds only of religion, race, caste, sex or place of birth.",
-    "Article 17 abolishes untouchability and forbids its practice in any form. The enforcement of any disability arising out of untouchability is an offence punishable in accordance with law.",
-    "Article 19 protects six freedoms of citizens: freedom of speech and expression; to assemble peaceably and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; and to practise any profession, or to carry on any occupation, trade or business. These are subject to reasonable restrictions.",
-    "Article 21, Protection of life and personal liberty: No person shall be deprived of his life or personal liberty except according to procedure established by law. Courts have read the right to privacy, dignity and a clean environment into Article 21.",
-    "Article 21A, Right to education: The State shall provide free and compulsory education to all children of the age of six to fourteen years. It was inserted by the Constitution (Eighty-sixth Amendment) Act, 2002.",
-    "Article 32, Right to constitutional remedies: A person may move the Supreme Court directly for the enforcement of Fundamental Rights. The Court can issue writs of habeas corpus, mandamus, prohibition, quo warranto and certiorari. Dr. Ambedkar described Article 32 as the heart and soul of the Constitution."
-   ]
-  },
-  {
-   "id": "CON-FD",
-   "title": "Constitution of India: Fundamental Duties (Article 51A)",
-   "cat": "Constitution of India",
+   "id": "HR-WFH",
+   "title": "Hybrid & Remote Work Policy",
+   "cat": "Leave & time",
    "type": "Word",
    "chunks": [
-    "Fundamental Duties were added as Article 51A in Part IVA by the Forty-second Amendment Act, 1976, on the recommendation of the Swaran Singh Committee. There are now eleven duties; the eleventh was added by the Eighty-sixth Amendment Act, 2002.",
-    "Duties include abiding by the Constitution and respecting the National Flag and National Anthem, upholding the sovereignty, unity and integrity of India, protecting the natural environment, developing scientific temper, safeguarding public property, and for parents or guardians, providing opportunities for education to their child between six and fourteen years."
+    "Hybrid and Remote Work Policy. Orbitline Technologies Pvt. Ltd. follows a hybrid model: employees work from the office at least 3 days a week (the core office days are Tuesday, Wednesday and Thursday) and may work remotely on the other working days. Teams may set stricter office days with HR approval.",
+    "Eligibility: employees who have completed their probation are eligible for hybrid work. New joiners work from the office full time during the first 30 days to complete onboarding. Roles that need physical presence, such as facilities, lab and front-desk roles, are not eligible.",
+    "Full remote work: an employee may request full remote work for up to 30 days in a calendar year, for example for family or medical reasons. Requests are raised in the HRMS portal and need approval from both the reporting manager and the HR business partner.",
+    "Remote work rules: employees must be reachable on Teams and email during core hours of 11:00 AM to 5:00 PM, work only on Company-issued laptops connected through the VPN, and must not work from public Wi-Fi without the VPN. Working from outside India requires prior written approval from HR and the Information Security team.",
+    "Home office allowance: hybrid employees receive a one-time home office allowance of INR 10,000 for a chair or desk, and a monthly internet reimbursement of up to INR 1,000 on submission of bills."
    ]
   },
   {
-   "id": "CON-AMD",
-   "title": "Constitution of India: Elections and Amendment",
-   "cat": "Constitution of India",
-   "type": "HTML",
-   "chunks": [
-    "Article 324 vests the superintendence, direction and control of elections to Parliament, State Legislatures and the offices of President and Vice-President in the Election Commission of India.",
-    "Article 368 gives Parliament the power to amend the Constitution. An amendment bill must be passed in each House by a majority of the total membership and by a two-thirds majority of members present and voting. Amendments affecting federal provisions also need ratification by at least half of the State Legislatures.",
-    "In Kesavananda Bharati v. State of Kerala (1973) the Supreme Court held that Parliament cannot use Article 368 to alter the basic structure of the Constitution."
-   ]
-  },
-  {
-   "id": "SCH-KISAN",
-   "title": "PM-KISAN: Pradhan Mantri Kisan Samman Nidhi",
-   "cat": "Government schemes",
-   "type": "PDF",
-   "chunks": [
-    "PM-KISAN is a Central Sector scheme, fully funded by the Government of India, launched in February 2019 to supplement the financial needs of landholding farmer families.",
-    "Under PM-KISAN, an income support of Rs 6,000 per year is paid to eligible farmer families in three equal instalments of Rs 2,000 each, transferred directly into their bank accounts through Direct Benefit Transfer (DBT).",
-    "Exclusions apply to higher-income groups, for example institutional landholders, constitutional post holders, serving or retired government officers, income-tax payers in the last assessment year, and professionals such as doctors, engineers and lawyers. e-KYC is mandatory for registered farmers."
-   ]
-  },
-  {
-   "id": "SCH-PMJAY",
-   "title": "Ayushman Bharat: PM Jan Arogya Yojana",
-   "cat": "Government schemes",
-   "type": "Word",
-   "chunks": [
-    "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) was launched on 23 September 2018. It is implemented by the National Health Authority and is one of the largest publicly funded health assurance schemes in the world.",
-    "PM-JAY provides a health cover of Rs 5 lakh per family per year for secondary and tertiary care hospitalisation. Services are cashless and paperless at empanelled public and private hospitals across India, and there is no cap on family size or age.",
-    "Beneficiaries are identified from deprivation and occupational criteria of the Socio-Economic Caste Census (SECC) 2011. In 2024 the scheme was extended to all senior citizens aged 70 years and above, irrespective of income, through the Ayushman Vay Vandana card."
-   ]
-  },
-  {
-   "id": "SCH-PMJDY",
-   "title": "Pradhan Mantri Jan Dhan Yojana",
-   "cat": "Government schemes",
+   "id": "HR-ATT",
+   "title": "Working Hours & Attendance",
+   "cat": "Leave & time",
    "type": "TXT",
    "chunks": [
-    "Pradhan Mantri Jan-Dhan Yojana (PMJDY) is the National Mission for Financial Inclusion, launched on 28 August 2014, to ensure access to banking, savings, remittance, credit, insurance and pension in an affordable manner.",
-    "A PMJDY account is a basic savings bank deposit account that needs no minimum balance. Account holders receive a RuPay debit card with built-in accident insurance cover of Rs 2 lakh for accounts opened after 28 August 2018, and an overdraft facility of up to Rs 10,000 for eligible holders."
+    "Working Hours and Attendance Policy. The standard working week is Monday to Friday, 40 hours a week. Standard office hours are 9:30 AM to 6:30 PM with a one-hour lunch break. Flexible timing is allowed: employees may start between 8:00 AM and 11:00 AM as long as they complete 8 working hours.",
+    "Attendance is recorded through the biometric system at the office or the HRMS check-in for remote days. Employees must mark attendance every working day. Missing punches must be regularised in the HRMS portal within 3 working days, after which the day is marked as absent.",
+    "Late arrival: arriving after 11:00 AM without informing the manager is counted as a late mark. Three late marks in a calendar month result in a deduction of half a day of casual leave.",
+    "Overtime and comp-off: employees in non-managerial grades who are asked to work on a weekend or public holiday receive one compensatory off (comp-off) day for each full day worked. A comp-off must be used within 60 days, otherwise it lapses. Shift employees receive a night shift allowance of INR 300 per night shift worked between 10:00 PM and 6:00 AM."
    ]
   },
   {
-   "id": "SCH-NREGA",
-   "title": "MGNREGA: Rural Employment Guarantee",
-   "cat": "Government schemes",
-   "type": "Markdown",
-   "chunks": [
-    "The Mahatma Gandhi National Rural Employment Guarantee Act, 2005 (MGNREGA) guarantees at least 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work.",
-    "Work must be provided within 15 days of applying, failing which an unemployment allowance is payable. Work should be given within 5 km of the applicant's village, and at least one-third of the beneficiaries must be women. Wages are paid directly into bank or post office accounts."
-   ]
-  },
-  {
-   "id": "SCH-SBM",
-   "title": "Swachh Bharat Mission",
-   "cat": "Government schemes",
+   "id": "HR-HOL",
+   "title": "Holiday Calendar 2026",
+   "cat": "Leave & time",
    "type": "HTML",
    "chunks": [
-    "Swachh Bharat Mission was launched on 2 October 2014 with the aim of making India open defecation free (ODF) by 2 October 2019, the 150th birth anniversary of Mahatma Gandhi, through construction of household and community toilets and behaviour change.",
-    "Swachh Bharat Mission (Grameen) Phase II focuses on ODF Plus: sustaining open defecation free status and managing solid and liquid waste in villages."
+    "Holiday Calendar 2026. Employees are entitled to 10 fixed public holidays and 2 optional (restricted) holidays in the calendar year 2026. Fixed holidays: Republic Day (26 January), Holi (4 March), Good Friday (3 April), Labour Day (1 May), Independence Day (15 August), Gandhi Jayanti (2 October), Dussehra (20 October), Diwali (8 November), Guru Nanak Jayanti (24 November) and Christmas (25 December).",
+    "Optional holidays: each employee may choose any 2 optional holidays from the list, which includes Pongal, Eid-ul-Fitr, Raksha Bandhan, Janmashtami, Onam and Chhath Puja. Optional holidays must be selected in the HRMS portal by 31 January. If a fixed holiday falls on a Saturday or Sunday, no substitute holiday is given."
    ]
   },
   {
-   "id": "SCH-DI",
-   "title": "Digital India Programme",
-   "cat": "Government schemes",
-   "type": "Markdown",
-   "chunks": [
-    "Digital India was launched on 1 July 2015 to transform India into a digitally empowered society and knowledge economy. It is centred on three vision areas: digital infrastructure as a core utility to every citizen, governance and services on demand, and digital empowerment of citizens.",
-    "Key platforms under Digital India include Aadhaar, DigiLocker for storing official documents, UMANG for mobile access to government services, and the Common Services Centres that deliver e-services in rural areas."
-   ]
-  },
-  {
-   "id": "ACT-RTI",
-   "title": "Right to Information Act, 2005: Citizen manual",
-   "cat": "Acts and technical manuals",
+   "id": "HR-PAY",
+   "title": "Payroll & Salary Structure",
+   "cat": "Pay & benefits",
    "type": "PDF",
    "chunks": [
-    "Under the Right to Information Act, 2005 any citizen may request information from a public authority by applying in writing or electronically to the Public Information Officer (PIO). The applicant does not need to give a reason for the request.",
-    "The PIO must reply within 30 days of receiving the request. If the information concerns the life or liberty of a person, it must be provided within 48 hours. For central public authorities the application fee is Rs 10; applicants below the poverty line pay no fee.",
-    "If no reply is received or the applicant is not satisfied, a first appeal lies to a senior officer within 30 days. A second appeal can be filed with the Central or State Information Commission within 90 days. Section 8 lists exemptions, such as information affecting national security or personal privacy."
+    "Payroll and Salary Structure Policy. Salaries are credited to the employee's bank account on the last working day of every month. The payroll cut-off date is the 20th of each month: attendance, leave and reimbursement changes made after the 20th are processed in the next month's payroll.",
+    "Salary structure: the annual cost to company (CTC) is made of basic salary (40% of CTC), house rent allowance (50% of basic for metro cities and 40% of basic for non-metro cities), special allowance, the employer's provident fund contribution, and the variable pay component. Payslips are available in the HRMS portal by the 1st of the next month.",
+    "Variable pay: employees in grades L1 to L4 have a variable pay of 10% of CTC, and grades L5 and above have 15% of CTC. Variable pay is paid annually in June based on the individual performance rating and company performance.",
+    "Tax: income tax (TDS) is deducted every month from salary. Employees must submit their investment declaration in the HRMS portal by 30 April and the final proofs of investment by 15 January. Form 16 is issued by 15 June every year. Salary advance: an employee may request an interest-free salary advance of up to one month's net salary once a year, recovered in 6 equal monthly instalments."
    ]
   },
   {
-   "id": "ACT-DPDP",
-   "title": "Digital Personal Data Protection Act, 2023",
-   "cat": "Acts and technical manuals",
+   "id": "HR-REIMB",
+   "title": "Travel & Expense Reimbursement",
+   "cat": "Pay & benefits",
    "type": "Word",
    "chunks": [
-    "The Digital Personal Data Protection Act, 2023 governs the processing of digital personal data in India. A Data Fiduciary may process personal data only for a lawful purpose with the consent of the Data Principal, or for certain legitimate uses.",
-    "Data Principals have the right to access information about their data, the right to correction and erasure, the right to grievance redressal, and the right to nominate another person. Consent must be free, specific, informed, unconditional and unambiguous, and can be withdrawn.",
-    "The Act establishes the Data Protection Board of India to inquire into breaches. Penalties can reach Rs 250 crore for failing to take reasonable security safeguards to prevent a personal data breach."
+    "Travel and Expense Reimbursement Policy. All business travel must be pre-approved by the reporting manager through a travel request in the HRMS portal. Bookings for flights and hotels are made through the Company's travel desk. Expense claims must be submitted with original bills within 30 days of the end of the trip; claims submitted later are not reimbursed.",
+    "Travel class: employees in grades L1 to L4 travel economy class by air for journeys over 500 km, and by AC 3-tier train or AC bus for shorter journeys. Grades L5 and above may travel economy by air for any distance and AC 2-tier by train. Business class is allowed only for international flights longer than 8 hours with CXO approval.",
+    "Daily allowance and hotel limits: the daily allowance (per diem) for domestic travel is INR 1,500 per day in metro cities and INR 1,000 per day in other cities, which covers meals and local travel. Hotel stay is reimbursed up to INR 6,000 per night in metro cities and INR 4,000 per night in other cities. Alcohol, fines, and personal entertainment are never reimbursed.",
+    "Local conveyance: use of a personal vehicle for official work is reimbursed at INR 12 per km for a car and INR 5 per km for a two-wheeler. Reimbursements are paid with the next monthly salary after finance approval."
    ]
   },
   {
-   "id": "MAN-UPI",
-   "title": "UPI: Unified Payments Interface user guide",
-   "cat": "Acts and technical manuals",
+   "id": "HR-INS",
+   "title": "Health Insurance & Wellness",
+   "cat": "Pay & benefits",
+   "type": "Markdown",
+   "chunks": [
+    "Health Insurance and Wellness Benefits. Every employee is covered under the Group Mediclaim Policy from the date of joining. The family floater cover is INR 5 lakh per year for the employee, spouse and up to two children. Employees can add parents or parents-in-law with a parental top-up cover of INR 3 lakh by paying the premium themselves.",
+    "Coverage details: the policy covers hospitalisation, day-care procedures, pre-hospitalisation expenses for 30 days and post-hospitalisation expenses for 60 days. Maternity expenses are covered up to INR 75,000. Pre-existing diseases are covered from day one. Room rent is capped at 2% of the sum insured per day. Cashless treatment is available at network hospitals by showing the e-card.",
+    "Group term life and accident insurance: employees are covered by a group term life insurance of three times the annual CTC, and a group personal accident cover of INR 20 lakh. Claims must be informed to HR and the insurance helpdesk within 7 days of hospitalisation.",
+    "Wellness: employees get an annual health check-up free of cost, free confidential counselling through the Employee Assistance Programme (EAP) available 24x7, and a fitness reimbursement of up to INR 6,000 per year for gym or yoga memberships."
+   ]
+  },
+  {
+   "id": "HR-PF",
+   "title": "Provident Fund & Gratuity",
+   "cat": "Pay & benefits",
    "type": "TXT",
    "chunks": [
-    "Unified Payments Interface (UPI) is a real-time payment system developed by the National Payments Corporation of India (NPCI) and launched in 2016. It lets users link multiple bank accounts to one mobile app and transfer money instantly, 24x7.",
-    "To set up UPI, install a UPI app, verify your mobile number registered with the bank, select your bank account, and create a Virtual Payment Address (VPA) such as name@bank. Set a 4 or 6 digit UPI PIN using your debit card details. Never share your UPI PIN; it is needed only to send money, not to receive it."
+    "Provident Fund and Gratuity Policy. All employees are members of the Employees' Provident Fund (EPF) under the EPF and Miscellaneous Provisions Act, 1952. The employee contributes 12% of basic salary every month, and the Company contributes an equal 12% of basic salary, of which 8.33% (up to the statutory wage ceiling) goes to the Employees' Pension Scheme. Every employee gets a Universal Account Number (UAN) that stays the same when changing jobs.",
+    "PF withdrawal and transfer: on changing jobs the PF balance should be transferred to the new employer using the UAN on the EPFO portal. Partial withdrawals are allowed for purposes such as medical treatment, marriage, education or buying a house, as per EPFO rules.",
+    "Gratuity: under the Payment of Gratuity Act, 1972, an employee who completes at least 5 years of continuous service is eligible for gratuity on resignation, retirement or termination. The 5-year condition does not apply in case of death or disablement. Gratuity is calculated as 15 days of last drawn basic salary for every completed year of service, using the formula: last drawn basic salary x 15/26 x number of completed years. The maximum gratuity is INR 20 lakh."
    ]
   },
   {
-   "id": "MAN-AADHAAR",
-   "title": "Aadhaar: enrolment and authentication handbook",
-   "cat": "Acts and technical manuals",
+   "id": "HR-POSH",
+   "title": "Prevention of Sexual Harassment (POSH) Policy",
+   "cat": "Conduct & compliance",
+   "type": "PDF",
+   "chunks": [
+    "Prevention of Sexual Harassment (POSH) Policy. Orbitline Technologies Pvt. Ltd. has zero tolerance for sexual harassment at the workplace. This policy follows the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013. It covers employees, interns, contractors and visitors, at the office, client sites, offsite events and in online communication.",
+    "Sexual harassment includes unwelcome physical contact or advances, a demand or request for sexual favours, sexually coloured remarks, showing pornography, and any other unwelcome physical, verbal or non-verbal conduct of a sexual nature, including messages on chat or email.",
+    "Internal Committee: the Company has an Internal Committee (IC) at each office with at least 4 members. It is headed by a senior woman employee as the Presiding Officer, at least half of its members are women, and it includes one external member from an NGO or with legal expertise. The IC can be reached at ic@orbitline.example.",
+    "Complaint process: a complaint must be made in writing to the Internal Committee within 3 months of the incident; the IC may extend this by another 3 months for valid reasons. The IC may first try conciliation if the complainant asks for it. The inquiry must be completed within 90 days, and the IC submits its report within 10 days of completing the inquiry. The employer acts on the report within 60 days.",
+    "Confidentiality and protection: the identity of the complainant, respondent and witnesses is kept confidential. Retaliation against anyone who complains or gives evidence is a serious offence. Penalties for proven harassment range from a written warning to termination of employment. A false or malicious complaint may also lead to action against the complainant."
+   ]
+  },
+  {
+   "id": "HR-COC",
+   "title": "Code of Conduct & Ethics",
+   "cat": "Conduct & compliance",
+   "type": "Word",
+   "chunks": [
+    "Code of Conduct and Ethics. Every employee of Orbitline Technologies Pvt. Ltd. must act with honesty, integrity and respect, follow all laws and Company policies, and avoid conduct that harms the Company's reputation. Employees acknowledge this code when they join and every year in the HRMS portal.",
+    "Conflict of interest: employees must disclose any situation where personal interests may conflict with the Company's interests, such as a relative working for a vendor, or a financial interest in a competitor. Outside employment or freelancing requires prior written approval from HR.",
+    "Gifts: employees may accept gifts from business partners only if the value is below INR 2,000 and the gift is not cash or a cash equivalent. Gifts above this value must be declared to the Compliance team and returned politely. Bribery in any form, including facilitation payments, is strictly prohibited.",
+    "Disciplinary process: breaches of the code are investigated by HR. Depending on seriousness, action may include a verbal warning, written warning, final warning, suspension, or termination. Serious misconduct includes fraud, theft, violence, harassment, working under the influence of alcohol or drugs, and leaking confidential information."
+   ]
+  },
+  {
+   "id": "HR-ITSEC",
+   "title": "IT & Data Security Policy",
+   "cat": "Conduct & compliance",
+   "type": "Markdown",
+   "chunks": [
+    "IT and Data Security Policy. Company laptops, email and systems are provided for business use. Passwords must be at least 12 characters with letters, numbers and symbols, must be changed every 90 days, and must never be shared. Multi-factor authentication (MFA) is mandatory for email, VPN and all cloud tools.",
+    "Data handling: Company data is classified as Public, Internal, Confidential or Restricted. Confidential and Restricted data must not be stored on personal devices, personal email or USB drives, and must not be pasted into public AI tools or websites. Personal data of customers and employees must be handled as per the Digital Personal Data Protection Act, 2023.",
+    "Incident reporting: a lost or stolen laptop or phone, a suspected phishing email, or a possible data leak must be reported to the IT helpdesk or security@orbitline.example within 1 hour of being noticed. Employees must not try to investigate the incident themselves.",
+    "Acceptable use: installing unlicensed software, disabling antivirus, or using the Company network to access illegal content is prohibited. The Company may monitor the use of its systems for security. All employees must complete the annual information security awareness training by 31 March."
+   ]
+  },
+  {
+   "id": "HR-GRIEV",
+   "title": "Grievance & Whistleblower Policy",
+   "cat": "Conduct & compliance",
    "type": "HTML",
    "chunks": [
-    "Aadhaar is a 12-digit unique identity number issued by the Unique Identification Authority of India (UIDAI) to residents of India, based on demographic and biometric information: fingerprints, iris scans and a facial photograph. It is governed by the Aadhaar Act, 2016.",
-    "Aadhaar authentication verifies identity by matching an Aadhaar number with demographic data, a one-time password (OTP) sent to the registered mobile, or biometrics. Residents can lock their biometrics and use a 16-digit Virtual ID instead of sharing the Aadhaar number."
+    "Grievance Redressal Policy. Any employee with a work-related grievance, such as unfair treatment, pay issues or working conditions, should first raise it with the reporting manager. If it is not resolved within 7 working days, the employee can raise a formal grievance with the HR business partner through the HRMS portal. HR acknowledges it within 2 working days and aims to resolve it within 15 working days.",
+    "Escalation: if the employee is not satisfied with the HR decision, they can appeal to the Grievance Committee, made up of the Head of HR, a business head and an employee representative, within 10 days. The decision of the Grievance Committee is final within the Company.",
+    "Whistleblower policy: employees and vendors can report suspected fraud, bribery, accounting irregularities, or serious breaches of the Code of Conduct to the Ethics Committee through the ethics hotline 1800-000-0000 or ethics@orbitline.example. Reports can be anonymous. Whistleblowers acting in good faith are protected from retaliation, and their identity is kept confidential."
+   ]
+  },
+  {
+   "id": "HR-ONB",
+   "title": "Onboarding & Probation",
+   "cat": "Employee lifecycle",
+   "type": "TXT",
+   "chunks": [
+    "Onboarding Policy. On the joining day, new employees must submit identity proof, address proof, PAN card, educational certificates, relieving letters from previous employers and bank details. Background verification of education and previous employment is done by an external agency and must be cleared within 30 days of joining.",
+    "Induction: every new joiner attends a 2-day induction programme covering the Company's values, HR policies, information security and POSH awareness. Each new joiner is assigned a buddy from the team for the first 60 days. A laptop and access cards are issued on day one.",
+    "Probation: new employees are on probation for 6 months from the date of joining. At the end of probation the manager confirms the employee, or extends the probation once by up to 3 months if performance needs to improve. The notice period during probation is 15 days for either side. Confirmation is communicated by a letter from HR.",
+    "Employee referral: employees who refer a candidate who is hired receive a referral bonus of INR 25,000 for roles up to grade L4 and INR 50,000 for grade L5 and above, paid after the new employee completes 90 days."
+   ]
+  },
+  {
+   "id": "HR-PERF",
+   "title": "Performance Review & Appraisal",
+   "cat": "Employee lifecycle",
+   "type": "Markdown",
+   "chunks": [
+    "Performance Management Policy. The performance year runs from April to March. Employees set 4 to 6 goals with their manager in the HRMS portal by 30 April. A mid-year check-in happens in October, and the annual review happens in April.",
+    "Rating scale: performance is rated on a 5-point scale: 5 Outstanding, 4 Exceeds expectations, 3 Meets expectations, 2 Partially meets expectations, and 1 Does not meet expectations. Ratings are calibrated by a review panel in each department to keep them fair.",
+    "Increments and promotions: annual salary increments are effective from 1 July and depend on the performance rating. Employees rated 4 or 5 are eligible for promotion if they have spent at least 18 months in the current grade. Employees rated 1 or 2 are placed on a Performance Improvement Plan (PIP).",
+    "Performance Improvement Plan: a PIP lasts 60 days, with clear goals and fortnightly reviews by the manager and HR. If the expected improvement is not shown at the end of the PIP, the Company may extend it once by 30 days or begin separation as per the exit policy."
+   ]
+  },
+  {
+   "id": "HR-EXIT",
+   "title": "Resignation, Notice Period & Full-and-Final Settlement",
+   "cat": "Employee lifecycle",
+   "type": "PDF",
+   "chunks": [
+    "Exit Policy. An employee who wishes to resign must submit the resignation in the HRMS portal. The notice period for confirmed employees is 60 days for grades L1 to L4 and 90 days for grades L5 and above. During probation, the notice period is 15 days.",
+    "Notice period buyout: the notice period may be shortened if the manager approves, or if the employee pays salary in lieu of the unserved notice period, calculated on basic salary. Earned leave cannot be adjusted against the notice period. An employee may withdraw the resignation within 7 days of submitting it, with the manager's approval.",
+    "Exit process: before the last working day the employee must hand over all work and documents, return the laptop, ID card and other Company assets, and get clearance from IT, Finance, Admin and HR. An exit interview is conducted by HR to collect feedback.",
+    "Full-and-final settlement: the full-and-final (F&F) settlement, including salary for days worked, leave encashment, gratuity if eligible, and pending reimbursements minus any recoveries, is paid within 45 days of the last working day. The relieving letter and experience letter are issued along with the F&F settlement."
    ]
   }
  ],
  "benchmark": [
   {
-   "question": "How much income support does PM-KISAN give per year?",
-   "expected_doc": "SCH-KISAN"
+   "question": "How many days of earned leave do I get in a year?",
+   "expected_doc": "HR-LEAVE"
   },
   {
-   "question": "What is the health cover amount under Ayushman Bharat?",
-   "expected_doc": "SCH-PMJAY"
+   "question": "How many weeks of maternity leave are given for the first child?",
+   "expected_doc": "HR-LEAVE"
   },
   {
-   "question": "Which article guarantees protection of life and personal liberty?",
-   "expected_doc": "CON-FR"
+   "question": "How many days a week must I work from the office?",
+   "expected_doc": "HR-WFH"
   },
   {
-   "question": "When did the Constitution come into force?",
-   "expected_doc": "CON-PRE"
+   "question": "What is the home office allowance for hybrid employees?",
+   "expected_doc": "HR-WFH"
   },
   {
-   "question": "What is the time limit for a reply to an RTI application?",
-   "expected_doc": "ACT-RTI"
+   "question": "What happens if I get three late marks in a month?",
+   "expected_doc": "HR-ATT"
   },
   {
-   "question": "What penalty can the Data Protection Board impose?",
-   "expected_doc": "ACT-DPDP"
+   "question": "How many optional holidays can I take in 2026?",
+   "expected_doc": "HR-HOL"
   },
   {
-   "question": "How many days of employment does the rural guarantee act provide?",
-   "expected_doc": "SCH-NREGA"
+   "question": "On which date is the salary credited every month?",
+   "expected_doc": "HR-PAY"
   },
   {
-   "question": "What is a Virtual Payment Address?",
-   "expected_doc": "MAN-UPI"
+   "question": "What is the daily allowance for travel to a metro city?",
+   "expected_doc": "HR-REIMB"
   },
   {
-   "question": "Who issues the 12-digit identity number?",
-   "expected_doc": "MAN-AADHAAR"
+   "question": "What is the sum insured under the group mediclaim policy?",
+   "expected_doc": "HR-INS"
   },
   {
-   "question": "Which body controls elections in India?",
-   "expected_doc": "CON-AMD"
+   "question": "How is gratuity calculated and who is eligible?",
+   "expected_doc": "HR-PF"
   },
   {
-   "question": "What is the overdraft limit for Jan Dhan accounts?",
-   "expected_doc": "SCH-PMJDY"
+   "question": "Within how many months must a sexual harassment complaint be filed?",
+   "expected_doc": "HR-POSH"
   },
   {
-   "question": "When was the open defecation free target date?",
-   "expected_doc": "SCH-SBM"
+   "question": "What is the maximum value of a gift I can accept from a vendor?",
+   "expected_doc": "HR-COC"
   },
   {
-   "question": "What are the three vision areas of Digital India?",
-   "expected_doc": "SCH-DI"
+   "question": "How soon must I report a lost laptop?",
+   "expected_doc": "HR-ITSEC"
   },
   {
-   "question": "Which amendment added fundamental duties?",
-   "expected_doc": "CON-FD"
+   "question": "How can I report fraud anonymously?",
+   "expected_doc": "HR-GRIEV"
   },
   {
-   "question": "What majority is needed to amend the Constitution?",
-   "expected_doc": "CON-AMD"
+   "question": "How long is the probation period for new employees?",
+   "expected_doc": "HR-ONB"
   },
   {
-   "question": "Which writs can the Supreme Court issue?",
-   "expected_doc": "CON-FR"
+   "question": "What is the notice period for grade L5 employees?",
+   "expected_doc": "HR-EXIT"
   }
  ]
 }

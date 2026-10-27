@@ -1,501 +1,501 @@
-doc_id,doc_type,chunk_id,word_count,retrieval_score,query_type,answer_quality_score,is_outlier,chunk_size_category,retrieval_band,quality_band,is_relevant_retrieval,is_high_quality_answer,low_confidence_flag,word_count_norm,retrieval_score_norm,answer_quality_score_norm
-DOC002,TXT,CHK00001,457,0.5962,analytical,0.942,0,long,low,good,0,1,1,0.9065,0.1915,0.855
-DOC034,TXT,CHK00002,302,0.7397,factual,0.976,0,long,medium,good,1,1,0,0.5612,0.4796,0.94
-DOC013,HTML,CHK00003,52,0.7735,comparative,0.66,0,short,medium,poor,1,0,1,0.0045,0.5475,0.15
-DOC010,Markdown,CHK00004,130,0.6278,comparative,0.91,0,short,low,good,0,1,0,0.1782,0.255,0.775
-DOC025,Word,CHK00005,220,0.7817,procedural,0.709,0,medium,medium,acceptable,1,0,0,0.3786,0.5639,0.2725
-DOC042,TXT,CHK00006,302,0.521,factual,0.629,0,long,low,poor,0,0,1,0.5612,0.0406,0.0725
-DOC044,Word,CHK00007,59,0.8944,comparative,0.743,0,short,high,acceptable,1,0,0,0.02,0.7902,0.3575
-DOC018,TXT,CHK00008,383,0.8793,comparative,0.634,0,long,high,poor,1,0,1,0.7416,0.7599,0.085
-DOC015,TXT,CHK00009,105,0.7581,analytical,0.637,0,short,medium,poor,1,0,1,0.1225,0.5166,0.0925
-DOC008,TXT,CHK00010,253,0.8171,procedural,0.837,0,medium,high,acceptable,1,1,0,0.4521,0.635,0.5925
-DOC015,Word,CHK00011,145,0.7345,comparative,0.659,0,short,medium,poor,1,0,1,0.2116,0.4692,0.1475
-DOC001,TXT,CHK00012,126,0.9613,analytical,0.746,0,short,high,acceptable,1,0,0,0.1693,0.9245,0.365
-DOC013,Word,CHK00013,165,0.5116,summarization,0.876,0,medium,low,good,0,1,1,0.2561,0.0217,0.69
-DOC031,PDF,CHK00014,435,0.6451,comparative,0.663,0,long,low,poor,0,0,1,0.8575,0.2897,0.1575
-DOC041,Markdown,CHK00015,411,0.5043,factual,0.698,0,long,low,poor,0,0,1,0.804,0.007,0.245
-DOC011,Markdown,CHK00016,260,0.8886,analytical,0.861,0,medium,high,good,1,1,0,0.4677,0.7786,0.6525
-DOC015,TXT,CHK00017,473,0.8175,comparative,0.726,0,long,high,acceptable,1,0,0,0.9421,0.6358,0.315
-DOC008,Markdown,CHK00018,134,0.9273,summarization,0.811,0,short,high,acceptable,1,1,0,0.1871,0.8563,0.5275
-DOC015,Markdown,CHK00019,160,0.9325,analytical,0.761,0,medium,high,acceptable,1,0,0,0.245,0.8667,0.4025
-DOC044,HTML,CHK00020,397,0.5072,summarization,0.817,0,long,low,acceptable,0,1,1,0.7728,0.0128,0.5425
-DOC035,HTML,CHK00021,168,0.6319,summarization,0.952,0,medium,low,good,0,1,0,0.2628,0.2632,0.88
-DOC050,Word,CHK00022,83,0.8242,comparative,0.787,0,short,high,acceptable,1,0,0,0.0735,0.6493,0.4675
-DOC005,HTML,CHK00023,229,0.9404,comparative,0.857,0,medium,high,good,1,1,0,0.3987,0.8826,0.6425
-DOC011,PDF,CHK00024,188,0.6188,analytical,0.798,0,medium,low,acceptable,0,0,0,0.3073,0.2369,0.495
-DOC013,TXT,CHK00025,297,0.8386,analytical,0.89,0,medium,high,good,1,1,0,0.5501,0.6782,0.725
-DOC032,HTML,CHK00026,437,0.803,comparative,0.626,0,long,high,poor,1,0,1,0.8619,0.6067,0.065
-DOC014,Word,CHK00027,394,0.8048,procedural,0.784,0,long,high,acceptable,1,0,0,0.7661,0.6103,0.46
-DOC033,TXT,CHK00028,125,0.5479,summarization,1.0,0,short,low,good,0,1,1,0.167,0.0946,1.0
-DOC023,TXT,CHK00029,441,0.5657,analytical,0.755,0,long,low,acceptable,0,0,1,0.8708,0.1303,0.3875
-DOC050,PDF,CHK00030,234,0.9201,summarization,0.981,0,medium,high,good,1,1,0,0.4098,0.8418,0.9525
-DOC016,Word,CHK00031,388,0.8571,summarization,0.989,0,long,high,good,1,1,0,0.7528,0.7153,0.9725
-DOC034,Markdown,CHK00032,480,0.5944,analytical,0.819,0,long,low,acceptable,0,1,1,0.9577,0.1879,0.5475
-DOC028,HTML,CHK00033,54,0.7741,procedural,0.611,0,short,medium,poor,1,0,1,0.0089,0.5487,0.0275
-DOC039,Word,CHK00034,196,0.9431,summarization,0.835,0,medium,high,acceptable,1,1,0,0.3252,0.888,0.5875
-DOC036,Markdown,CHK00035,452,0.5394,procedural,0.928,0,long,low,good,0,1,1,0.8953,0.0775,0.82
-DOC037,Word,CHK00036,85,0.5439,procedural,0.724,0,short,low,acceptable,0,0,1,0.078,0.0865,0.31
-DOC048,HTML,CHK00037,180,0.7196,analytical,0.965,0,medium,medium,good,1,1,0,0.2895,0.4393,0.9125
-DOC011,Markdown,CHK00038,441,0.9753,procedural,0.82,0,long,high,acceptable,1,1,0,0.8708,0.9526,0.55
-DOC021,TXT,CHK00039,191,0.6636,procedural,0.672,0,medium,medium,poor,0,0,1,0.314,0.3268,0.18
-DOC032,PDF,CHK00040,122,0.6788,factual,0.87,0,short,medium,good,0,1,0,0.1604,0.3574,0.675
-DOC014,HTML,CHK00041,231,0.606,summarization,0.79,0,medium,low,acceptable,0,0,0,0.4031,0.2112,0.475
-DOC024,HTML,CHK00042,440,0.5736,summarization,0.718,0,long,low,acceptable,0,0,1,0.8686,0.1462,0.295
-DOC021,HTML,CHK00043,128,0.9768,procedural,0.768,0,short,high,acceptable,1,0,0,0.1737,0.9556,0.42
-DOC048,TXT,CHK00044,278,0.6443,analytical,0.636,0,medium,low,poor,0,0,1,0.5078,0.2881,0.09
-DOC021,Markdown,CHK00045,389,0.6768,analytical,0.919,0,long,medium,good,0,1,0,0.755,0.3533,0.7975
-DOC030,HTML,CHK00046,106,0.5769,analytical,0.791,0,short,low,acceptable,0,0,1,0.1247,0.1528,0.4775
-DOC015,Markdown,CHK00047,79,0.8081,procedural,0.697,0,short,high,poor,1,0,1,0.0646,0.6169,0.2425
-DOC008,TXT,CHK00048,200,0.9814,analytical,0.699,0,medium,high,poor,1,0,1,0.3341,0.9649,0.2475
-DOC031,TXT,CHK00049,82,0.5131,procedural,0.824,0,short,low,acceptable,0,1,1,0.0713,0.0247,0.56
-DOC001,HTML,CHK00050,468,0.8616,comparative,0.669,0,long,high,poor,1,0,1,0.931,0.7244,0.1725
-DOC029,Word,CHK00051,117,0.7379,factual,0.862,0,short,medium,good,1,1,0,0.1492,0.476,0.655
-DOC013,Word,CHK00052,116,0.5447,procedural,0.96,0,short,low,good,0,1,1,0.147,0.0881,0.9
-DOC009,Markdown,CHK00053,130,0.8911,factual,0.95,0,short,high,good,1,1,0,0.1782,0.7836,0.875
-DOC049,PDF,CHK00054,137,0.532,analytical,0.843,0,short,low,acceptable,0,1,1,0.1938,0.0626,0.6075
-DOC039,Markdown,CHK00055,330,0.5512,procedural,0.805,0,long,low,acceptable,0,1,1,0.6236,0.1012,0.5125
-DOC031,PDF,CHK00056,320,0.7981,comparative,0.741,0,long,medium,acceptable,1,0,0,0.6013,0.5969,0.3525
-DOC034,TXT,CHK00057,170,0.6949,factual,0.921,0,medium,medium,good,0,1,0,0.2673,0.3897,0.8025
-DOC018,TXT,CHK00058,229,0.7374,summarization,0.741,0,medium,medium,acceptable,1,0,0,0.3987,0.475,0.3525
-DOC041,TXT,CHK00059,498,0.5896,summarization,0.785,0,long,low,acceptable,0,0,1,0.9978,0.1783,0.4625
-DOC003,Word,CHK00060,207,0.647,factual,0.96,0,medium,low,good,0,1,0,0.3497,0.2935,0.9
-DOC018,PDF,CHK00061,155,0.524,comparative,0.603,0,medium,low,poor,0,0,1,0.2339,0.0466,0.0075
-DOC036,TXT,CHK00062,419,0.8197,summarization,0.745,0,long,high,acceptable,1,0,0,0.8218,0.6402,0.3625
-DOC019,Word,CHK00063,281,0.676,procedural,0.623,0,medium,medium,poor,0,0,1,0.5145,0.3517,0.0575
-DOC001,Word,CHK00064,205,0.5511,summarization,0.711,0,medium,low,acceptable,0,0,1,0.3452,0.101,0.2775
-DOC033,PDF,CHK00065,53,0.7738,comparative,0.962,0,short,medium,good,1,1,0,0.0067,0.5481,0.905
-DOC022,Markdown,CHK00066,424,0.5891,procedural,0.824,0,long,low,acceptable,0,1,1,0.833,0.1773,0.56
-DOC025,PDF,CHK00067,441,0.7746,procedural,0.722,0,long,medium,acceptable,1,0,0,0.8708,0.5497,0.305
-DOC033,Markdown,CHK00068,288,0.5909,summarization,0.675,0,medium,low,poor,0,0,1,0.5301,0.1809,0.1875
-DOC017,TXT,CHK00069,235,0.7493,analytical,0.804,0,medium,medium,acceptable,1,1,0,0.412,0.4989,0.51
-DOC039,Markdown,CHK00070,335,0.9135,procedural,0.942,0,long,high,good,1,1,0,0.6347,0.8285,0.855
-DOC028,PDF,CHK00071,152,0.5172,procedural,0.692,0,medium,low,poor,0,0,1,0.2272,0.0329,0.23
-DOC043,Markdown,CHK00072,343,0.5168,summarization,0.695,0,long,low,poor,0,0,1,0.6526,0.0321,0.2375
-DOC043,Markdown,CHK00073,468,0.5781,summarization,0.666,0,long,low,poor,0,0,1,0.931,0.1552,0.165
-DOC047,PDF,CHK00074,415,0.6802,analytical,0.92,0,long,medium,good,0,1,0,0.8129,0.3602,0.8
-DOC029,Markdown,CHK00075,314,0.535,summarization,0.994,0,long,low,good,0,1,1,0.588,0.0687,0.985
-DOC050,PDF,CHK00076,374,0.7828,comparative,0.866,0,long,medium,good,1,1,0,0.7216,0.5662,0.665
-DOC001,Word,CHK00077,247,0.6667,comparative,0.925,0,medium,medium,good,0,1,0,0.4388,0.3331,0.8125
-DOC013,TXT,CHK00078,345,0.7466,factual,0.84,0,long,medium,acceptable,1,1,0,0.657,0.4935,0.6
-DOC007,Word,CHK00079,258,0.7402,procedural,0.704,0,medium,medium,acceptable,1,0,0,0.4633,0.4806,0.26
-DOC027,PDF,CHK00080,115,0.5654,analytical,0.877,0,short,low,good,0,1,1,0.1448,0.1297,0.6925
-DOC028,Markdown,CHK00081,314,0.6589,summarization,0.663,0,long,medium,poor,0,0,1,0.588,0.3174,0.1575
-DOC049,PDF,CHK00082,193,0.9381,procedural,0.861,0,medium,high,good,1,1,0,0.3185,0.8779,0.6525
-DOC012,Markdown,CHK00083,89,0.7431,summarization,0.683,0,short,medium,poor,1,0,1,0.0869,0.4864,0.2075
-DOC020,Markdown,CHK00084,424,0.6142,procedural,0.7,0,long,low,acceptable,0,0,0,0.833,0.2277,0.25
-DOC036,TXT,CHK00085,94,0.8199,factual,0.668,0,short,high,poor,1,0,1,0.098,0.6406,0.17
-DOC049,Markdown,CHK00086,311,0.8906,procedural,0.811,0,long,high,acceptable,1,1,0,0.5813,0.7826,0.5275
-DOC035,Markdown,CHK00087,217,0.5703,analytical,0.954,0,medium,low,good,0,1,1,0.3719,0.1395,0.885
-DOC044,Markdown,CHK00088,284,0.5242,analytical,0.679,0,medium,low,poor,0,0,1,0.5212,0.047,0.1975
-DOC040,PDF,CHK00089,274,0.7917,analytical,0.743,0,medium,medium,acceptable,1,0,0,0.4989,0.584,0.3575
-DOC007,TXT,CHK00090,254,0.9144,summarization,0.675,0,medium,high,poor,1,0,1,0.4543,0.8304,0.1875
-DOC004,TXT,CHK00091,158,0.6148,procedural,0.647,0,medium,low,poor,0,0,1,0.2405,0.2289,0.1175
-DOC037,Word,CHK00092,257,0.6246,factual,0.792,0,medium,low,acceptable,0,0,0,0.461,0.2485,0.48
-DOC009,HTML,CHK00093,417,0.9509,summarization,0.607,0,long,high,poor,1,0,1,0.8174,0.9036,0.0175
-DOC047,PDF,CHK00094,407,0.8024,procedural,0.867,0,long,high,good,1,1,0,0.7951,0.6055,0.6675
-DOC002,TXT,CHK00095,277,0.9271,summarization,0.885,0,medium,high,good,1,1,0,0.5056,0.8559,0.7125
-DOC034,HTML,CHK00096,466,0.9722,summarization,0.75,0,long,high,acceptable,1,0,0,0.9265,0.9464,0.375
-DOC043,PDF,CHK00097,221,0.9664,summarization,0.823,0,medium,high,acceptable,1,1,0,0.3808,0.9348,0.5575
-DOC042,HTML,CHK00098,301,0.71,comparative,0.638,0,long,medium,poor,1,0,1,0.559,0.42,0.095
-DOC024,Markdown,CHK00099,422,0.5562,summarization,0.789,0,long,low,acceptable,0,0,1,0.8285,0.1112,0.4725
-DOC049,HTML,CHK00100,458,0.5941,comparative,0.894,0,long,low,good,0,1,1,0.9087,0.1873,0.735
-DOC016,PDF,CHK00101,108,0.9599,factual,0.695,0,short,high,poor,1,0,1,0.1292,0.9217,0.2375
-DOC048,Word,CHK00102,274,0.7597,comparative,0.84,0,medium,medium,acceptable,1,1,0,0.4989,0.5198,0.6
-DOC019,Markdown,CHK00103,473,0.8188,procedural,0.71,0,long,high,acceptable,1,0,0,0.9421,0.6384,0.275
-DOC002,PDF,CHK00104,59,0.7695,comparative,0.854,0,short,medium,good,1,1,0,0.02,0.5394,0.635
-DOC042,Word,CHK00105,262,0.5575,procedural,0.933,0,medium,low,good,0,1,1,0.4722,0.1138,0.8325
-DOC050,Markdown,CHK00106,222,0.6165,comparative,0.733,0,medium,low,acceptable,0,0,0,0.3831,0.2323,0.3325
-DOC011,Word,CHK00107,394,0.7335,factual,0.926,0,long,medium,good,1,1,0,0.7661,0.4672,0.815
-DOC034,PDF,CHK00108,383,0.6628,analytical,0.746,0,long,medium,acceptable,0,0,0,0.7416,0.3252,0.365
-DOC022,PDF,CHK00109,78,0.7038,summarization,0.848,0,short,medium,acceptable,1,1,0,0.0624,0.4075,0.62
-DOC004,Markdown,CHK00110,126,0.6096,summarization,0.645,0,short,low,poor,0,0,1,0.1693,0.2184,0.1125
-DOC044,Markdown,CHK00111,328,0.9433,procedural,0.94,0,long,high,good,1,1,0,0.6192,0.8884,0.85
-DOC019,Markdown,CHK00112,220,0.5453,procedural,0.993,0,medium,low,good,0,1,1,0.3786,0.0893,0.9825
-DOC035,TXT,CHK00113,405,0.7612,comparative,0.926,0,long,medium,good,1,1,0,0.7906,0.5228,0.815
-DOC043,Word,CHK00114,400,0.7982,summarization,0.858,0,long,medium,good,1,1,0,0.7795,0.5971,0.645
-DOC019,TXT,CHK00115,465,0.8259,summarization,0.82,0,long,high,acceptable,1,1,0,0.9243,0.6527,0.55
-DOC035,PDF,CHK00116,167,0.9337,procedural,0.691,0,medium,high,poor,1,0,1,0.2606,0.8691,0.2275
-DOC035,TXT,CHK00117,89,0.8847,procedural,0.896,0,short,high,good,1,1,0,0.0869,0.7707,0.74
-DOC050,PDF,CHK00118,217,0.7175,comparative,0.65,0,medium,medium,poor,1,0,1,0.3719,0.4351,0.125
-DOC016,Word,CHK00119,237,0.967,comparative,0.806,0,medium,high,acceptable,1,1,0,0.4165,0.936,0.515
-DOC028,TXT,CHK00120,97,0.6802,comparative,0.726,0,short,medium,acceptable,0,0,0,0.1047,0.3602,0.315
-DOC031,Markdown,CHK00121,198,0.743,factual,0.809,0,medium,medium,acceptable,1,1,0,0.3296,0.4862,0.5225
-DOC015,Word,CHK00122,495,0.8594,procedural,0.627,0,long,high,poor,1,0,1,0.9911,0.7199,0.0675
-DOC038,HTML,CHK00123,343,0.7405,summarization,0.909,0,long,medium,good,1,1,0,0.6526,0.4812,0.7725
-DOC023,TXT,CHK00124,121,0.833,summarization,0.934,0,short,high,good,1,1,0,0.1581,0.6669,0.835
-DOC049,Markdown,CHK00125,414,0.5827,factual,0.804,0,long,low,acceptable,0,1,1,0.8107,0.1644,0.51
-DOC042,Word,CHK00126,252,0.7123,factual,0.717,0,medium,medium,acceptable,1,0,0,0.4499,0.4246,0.2925
-DOC050,TXT,CHK00127,154,0.8424,comparative,0.836,0,medium,high,acceptable,1,1,0,0.2316,0.6858,0.59
-DOC048,TXT,CHK00128,256,0.7099,procedural,0.616,0,medium,medium,poor,1,0,1,0.4588,0.4198,0.04
-DOC050,Markdown,CHK00129,241,0.9595,factual,0.849,0,medium,high,acceptable,1,1,0,0.4254,0.9209,0.6225
-DOC001,HTML,CHK00130,164,0.9947,comparative,0.753,0,medium,high,acceptable,1,0,0,0.2539,0.9916,0.3825
-DOC006,Markdown,CHK00131,58,0.924,comparative,0.765,0,short,high,acceptable,1,0,0,0.0178,0.8496,0.4125
-DOC010,Word,CHK00132,73,0.789,summarization,0.72,0,short,medium,acceptable,1,0,0,0.0512,0.5786,0.3
-DOC040,Markdown,CHK00133,208,0.6785,summarization,0.993,0,medium,medium,good,0,1,0,0.3519,0.3568,0.9825
-DOC002,HTML,CHK00134,492,0.6069,analytical,0.982,0,long,low,good,0,1,0,0.9844,0.213,0.955
-DOC045,Word,CHK00135,233,0.6722,comparative,0.7,0,medium,medium,acceptable,0,0,0,0.4076,0.3441,0.25
-DOC003,Markdown,CHK00136,194,0.9235,summarization,0.65,0,medium,high,poor,1,0,1,0.3207,0.8486,0.125
-DOC023,Word,CHK00137,95,0.5802,comparative,0.876,0,short,low,good,0,1,1,0.1002,0.1594,0.69
-DOC046,HTML,CHK00138,196,0.5102,factual,0.943,0,medium,low,good,0,1,1,0.3252,0.0189,0.8575
-DOC025,PDF,CHK00139,332,0.667,analytical,0.897,0,long,medium,good,0,1,0,0.6281,0.3337,0.7425
-DOC020,Word,CHK00140,229,0.971,analytical,0.669,0,medium,high,poor,1,0,1,0.3987,0.944,0.1725
-DOC028,Markdown,CHK00141,145,0.712,factual,0.62,0,short,medium,poor,1,0,1,0.2116,0.424,0.05
-DOC022,Markdown,CHK00142,256,0.5163,summarization,0.677,0,medium,low,poor,0,0,1,0.4588,0.0311,0.1925
-DOC040,HTML,CHK00143,433,0.5331,summarization,0.936,0,long,low,good,0,1,1,0.853,0.0648,0.84
-DOC003,HTML,CHK00144,195,0.5234,procedural,0.626,0,medium,low,poor,0,0,1,0.3229,0.0454,0.065
-DOC028,Markdown,CHK00145,408,0.9184,analytical,0.674,0,long,high,poor,1,0,1,0.7973,0.8384,0.185
-DOC028,HTML,CHK00146,362,0.6608,procedural,0.667,0,long,medium,poor,0,0,1,0.6949,0.3212,0.1675
-DOC025,Markdown,CHK00147,191,0.8368,factual,0.96,0,medium,high,good,1,1,0,0.314,0.6746,0.9
-DOC041,Markdown,CHK00148,261,0.6322,comparative,0.793,0,medium,low,acceptable,0,0,0,0.4699,0.2638,0.4825
-DOC037,PDF,CHK00149,75,0.5209,analytical,0.891,0,short,low,good,0,1,1,0.0557,0.0404,0.7275
-DOC007,PDF,CHK00150,485,0.9965,comparative,0.987,0,long,high,good,1,1,0,0.9688,0.9952,0.9675
-DOC028,TXT,CHK00151,216,0.7987,summarization,0.96,0,medium,medium,good,1,1,0,0.3697,0.5981,0.9
-DOC018,TXT,CHK00152,318,0.8884,procedural,0.823,0,long,high,acceptable,1,1,0,0.5969,0.7782,0.5575
-DOC020,Word,CHK00153,490,0.9372,analytical,0.864,0,long,high,good,1,1,0,0.98,0.8761,0.66
-DOC020,Markdown,CHK00154,266,0.5614,analytical,0.913,0,medium,low,good,0,1,1,0.4811,0.1217,0.7825
-DOC001,HTML,CHK00155,407,0.8338,factual,0.862,0,long,high,good,1,1,0,0.7951,0.6685,0.655
-DOC015,Word,CHK00156,426,0.5978,summarization,0.791,0,long,low,acceptable,0,0,1,0.8374,0.1947,0.4775
-DOC004,PDF,CHK00157,427,0.8797,factual,0.985,0,long,high,good,1,1,0,0.8396,0.7607,0.9625
-DOC025,Word,CHK00158,274,0.7055,comparative,0.743,0,medium,medium,acceptable,1,0,0,0.4989,0.411,0.3575
-DOC020,PDF,CHK00159,238,0.7189,analytical,0.904,0,medium,medium,good,1,1,0,0.4187,0.4379,0.76
-DOC022,TXT,CHK00160,186,0.7387,procedural,0.635,0,medium,medium,poor,1,0,1,0.3029,0.4776,0.0875
-DOC030,Markdown,CHK00161,499,0.8733,summarization,0.998,0,long,high,good,1,1,0,1.0,0.7478,0.995
-DOC047,HTML,CHK00162,64,0.9886,comparative,0.883,0,short,high,good,1,1,0,0.0312,0.9793,0.7075
-DOC048,PDF,CHK00163,460,0.9325,procedural,0.782,0,long,high,acceptable,1,0,0,0.9131,0.8667,0.455
-DOC023,PDF,CHK00164,379,0.5209,summarization,0.9,0,long,low,good,0,1,1,0.7327,0.0404,0.75
-DOC039,Markdown,CHK00165,385,0.9372,procedural,0.611,0,long,high,poor,1,0,1,0.7461,0.8761,0.0275
-DOC024,TXT,CHK00166,143,0.9684,summarization,0.727,0,short,high,acceptable,1,0,0,0.2071,0.9388,0.3175
-DOC047,Markdown,CHK00167,307,0.9666,comparative,0.912,0,long,high,good,1,1,0,0.5724,0.9352,0.78
-DOC047,PDF,CHK00168,175,0.9839,summarization,0.715,0,medium,high,acceptable,1,0,0,0.2784,0.9699,0.2875
-DOC010,HTML,CHK00169,52,0.5146,factual,0.953,0,short,low,good,0,1,1,0.0045,0.0277,0.8825
-DOC034,Markdown,CHK00170,318,0.685,comparative,0.896,0,long,medium,good,0,1,0,0.5969,0.3698,0.74
-DOC025,Word,CHK00171,216,0.5458,procedural,0.728,0,medium,low,acceptable,0,0,1,0.3697,0.0903,0.32
-DOC014,TXT,CHK00172,218,0.7627,procedural,0.666,0,medium,medium,poor,1,0,1,0.3742,0.5258,0.165
-DOC017,TXT,CHK00173,431,0.7486,factual,0.713,0,long,medium,acceptable,1,0,0,0.8486,0.4975,0.2825
-DOC023,HTML,CHK00174,322,0.5601,comparative,0.625,0,long,low,poor,0,0,1,0.6058,0.1191,0.0625
-DOC018,Word,CHK00175,109,0.9212,analytical,0.608,0,short,high,poor,1,0,1,0.1314,0.844,0.02
-DOC025,HTML,CHK00176,389,0.8622,summarization,0.783,0,long,high,acceptable,1,0,0,0.755,0.7256,0.4575
-DOC024,PDF,CHK00177,396,0.7198,comparative,0.724,0,long,medium,acceptable,1,0,0,0.7706,0.4397,0.31
-DOC034,HTML,CHK00178,193,0.6336,comparative,0.73,0,medium,low,acceptable,0,0,0,0.3185,0.2666,0.325
-DOC044,HTML,CHK00179,360,0.5682,summarization,0.699,0,long,low,poor,0,0,1,0.6904,0.1353,0.2475
-DOC049,PDF,CHK00180,242,0.5886,factual,0.842,0,medium,low,acceptable,0,1,1,0.4276,0.1763,0.605
-DOC011,TXT,CHK00181,215,0.8862,analytical,0.68,0,medium,high,poor,1,0,1,0.3675,0.7737,0.2
-DOC015,Word,CHK00182,176,0.9746,comparative,0.68,0,medium,high,poor,1,0,1,0.2806,0.9512,0.2
-DOC035,PDF,CHK00183,276,0.5266,procedural,0.874,0,medium,low,good,0,1,1,0.5033,0.0518,0.685
-DOC021,PDF,CHK00184,218,0.6813,factual,0.964,0,medium,medium,good,0,1,0,0.3742,0.3624,0.91
-DOC017,PDF,CHK00185,323,0.8132,factual,0.989,0,long,high,good,1,1,0,0.608,0.6272,0.9725
-DOC021,TXT,CHK00186,323,0.8137,analytical,0.87,0,long,high,good,1,1,0,0.608,0.6282,0.675
-DOC027,PDF,CHK00187,471,0.7516,analytical,0.954,0,long,medium,good,1,1,0,0.9376,0.5035,0.885
-DOC018,HTML,CHK00188,456,0.7858,factual,0.848,0,long,medium,acceptable,1,1,0,0.9042,0.5722,0.62
-DOC034,Word,CHK00189,315,0.7507,procedural,0.666,0,long,medium,poor,1,0,1,0.5902,0.5017,0.165
-DOC041,TXT,CHK00190,230,0.7113,analytical,0.655,0,medium,medium,poor,1,0,1,0.4009,0.4226,0.1375
-DOC039,HTML,CHK00191,241,0.7915,procedural,0.7,0,medium,medium,acceptable,1,0,0,0.4254,0.5836,0.25
-DOC040,PDF,CHK00192,228,0.6792,comparative,0.838,0,medium,medium,acceptable,0,1,0,0.3964,0.3582,0.595
-DOC008,TXT,CHK00193,326,0.7835,summarization,0.609,0,long,medium,poor,1,0,1,0.6147,0.5676,0.0225
-DOC011,Word,CHK00194,68,0.53,factual,0.821,0,short,low,acceptable,0,1,1,0.0401,0.0586,0.5525
-DOC030,PDF,CHK00195,495,0.6285,comparative,0.709,0,long,low,acceptable,0,0,0,0.9911,0.2564,0.2725
-DOC029,TXT,CHK00196,411,0.7455,analytical,0.678,0,long,medium,poor,1,0,1,0.804,0.4913,0.195
-DOC020,Markdown,CHK00197,380,0.7791,factual,0.974,0,long,medium,good,1,1,0,0.735,0.5587,0.935
-DOC028,TXT,CHK00198,100,0.7563,summarization,0.794,0,short,medium,acceptable,1,0,0,0.1114,0.5129,0.485
-DOC011,PDF,CHK00199,115,0.8932,summarization,0.763,0,short,high,acceptable,1,0,0,0.1448,0.7878,0.4075
-DOC033,PDF,CHK00200,85,0.5954,procedural,0.735,0,short,low,acceptable,0,0,1,0.078,0.1899,0.3375
-DOC039,HTML,CHK00201,156,0.7386,factual,0.81,0,medium,medium,acceptable,1,1,0,0.2361,0.4774,0.525
-DOC040,TXT,CHK00202,216,0.838,analytical,0.932,0,medium,high,good,1,1,0,0.3697,0.677,0.83
-DOC030,Markdown,CHK00203,184,0.8714,comparative,0.874,0,medium,high,good,1,1,0,0.2984,0.744,0.685
-DOC015,HTML,CHK00204,343,0.5969,procedural,0.626,0,long,low,poor,0,0,1,0.6526,0.1929,0.065
-DOC017,HTML,CHK00205,430,0.719,summarization,0.845,0,long,medium,acceptable,1,1,0,0.8463,0.4381,0.6125
-DOC007,PDF,CHK00206,103,0.7407,summarization,0.735,0,short,medium,acceptable,1,0,0,0.118,0.4816,0.3375
-DOC012,Markdown,CHK00207,388,0.7303,factual,0.948,0,long,medium,good,1,1,0,0.7528,0.4608,0.87
-DOC026,PDF,CHK00208,291,0.9576,analytical,0.772,0,medium,high,acceptable,1,0,0,0.5367,0.9171,0.43
-DOC038,Markdown,CHK00209,301,0.7503,factual,0.701,0,long,medium,acceptable,1,0,0,0.559,0.5009,0.2525
-DOC037,Word,CHK00210,433,0.8543,factual,0.6,0,long,high,poor,1,0,1,0.853,0.7097,0.0
-DOC019,Word,CHK00211,169,0.8889,factual,0.719,0,medium,high,acceptable,1,0,0,0.265,0.7792,0.2975
-DOC037,PDF,CHK00212,229,0.745,factual,0.876,0,medium,medium,good,1,1,0,0.3987,0.4903,0.69
-DOC049,PDF,CHK00213,472,0.9152,summarization,0.825,0,long,high,acceptable,1,1,0,0.9399,0.832,0.5625
-DOC038,Markdown,CHK00214,310,0.8955,analytical,0.764,0,long,high,acceptable,1,0,0,0.5791,0.7924,0.41
-DOC044,TXT,CHK00215,103,0.797,factual,0.808,0,short,medium,acceptable,1,1,0,0.118,0.5947,0.52
-DOC027,Word,CHK00216,442,0.5845,summarization,0.906,0,long,low,good,0,1,1,0.8731,0.168,0.765
-DOC023,Markdown,CHK00217,388,0.902,factual,0.656,0,long,high,poor,1,0,1,0.7528,0.8055,0.14
-DOC020,TXT,CHK00218,140,0.5216,procedural,0.954,0,short,low,good,0,1,1,0.2004,0.0418,0.885
-DOC002,Word,CHK00219,478,0.8665,summarization,0.65,0,long,high,poor,1,0,1,0.9532,0.7342,0.125
-DOC028,Markdown,CHK00220,162,0.8095,comparative,0.826,0,medium,high,acceptable,1,1,0,0.2494,0.6198,0.565
-DOC036,Word,CHK00221,66,0.9434,analytical,0.617,0,short,high,poor,1,0,1,0.0356,0.8886,0.0425
-DOC010,Word,CHK00222,181,0.6295,comparative,0.923,0,medium,low,good,0,1,0,0.2918,0.2584,0.8075
-DOC048,HTML,CHK00223,62,0.9041,comparative,0.605,0,short,high,poor,1,0,1,0.0267,0.8097,0.0125
-DOC034,HTML,CHK00224,403,0.6173,factual,0.947,0,long,low,good,0,1,0,0.7862,0.2339,0.8675
-DOC017,Markdown,CHK00225,498,0.6686,procedural,0.879,0,long,medium,good,0,1,0,0.9978,0.3369,0.6975
-DOC042,PDF,CHK00226,160,0.8612,procedural,0.606,0,medium,high,poor,1,0,1,0.245,0.7235,0.015
-DOC023,Markdown,CHK00227,348,0.7933,analytical,0.935,0,long,medium,good,1,1,0,0.6637,0.5872,0.8375
-DOC003,Word,CHK00228,441,0.5791,analytical,0.941,0,long,low,good,0,1,1,0.8708,0.1572,0.8525
-DOC043,PDF,CHK00229,260,0.5916,procedural,0.847,0,medium,low,acceptable,0,1,1,0.4677,0.1823,0.6175
-DOC021,Word,CHK00230,247,0.5474,summarization,0.787,0,medium,low,acceptable,0,0,1,0.4388,0.0936,0.4675
-DOC037,Markdown,CHK00231,345,0.6402,analytical,0.602,0,long,low,poor,0,0,1,0.657,0.2799,0.005
-DOC026,HTML,CHK00232,452,0.9797,summarization,0.64,0,long,high,poor,1,0,1,0.8953,0.9615,0.1
-DOC022,Word,CHK00233,461,0.7079,factual,0.76,0,long,medium,acceptable,1,0,0,0.9154,0.4158,0.4
-DOC023,Markdown,CHK00234,442,0.5439,comparative,0.983,0,long,low,good,0,1,1,0.8731,0.0865,0.9575
-DOC037,Word,CHK00235,488,0.9833,procedural,0.606,0,long,high,poor,1,0,1,0.9755,0.9687,0.015
-DOC001,PDF,CHK00236,391,0.8651,comparative,0.667,0,long,high,poor,1,0,1,0.7595,0.7314,0.1675
-DOC024,Markdown,CHK00237,242,0.8656,analytical,0.781,0,medium,high,acceptable,1,0,0,0.4276,0.7324,0.4525
-DOC011,HTML,CHK00238,237,0.5422,comparative,0.951,0,medium,low,good,0,1,1,0.4165,0.0831,0.8775
-DOC047,HTML,CHK00239,60,0.6637,factual,0.625,0,short,medium,poor,0,0,1,0.0223,0.327,0.0625
-DOC041,PDF,CHK00240,200,0.5026,factual,0.711,0,medium,low,acceptable,0,0,1,0.3341,0.0036,0.2775
-DOC041,HTML,CHK00241,194,0.9294,analytical,0.866,0,medium,high,good,1,1,0,0.3207,0.8605,0.665
-DOC025,TXT,CHK00242,446,0.8294,analytical,0.7,0,long,high,acceptable,1,0,0,0.882,0.6597,0.25
-DOC034,PDF,CHK00243,179,0.9489,summarization,0.843,0,medium,high,acceptable,1,1,0,0.2873,0.8996,0.6075
-DOC003,Markdown,CHK00244,419,0.8248,procedural,0.754,0,long,high,acceptable,1,0,0,0.8218,0.6505,0.385
-DOC040,TXT,CHK00245,218,0.9152,procedural,0.868,0,medium,high,good,1,1,0,0.3742,0.832,0.67
-DOC026,Word,CHK00246,195,0.664,factual,0.64,0,medium,medium,poor,0,0,1,0.3229,0.3276,0.1
-DOC036,PDF,CHK00247,84,0.669,summarization,0.834,0,short,medium,acceptable,0,1,0,0.0757,0.3377,0.585
-DOC046,Word,CHK00248,458,0.8726,factual,0.954,0,long,high,good,1,1,0,0.9087,0.7464,0.885
-DOC014,TXT,CHK00249,223,0.5115,summarization,0.752,0,medium,low,acceptable,0,0,1,0.3853,0.0215,0.38
-DOC035,Word,CHK00250,435,0.8354,factual,0.655,0,long,high,poor,1,0,1,0.8575,0.6718,0.1375
-DOC012,TXT,CHK00251,61,0.7292,comparative,0.744,0,short,medium,acceptable,1,0,0,0.0245,0.4585,0.36
-DOC021,Markdown,CHK00252,332,0.7083,analytical,0.619,0,long,medium,poor,1,0,1,0.6281,0.4166,0.0475
-DOC027,HTML,CHK00253,78,0.6591,analytical,0.623,0,short,medium,poor,0,0,1,0.0624,0.3178,0.0575
-DOC041,PDF,CHK00254,357,0.5874,comparative,0.615,0,long,low,poor,0,0,1,0.6837,0.1739,0.0375
-DOC032,PDF,CHK00255,360,0.5981,factual,0.995,0,long,low,good,0,1,1,0.6904,0.1953,0.9875
-DOC004,Markdown,CHK00256,376,0.5165,analytical,0.885,0,long,low,good,0,1,1,0.7261,0.0315,0.7125
-DOC043,TXT,CHK00257,433,0.6112,factual,0.723,0,long,low,acceptable,0,0,0,0.853,0.2216,0.3075
-DOC032,TXT,CHK00258,231,0.8833,procedural,0.843,0,medium,high,acceptable,1,1,0,0.4031,0.7679,0.6075
-DOC045,Word,CHK00259,115,0.609,summarization,0.701,0,short,low,acceptable,0,0,0,0.1448,0.2172,0.2525
-DOC020,TXT,CHK00260,101,0.6119,summarization,0.987,0,short,low,good,0,1,0,0.1136,0.223,0.9675
-DOC021,Markdown,CHK00261,337,0.5638,summarization,0.794,0,long,low,acceptable,0,0,1,0.6392,0.1265,0.485
-DOC024,HTML,CHK00262,450,0.6229,comparative,0.75,0,long,low,acceptable,0,0,0,0.8909,0.2451,0.375
-DOC026,TXT,CHK00263,432,0.5587,analytical,0.655,0,long,low,poor,0,0,1,0.8508,0.1162,0.1375
-DOC031,Markdown,CHK00264,498,0.9152,analytical,0.979,0,long,high,good,1,1,0,0.9978,0.832,0.9475
-DOC023,Markdown,CHK00265,64,0.5601,comparative,0.996,0,short,low,good,0,1,1,0.0312,0.1191,0.99
-DOC015,Word,CHK00266,246,0.5011,comparative,0.877,0,medium,low,good,0,1,1,0.4365,0.0006,0.6925
-DOC005,HTML,CHK00267,91,0.5431,summarization,0.909,0,short,low,good,0,1,1,0.0913,0.0849,0.7725
-DOC047,HTML,CHK00268,215,0.8157,procedural,0.941,0,medium,high,good,1,1,0,0.3675,0.6322,0.8525
-DOC046,Word,CHK00269,370,0.5788,procedural,0.654,0,long,low,poor,0,0,1,0.7127,0.1566,0.135
-DOC032,Markdown,CHK00270,81,0.7784,factual,0.951,0,short,medium,good,1,1,0,0.069,0.5573,0.8775
-DOC015,PDF,CHK00271,61,0.7551,factual,0.637,0,short,medium,poor,1,0,1,0.0245,0.5105,0.0925
-DOC029,TXT,CHK00272,82,0.5372,summarization,0.908,0,short,low,good,0,1,1,0.0713,0.0731,0.77
-DOC005,Markdown,CHK00273,166,0.605,procedural,0.906,0,medium,low,good,0,1,0,0.2584,0.2092,0.765
-DOC003,HTML,CHK00274,110,0.933,procedural,0.687,0,short,high,poor,1,0,1,0.1336,0.8677,0.2175
-DOC020,PDF,CHK00275,111,0.7721,analytical,0.733,0,short,medium,acceptable,1,0,0,0.1359,0.5447,0.3325
-DOC045,Markdown,CHK00276,163,0.7786,summarization,0.748,0,medium,medium,acceptable,1,0,0,0.2517,0.5577,0.37
-DOC002,Markdown,CHK00277,419,0.7683,summarization,0.854,0,long,medium,good,1,1,0,0.8218,0.537,0.635
-DOC028,TXT,CHK00278,73,0.9378,summarization,0.988,0,short,high,good,1,1,0,0.0512,0.8773,0.97
-DOC045,Markdown,CHK00279,456,0.8795,analytical,0.884,0,long,high,good,1,1,0,0.9042,0.7603,0.71
-DOC040,HTML,CHK00280,443,0.6942,factual,0.882,0,long,medium,good,0,1,0,0.8753,0.3883,0.705
-DOC023,TXT,CHK00281,440,0.8073,summarization,0.819,0,long,high,acceptable,1,1,0,0.8686,0.6153,0.5475
-DOC045,HTML,CHK00282,282,0.9033,summarization,0.843,0,medium,high,acceptable,1,1,0,0.5167,0.8081,0.6075
-DOC003,HTML,CHK00283,380,0.8206,comparative,0.61,0,long,high,poor,1,0,1,0.735,0.642,0.025
-DOC013,PDF,CHK00284,444,0.8763,analytical,0.914,0,long,high,good,1,1,0,0.8775,0.7539,0.785
-DOC007,PDF,CHK00285,195,0.884,comparative,0.624,0,medium,high,poor,1,0,1,0.3229,0.7693,0.06
-DOC002,Markdown,CHK00286,107,0.812,procedural,0.958,0,short,high,good,1,1,0,0.1269,0.6248,0.895
-DOC016,Markdown,CHK00287,116,0.9781,comparative,0.957,0,short,high,good,1,1,0,0.147,0.9582,0.8925
-DOC004,Word,CHK00288,282,0.6004,factual,0.785,0,medium,low,acceptable,0,0,0,0.5167,0.2,0.4625
-DOC037,TXT,CHK00289,448,0.654,factual,0.747,0,long,medium,acceptable,0,0,0,0.8864,0.3076,0.3675
-DOC003,Word,CHK00290,318,0.7355,summarization,0.934,0,long,medium,good,1,1,0,0.5969,0.4712,0.835
-DOC009,PDF,CHK00291,329,0.64,factual,0.895,0,long,low,good,0,1,0,0.6214,0.2795,0.7375
-DOC050,HTML,CHK00292,158,0.9989,summarization,0.738,0,medium,high,acceptable,1,0,0,0.2405,1.0,0.345
-DOC010,Markdown,CHK00293,453,0.7928,procedural,0.969,0,long,medium,good,1,1,0,0.8976,0.5862,0.9225
-DOC032,Word,CHK00294,79,0.7416,comparative,0.621,0,short,medium,poor,1,0,1,0.0646,0.4834,0.0525
-DOC038,TXT,CHK00295,156,0.8208,comparative,0.796,0,medium,high,acceptable,1,0,0,0.2361,0.6424,0.49
-DOC043,PDF,CHK00296,80,0.748,analytical,0.648,0,short,medium,poor,1,0,1,0.0668,0.4963,0.12
-DOC039,HTML,CHK00297,238,0.7848,factual,0.974,0,medium,medium,good,1,1,0,0.4187,0.5702,0.935
-DOC048,TXT,CHK00298,70,0.785,comparative,0.615,0,short,medium,poor,1,0,1,0.0445,0.5706,0.0375
-DOC011,TXT,CHK00299,79,0.8167,analytical,0.944,0,short,high,good,1,1,0,0.0646,0.6342,0.86
-DOC013,PDF,CHK00300,337,0.8893,procedural,0.942,0,long,high,good,1,1,0,0.6392,0.78,0.855
-DOC008,PDF,CHK00301,349,0.5482,summarization,0.995,0,long,low,good,0,1,1,0.6659,0.0952,0.9875
-DOC013,Word,CHK00302,107,0.6131,summarization,0.603,0,short,low,poor,0,0,1,0.1269,0.2255,0.0075
-DOC011,PDF,CHK00303,426,0.9424,comparative,0.773,0,long,high,acceptable,1,0,0,0.8374,0.8866,0.4325
-DOC007,HTML,CHK00304,131,0.6921,factual,0.891,0,short,medium,good,0,1,0,0.1804,0.3841,0.7275
-DOC025,Word,CHK00305,251,0.5127,analytical,0.909,0,medium,low,good,0,1,1,0.4477,0.0239,0.7725
-DOC040,Markdown,CHK00306,453,0.6849,summarization,0.891,0,long,medium,good,0,1,0,0.8976,0.3696,0.7275
-DOC050,Markdown,CHK00307,346,0.8348,summarization,0.661,0,long,high,poor,1,0,1,0.6592,0.6705,0.1525
-DOC046,HTML,CHK00308,177,0.5095,summarization,0.807,0,medium,low,acceptable,0,1,1,0.2829,0.0175,0.5175
-DOC010,HTML,CHK00309,433,0.7204,procedural,0.781,0,long,medium,acceptable,1,0,0,0.853,0.4409,0.4525
-DOC012,PDF,CHK00310,125,0.9319,analytical,0.814,0,short,high,acceptable,1,1,0,0.167,0.8655,0.535
-DOC040,HTML,CHK00311,130,0.6329,summarization,0.989,0,short,low,good,0,1,0,0.1782,0.2652,0.9725
-DOC045,TXT,CHK00312,199,0.5369,factual,0.732,0,medium,low,acceptable,0,0,1,0.3318,0.0725,0.33
-DOC033,HTML,CHK00313,90,0.6945,procedural,0.938,0,short,medium,good,0,1,0,0.0891,0.3889,0.845
-DOC005,HTML,CHK00314,279,0.7339,summarization,0.718,0,medium,medium,acceptable,1,0,0,0.51,0.468,0.295
-DOC041,TXT,CHK00315,282,0.9664,comparative,0.738,0,medium,high,acceptable,1,0,0,0.5167,0.9348,0.345
-DOC017,Markdown,CHK00316,491,0.5531,summarization,0.82,0,long,low,acceptable,0,1,1,0.9822,0.105,0.55
-DOC014,PDF,CHK00317,468,0.9193,procedural,0.857,0,long,high,good,1,1,0,0.931,0.8402,0.6425
-DOC016,PDF,CHK00318,378,0.8177,summarization,0.619,0,long,high,poor,1,0,1,0.7305,0.6362,0.0475
-DOC047,HTML,CHK00319,110,0.6614,procedural,0.704,0,short,medium,acceptable,0,0,0,0.1336,0.3224,0.26
-DOC014,Word,CHK00320,215,0.6396,summarization,0.842,0,medium,low,acceptable,0,1,0,0.3675,0.2787,0.605
-DOC025,TXT,CHK00321,167,0.5383,procedural,0.979,0,medium,low,good,0,1,1,0.2606,0.0753,0.9475
-DOC040,TXT,CHK00322,239,0.8684,comparative,0.954,0,medium,high,good,1,1,0,0.4209,0.738,0.885
-DOC049,PDF,CHK00323,169,0.5377,summarization,0.636,0,medium,low,poor,0,0,1,0.265,0.0741,0.09
-DOC029,TXT,CHK00324,473,0.695,comparative,0.956,0,long,medium,good,0,1,0,0.9421,0.3899,0.89
-DOC044,HTML,CHK00325,442,0.5375,analytical,0.947,0,long,low,good,0,1,1,0.8731,0.0737,0.8675
-DOC035,HTML,CHK00326,413,0.7628,comparative,0.728,0,long,medium,acceptable,1,0,0,0.8085,0.526,0.32
-DOC003,HTML,CHK00327,350,0.9328,factual,0.656,0,long,high,poor,1,0,1,0.6682,0.8673,0.14
-DOC049,Markdown,CHK00328,167,0.5766,analytical,0.647,0,medium,low,poor,0,0,1,0.2606,0.1522,0.1175
-DOC019,Word,CHK00329,289,0.9547,procedural,0.822,0,medium,high,acceptable,1,1,0,0.5323,0.9113,0.555
-DOC033,HTML,CHK00330,470,0.7883,factual,0.701,0,long,medium,acceptable,1,0,0,0.9354,0.5772,0.2525
-DOC036,TXT,CHK00331,370,0.8586,comparative,0.615,0,long,high,poor,1,0,1,0.7127,0.7183,0.0375
-DOC039,HTML,CHK00332,237,0.7574,analytical,0.974,0,medium,medium,good,1,1,0,0.4165,0.5152,0.935
-DOC027,Word,CHK00333,351,0.5741,factual,0.891,0,long,low,good,0,1,1,0.6704,0.1472,0.7275
-DOC038,Markdown,CHK00334,171,0.9697,factual,0.928,0,medium,high,good,1,1,0,0.2695,0.9414,0.82
-DOC003,Word,CHK00335,442,0.9053,comparative,0.985,0,long,high,good,1,1,0,0.8731,0.8121,0.9625
-DOC016,PDF,CHK00336,150,0.7996,procedural,0.949,0,short,medium,good,1,1,0,0.2227,0.5999,0.8725
-DOC029,Markdown,CHK00337,396,0.7382,summarization,0.792,0,long,medium,acceptable,1,0,0,0.7706,0.4766,0.48
-DOC035,Word,CHK00338,205,0.8468,summarization,0.963,0,medium,high,good,1,1,0,0.3452,0.6946,0.9075
-DOC027,Word,CHK00339,219,0.7161,factual,0.963,0,medium,medium,good,1,1,0,0.3764,0.4322,0.9075
-DOC018,Markdown,CHK00340,50,0.6543,analytical,0.641,0,short,medium,poor,0,0,1,0.0,0.3082,0.1025
-DOC012,HTML,CHK00341,58,0.6034,procedural,0.642,0,short,low,poor,0,0,1,0.0178,0.206,0.105
-DOC047,Markdown,CHK00342,313,0.936,comparative,0.897,0,long,high,good,1,1,0,0.5857,0.8737,0.7425
-DOC039,Markdown,CHK00343,277,0.7345,comparative,0.936,0,medium,medium,good,1,1,0,0.5056,0.4692,0.84
-DOC009,PDF,CHK00344,141,0.5342,analytical,0.845,0,short,low,acceptable,0,1,1,0.2027,0.0671,0.6125
-DOC021,Markdown,CHK00345,441,0.8779,procedural,0.828,0,long,high,acceptable,1,1,0,0.8708,0.7571,0.57
-DOC007,PDF,CHK00346,467,0.9254,summarization,0.751,0,long,high,acceptable,1,0,0,0.9287,0.8524,0.3775
-DOC036,TXT,CHK00347,51,0.6082,analytical,0.793,0,short,low,acceptable,0,0,0,0.0022,0.2156,0.4825
-DOC027,TXT,CHK00348,201,0.9809,procedural,0.905,0,medium,high,good,1,1,0,0.3363,0.9639,0.7625
-DOC018,TXT,CHK00349,231,0.5518,analytical,0.662,0,medium,low,poor,0,0,1,0.4031,0.1024,0.155
-DOC035,HTML,CHK00350,405,0.953,summarization,0.826,0,long,high,acceptable,1,1,0,0.7906,0.9078,0.565
-DOC014,Word,CHK00351,125,0.7675,factual,0.76,0,short,medium,acceptable,1,0,0,0.167,0.5354,0.4
-DOC002,HTML,CHK00352,134,0.6607,analytical,0.747,0,short,medium,acceptable,0,0,0,0.1871,0.321,0.3675
-DOC007,PDF,CHK00353,364,0.9526,procedural,0.856,0,long,high,good,1,1,0,0.6993,0.907,0.64
-DOC027,Markdown,CHK00354,111,0.9971,summarization,0.979,0,short,high,good,1,1,0,0.1359,0.9964,0.9475
-DOC022,HTML,CHK00355,387,0.6923,analytical,0.92,0,long,medium,good,0,1,0,0.7506,0.3845,0.8
-DOC049,Markdown,CHK00356,465,0.7101,comparative,0.978,0,long,medium,good,1,1,0,0.9243,0.4202,0.945
-DOC046,PDF,CHK00357,135,0.8412,procedural,0.952,0,short,high,good,1,1,0,0.1893,0.6834,0.88
-DOC041,Word,CHK00358,113,0.9373,analytical,0.99,0,short,high,good,1,1,0,0.1403,0.8763,0.975
-DOC031,Markdown,CHK00359,53,0.6174,procedural,0.739,0,short,low,acceptable,0,0,0,0.0067,0.2341,0.3475
-DOC044,Word,CHK00360,60,0.9138,comparative,0.904,0,short,high,good,1,1,0,0.0223,0.8292,0.76
-DOC042,PDF,CHK00361,419,0.59,comparative,0.6,0,long,low,poor,0,0,1,0.8218,0.1791,0.0
-DOC028,Word,CHK00362,486,0.7146,analytical,0.933,0,long,medium,good,1,1,0,0.971,0.4292,0.8325
-DOC025,TXT,CHK00363,449,0.6905,procedural,0.713,0,long,medium,acceptable,0,0,0,0.8886,0.3808,0.2825
-DOC036,PDF,CHK00364,495,0.6683,summarization,0.758,0,long,medium,acceptable,0,0,0,0.9911,0.3363,0.395
-DOC002,Markdown,CHK00365,451,0.76,summarization,0.731,0,long,medium,acceptable,1,0,0,0.8931,0.5204,0.3275
-DOC027,Markdown,CHK00366,481,0.6885,procedural,0.973,0,long,medium,good,0,1,0,0.9599,0.3768,0.9325
-DOC038,Markdown,CHK00367,297,0.584,factual,0.78,0,medium,low,acceptable,0,0,1,0.5501,0.167,0.45
-DOC033,HTML,CHK00368,457,0.9914,procedural,0.914,0,long,high,good,1,1,0,0.9065,0.9849,0.785
-DOC027,Word,CHK00369,147,0.718,factual,0.656,0,short,medium,poor,1,0,1,0.216,0.4361,0.14
-DOC029,TXT,CHK00370,480,0.6084,procedural,0.946,0,long,low,good,0,1,0,0.9577,0.216,0.865
-DOC037,TXT,CHK00371,402,0.9756,procedural,0.963,0,long,high,good,1,1,0,0.784,0.9532,0.9075
-DOC045,PDF,CHK00372,62,0.7686,factual,0.708,0,short,medium,acceptable,1,0,0,0.0267,0.5376,0.27
-DOC023,HTML,CHK00373,157,0.7639,factual,0.876,0,medium,medium,good,1,1,0,0.2383,0.5282,0.69
-DOC020,PDF,CHK00374,376,0.569,factual,0.611,0,long,low,poor,0,0,1,0.7261,0.1369,0.0275
-DOC017,Markdown,CHK00375,372,0.9474,procedural,0.923,0,long,high,good,1,1,0,0.7171,0.8966,0.8075
-DOC001,HTML,CHK00376,186,0.8695,comparative,0.785,0,medium,high,acceptable,1,0,0,0.3029,0.7402,0.4625
-DOC044,PDF,CHK00377,229,0.6326,factual,0.728,0,medium,low,acceptable,0,0,0,0.3987,0.2646,0.32
-DOC035,PDF,CHK00378,474,0.8147,summarization,0.783,0,long,high,acceptable,1,0,0,0.9443,0.6302,0.4575
-DOC032,TXT,CHK00379,86,0.7063,factual,0.771,0,short,medium,acceptable,1,0,0,0.0802,0.4126,0.4275
-DOC013,HTML,CHK00380,119,0.7162,analytical,0.93,0,short,medium,good,1,1,0,0.1537,0.4324,0.825
-DOC010,Word,CHK00381,226,0.5505,comparative,0.996,0,medium,low,good,0,1,1,0.392,0.0998,0.99
-DOC030,Markdown,CHK00382,106,0.5654,summarization,0.748,0,short,low,acceptable,0,0,1,0.1247,0.1297,0.37
-DOC030,HTML,CHK00383,165,0.9222,procedural,0.613,0,medium,high,poor,1,0,1,0.2561,0.846,0.0325
-DOC007,Word,CHK00384,293,0.888,procedural,0.971,0,medium,high,good,1,1,0,0.5412,0.7774,0.9275
-DOC024,HTML,CHK00385,314,0.8444,factual,0.645,0,long,high,poor,1,0,1,0.588,0.6898,0.1125
-DOC047,Markdown,CHK00386,338,0.6454,factual,0.845,0,long,low,acceptable,0,1,0,0.6414,0.2903,0.6125
-DOC048,Markdown,CHK00387,98,0.8616,procedural,0.88,0,short,high,good,1,1,0,0.1069,0.7244,0.7
-DOC014,TXT,CHK00388,106,0.8114,analytical,0.803,0,short,high,acceptable,1,1,0,0.1247,0.6236,0.5075
-DOC002,HTML,CHK00389,82,0.9764,summarization,0.979,0,short,high,good,1,1,0,0.0713,0.9548,0.9475
-DOC014,TXT,CHK00390,249,0.8382,analytical,0.968,0,medium,high,good,1,1,0,0.4432,0.6774,0.92
-DOC005,TXT,CHK00391,303,0.5204,comparative,0.835,0,long,low,acceptable,0,1,1,0.5635,0.0393,0.5875
-DOC045,HTML,CHK00392,84,0.685,factual,0.815,0,short,medium,acceptable,0,1,0,0.0757,0.3698,0.5375
-DOC006,HTML,CHK00393,456,0.95,comparative,0.635,0,long,high,poor,1,0,1,0.9042,0.9018,0.0875
-DOC007,TXT,CHK00394,158,0.6611,factual,0.837,0,medium,medium,acceptable,0,1,0,0.2405,0.3218,0.5925
-DOC001,TXT,CHK00395,148,0.8341,summarization,0.609,0,short,high,poor,1,0,1,0.2183,0.6691,0.0225
-DOC034,TXT,CHK00396,383,0.5008,procedural,0.652,0,long,low,poor,0,0,1,0.7416,0.0,0.13
-DOC030,PDF,CHK00397,402,0.6947,procedural,0.71,0,long,medium,acceptable,0,0,0,0.784,0.3893,0.275
-DOC031,PDF,CHK00398,432,0.6366,summarization,0.925,0,long,low,good,0,1,0,0.8508,0.2726,0.8125
-DOC026,PDF,CHK00399,461,0.9724,comparative,0.705,0,long,high,acceptable,1,0,0,0.9154,0.9468,0.2625
-DOC045,PDF,CHK00400,277,0.894,factual,0.783,0,medium,high,acceptable,1,0,0,0.5056,0.7894,0.4575
-DOC030,TXT,CHK00401,282,0.5241,procedural,0.922,0,medium,low,good,0,1,1,0.5167,0.0468,0.805
-DOC007,HTML,CHK00402,131,0.7436,factual,0.695,0,short,medium,poor,1,0,1,0.1804,0.4875,0.2375
-DOC048,HTML,CHK00403,433,0.8804,factual,0.829,0,long,high,acceptable,1,1,0,0.853,0.7621,0.5725
-DOC005,PDF,CHK00404,251,0.7814,procedural,0.876,0,medium,medium,good,1,1,0,0.4477,0.5633,0.69
-DOC019,Word,CHK00405,296,0.5048,comparative,0.717,0,medium,low,acceptable,0,0,1,0.5479,0.008,0.2925
-DOC048,PDF,CHK00406,376,0.6947,procedural,0.895,0,long,medium,good,0,1,0,0.7261,0.3893,0.7375
-DOC047,HTML,CHK00407,72,0.6198,summarization,0.686,0,short,low,poor,0,0,1,0.049,0.2389,0.215
-DOC009,Markdown,CHK00408,474,0.664,analytical,0.912,0,long,medium,good,0,1,0,0.9443,0.3276,0.78
-DOC004,Word,CHK00409,493,0.8059,analytical,0.63,0,long,high,poor,1,0,1,0.9866,0.6125,0.075
-DOC046,TXT,CHK00410,379,0.9244,comparative,0.687,0,long,high,poor,1,0,1,0.7327,0.8504,0.2175
-DOC002,Word,CHK00411,198,0.8149,summarization,0.636,0,medium,high,poor,1,0,1,0.3296,0.6306,0.09
-DOC046,HTML,CHK00412,390,0.9512,procedural,0.944,0,long,high,good,1,1,0,0.7572,0.9042,0.86
-DOC020,Markdown,CHK00413,91,0.8808,factual,0.981,0,short,high,good,1,1,0,0.0913,0.7629,0.9525
-DOC049,Markdown,CHK00414,150,0.9094,summarization,0.967,0,short,high,good,1,1,0,0.2227,0.8203,0.9175
-DOC040,Word,CHK00415,130,0.7247,summarization,0.912,0,short,medium,good,1,1,0,0.1782,0.4495,0.78
-DOC039,Markdown,CHK00416,269,0.5782,factual,0.845,0,medium,low,acceptable,0,1,1,0.4878,0.1554,0.6125
-DOC038,PDF,CHK00417,151,0.7998,summarization,0.746,0,medium,medium,acceptable,1,0,0,0.2249,0.6003,0.365
-DOC019,TXT,CHK00418,215,0.9824,summarization,0.601,0,medium,high,poor,1,0,1,0.3675,0.9669,0.0025
-DOC010,Word,CHK00419,262,0.8244,factual,0.909,0,medium,high,good,1,1,0,0.4722,0.6497,0.7725
-DOC034,TXT,CHK00420,368,0.5545,comparative,0.792,0,long,low,acceptable,0,0,1,0.7082,0.1078,0.48
-DOC030,HTML,CHK00421,372,0.8704,factual,0.639,0,long,high,poor,1,0,1,0.7171,0.742,0.0975
-DOC050,TXT,CHK00422,56,0.9117,procedural,0.986,0,short,high,good,1,1,0,0.0134,0.8249,0.965
-DOC036,Word,CHK00423,499,0.5661,factual,0.806,0,long,low,acceptable,0,1,1,1.0,0.1311,0.515
-DOC049,TXT,CHK00424,498,0.6909,comparative,0.891,0,long,medium,good,0,1,0,0.9978,0.3817,0.7275
-DOC019,PDF,CHK00425,172,0.5018,analytical,0.966,0,medium,low,good,0,1,1,0.2717,0.002,0.915
-DOC038,HTML,CHK00426,108,0.6807,comparative,0.962,0,short,medium,good,0,1,0,0.1292,0.3612,0.905
-DOC033,Markdown,CHK00427,427,0.7,summarization,0.808,0,long,medium,acceptable,1,1,0,0.8396,0.3999,0.52
-DOC032,PDF,CHK00428,79,0.8127,comparative,0.758,0,short,high,acceptable,1,0,0,0.0646,0.6262,0.395
-DOC026,Markdown,CHK00429,249,0.8468,comparative,0.88,0,medium,high,good,1,1,0,0.4432,0.6946,0.7
-DOC014,Word,CHK00430,396,0.7779,procedural,0.794,0,long,medium,acceptable,1,0,0,0.7706,0.5563,0.485
-DOC016,Word,CHK00431,287,0.9871,factual,0.811,0,medium,high,acceptable,1,1,0,0.5278,0.9763,0.5275
-DOC014,Markdown,CHK00432,320,0.8117,factual,0.905,0,long,high,good,1,1,0,0.6013,0.6242,0.7625
-DOC009,TXT,CHK00433,327,0.9733,procedural,0.855,0,long,high,good,1,1,0,0.6169,0.9486,0.6375
-DOC007,Markdown,CHK00434,449,0.8834,summarization,0.778,0,long,high,acceptable,1,0,0,0.8886,0.7681,0.445
-DOC040,Word,CHK00435,226,0.6425,summarization,0.763,0,medium,low,acceptable,0,0,0,0.392,0.2845,0.4075
-DOC028,Markdown,CHK00436,317,0.5162,procedural,0.894,0,long,low,good,0,1,1,0.5947,0.0309,0.735
-DOC007,HTML,CHK00437,414,0.6607,analytical,0.7,0,long,medium,acceptable,0,0,0,0.8107,0.321,0.25
-DOC003,PDF,CHK00438,403,0.6157,summarization,0.654,0,long,low,poor,0,0,1,0.7862,0.2307,0.135
-DOC010,TXT,CHK00439,161,0.6042,procedural,0.747,0,medium,low,acceptable,0,0,0,0.2472,0.2076,0.3675
-DOC017,Word,CHK00440,494,0.6701,comparative,0.696,0,long,medium,poor,0,0,1,0.9889,0.3399,0.24
-DOC006,PDF,CHK00441,212,0.554,summarization,0.774,0,medium,low,acceptable,0,0,1,0.3608,0.1068,0.435
-DOC036,Markdown,CHK00442,286,0.7427,summarization,0.675,0,medium,medium,poor,1,0,1,0.5256,0.4856,0.1875
-DOC016,HTML,CHK00443,340,0.7366,analytical,0.874,0,long,medium,good,1,1,0,0.6459,0.4734,0.685
-DOC048,Markdown,CHK00444,435,0.6819,summarization,0.856,0,long,medium,good,0,1,0,0.8575,0.3636,0.64
-DOC014,Markdown,CHK00445,233,0.664,factual,0.631,0,medium,medium,poor,0,0,1,0.4076,0.3276,0.0775
-DOC048,TXT,CHK00446,91,0.8117,comparative,0.695,0,short,high,poor,1,0,1,0.0913,0.6242,0.2375
-DOC034,TXT,CHK00447,382,0.8139,summarization,0.865,0,long,high,good,1,1,0,0.7394,0.6286,0.6625
-DOC023,Markdown,CHK00448,426,0.7366,procedural,0.777,0,long,medium,acceptable,1,0,0,0.8374,0.4734,0.4425
-DOC032,TXT,CHK00449,259,0.6038,procedural,0.979,0,medium,low,good,0,1,0,0.4655,0.2068,0.9475
-DOC030,HTML,CHK00450,331,0.8552,summarization,0.776,0,long,high,acceptable,1,0,0,0.6258,0.7115,0.44
-DOC028,TXT,CHK00451,88,0.5539,comparative,0.856,0,short,low,good,0,1,1,0.0846,0.1066,0.64
-DOC050,PDF,CHK00452,330,0.7347,procedural,0.942,0,long,medium,good,1,1,0,0.6236,0.4696,0.855
-DOC016,TXT,CHK00453,217,0.8058,procedural,0.992,0,medium,high,good,1,1,0,0.3719,0.6123,0.98
-DOC006,TXT,CHK00454,270,0.7557,summarization,0.979,0,medium,medium,good,1,1,0,0.49,0.5117,0.9475
-DOC013,Word,CHK00455,294,0.6494,summarization,0.698,0,medium,low,poor,0,0,1,0.5434,0.2983,0.245
-DOC034,PDF,CHK00456,403,0.7991,factual,0.962,0,long,medium,good,1,1,0,0.7862,0.5989,0.905
-DOC026,Markdown,CHK00457,159,0.9472,factual,0.816,0,medium,high,acceptable,1,1,0,0.2428,0.8962,0.54
-DOC014,HTML,CHK00458,479,0.8913,summarization,0.75,0,long,high,acceptable,1,0,0,0.9555,0.784,0.375
-DOC004,Word,CHK00459,354,0.6643,analytical,0.81,0,long,medium,acceptable,0,1,0,0.6771,0.3282,0.525
-DOC015,Word,CHK00460,424,0.64,summarization,0.812,0,long,low,acceptable,0,1,0,0.833,0.2795,0.53
-DOC032,PDF,CHK00461,235,0.5237,procedural,0.882,0,medium,low,good,0,1,1,0.412,0.046,0.705
-DOC020,Markdown,CHK00462,224,0.8086,analytical,0.799,0,medium,high,acceptable,1,0,0,0.3875,0.6179,0.4975
-DOC012,PDF,CHK00463,274,0.8133,comparative,0.889,0,medium,high,good,1,1,0,0.4989,0.6274,0.7225
-DOC018,Word,CHK00464,433,0.6501,factual,0.889,0,long,medium,good,0,1,0,0.853,0.2997,0.7225
-DOC018,PDF,CHK00465,71,0.9782,procedural,0.918,0,short,high,good,1,1,0,0.0468,0.9584,0.795
-DOC013,Word,CHK00466,74,0.8835,summarization,0.758,0,short,high,acceptable,1,0,0,0.0535,0.7683,0.395
-DOC008,PDF,CHK00467,250,0.6617,comparative,0.72,0,medium,medium,acceptable,0,0,0,0.4454,0.323,0.3
-DOC018,Word,CHK00468,82,0.9628,analytical,0.771,0,short,high,acceptable,1,0,0,0.0713,0.9275,0.4275
-DOC019,TXT,CHK00469,232,0.8074,factual,0.726,0,medium,high,acceptable,1,0,0,0.4053,0.6155,0.315
-DOC002,Word,CHK00470,466,0.7274,analytical,0.878,0,long,medium,good,1,1,0,0.9265,0.4549,0.695
-DOC013,Markdown,CHK00471,256,0.8261,procedural,0.708,0,medium,high,acceptable,1,0,0,0.4588,0.6531,0.27
-DOC030,Markdown,CHK00472,432,0.9592,procedural,0.904,0,long,high,good,1,1,0,0.8508,0.9203,0.76
-DOC025,TXT,CHK00473,349,0.8465,factual,0.938,0,long,high,good,1,1,0,0.6659,0.694,0.845
-DOC026,Markdown,CHK00474,98,0.9736,factual,0.72,0,short,high,acceptable,1,0,0,0.1069,0.9492,0.3
-DOC001,HTML,CHK00475,211,0.5247,factual,0.613,0,medium,low,poor,0,0,1,0.3586,0.048,0.0325
-DOC022,PDF,CHK00476,98,0.6387,comparative,0.869,0,short,low,good,0,1,0,0.1069,0.2769,0.6725
-DOC013,PDF,CHK00477,51,0.685,factual,0.673,0,short,medium,poor,0,0,1,0.0022,0.3698,0.1825
-DOC019,Word,CHK00478,57,0.951,comparative,0.729,0,short,high,acceptable,1,0,0,0.0156,0.9038,0.3225
-DOC015,PDF,CHK00479,316,0.6207,summarization,0.773,0,long,low,acceptable,0,0,0,0.5924,0.2407,0.4325
-DOC025,Word,CHK00480,93,0.9517,summarization,0.734,0,short,high,acceptable,1,0,0,0.0958,0.9052,0.335
-DOC012,Word,CHK00481,214,0.9949,analytical,0.941,0,medium,high,good,1,1,0,0.3653,0.992,0.8525
-DOC041,Word,CHK00482,465,0.8434,analytical,0.663,0,long,high,poor,1,0,1,0.9243,0.6878,0.1575
-DOC004,TXT,CHK00483,113,0.8504,procedural,0.638,0,short,high,poor,1,0,1,0.1403,0.7019,0.095
-DOC023,Word,CHK00484,481,0.9605,procedural,0.982,0,long,high,good,1,1,0,0.9599,0.9229,0.955
-DOC034,Markdown,CHK00485,341,0.6095,factual,0.668,0,long,low,poor,0,0,1,0.6481,0.2182,0.17
-DOC015,Markdown,CHK00486,309,0.8102,procedural,0.741,0,long,high,acceptable,1,0,0,0.5768,0.6212,0.3525
-DOC005,TXT,CHK00487,339,0.8785,factual,0.97,0,long,high,good,1,1,0,0.6437,0.7583,0.925
-DOC008,HTML,CHK00488,312,0.8747,summarization,0.65,0,long,high,poor,1,0,1,0.5835,0.7507,0.125
-DOC003,TXT,CHK00489,178,0.7989,analytical,0.846,0,medium,medium,acceptable,1,1,0,0.2851,0.5985,0.615
-DOC043,HTML,CHK00490,86,0.8617,summarization,0.84,0,short,high,acceptable,1,1,0,0.0802,0.7246,0.6
-DOC023,HTML,CHK00491,253,0.7723,analytical,0.999,0,medium,medium,good,1,1,0,0.4521,0.5451,0.9975
-DOC045,TXT,CHK00492,291,0.539,analytical,0.928,0,medium,low,good,0,1,1,0.5367,0.0767,0.82
-DOC021,TXT,CHK00493,86,0.981,summarization,0.868,0,short,high,good,1,1,0,0.0802,0.9641,0.67
-DOC050,Markdown,CHK00494,193,0.7895,analytical,0.846,0,medium,medium,acceptable,1,1,0,0.3185,0.5796,0.615
-DOC008,HTML,CHK00495,139,0.7093,analytical,0.72,0,short,medium,acceptable,1,0,0,0.1982,0.4186,0.3
-DOC038,Word,CHK00496,334,0.783,procedural,0.693,0,long,medium,poor,1,0,1,0.6325,0.5666,0.2325
-DOC019,Markdown,CHK00497,74,0.5541,procedural,0.628,0,short,low,poor,0,0,1,0.0535,0.107,0.07
-DOC004,Markdown,CHK00498,315,0.8653,analytical,0.86,0,long,high,good,1,1,0,0.5902,0.7318,0.65
-DOC047,TXT,CHK00499,83,0.7464,comparative,0.642,0,short,medium,poor,1,0,1,0.0735,0.4931,0.105
-DOC020,PDF,CHK00500,80,0.6576,analytical,0.936,0,short,medium,good,0,1,0,0.0668,0.3148,0.84
+chunk_id,doc_id,policy_code,policy_area,doc_title,doc_type,canonical_doc_type,format_matches_canonical,loader_family,word_count,est_tokens,chunk_length_quartile,query_type,retrieval_score,answer_quality_score,grounding_gap,reliability_index,confidence_tier,refer_to_hr,word_count_z,retrieval_score_z,answer_quality_score_z,is_extreme_z
+CHK00001,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,TXT,HTML,0,plain,457,608,Q4-long,analytical,0.5962,0.942,0.3458,0.8037,Refer to HR,1,1.4006,-1.0534,1.1841,0
+CHK00002,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,TXT,TXT,1,plain,302,402,Q3,factual,0.7397,0.976,0.2363,0.8815,Usable,0,0.2468,-0.0481,1.4736,0
+CHK00003,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,HTML,Word,0,markup,52,69,Q1-short,comparative,0.7735,0.66,-0.1135,0.7054,Refer to HR,1,-1.6143,0.1887,-1.2166,0
+CHK00004,DOC010,LWP,Learning & workplace,Certification Sponsorship,Markdown,Word,0,markup,130,173,Q1-short,comparative,0.6278,0.91,0.2822,0.7971,Refer to HR,1,-1.0336,-0.832,0.9117,0
+CHK00005,DOC025,LWP,Learning & workplace,Company Asset Usage,Word,Word,1,binary,220,293,Q2,procedural,0.7817,0.709,-0.0727,0.7381,Refer to HR,1,-0.3637,0.2462,-0.7995,0
+CHK00006,DOC042,PAY,Pay & benefits,Salary Advance & Loans,TXT,PDF,0,plain,302,402,Q3,factual,0.521,0.629,0.108,0.5858,Refer to HR,1,0.2468,-1.5803,-1.4805,0
+CHK00007,DOC044,LIF,Employee lifecycle,Employment Contract Terms,Word,HTML,0,binary,59,78,Q1-short,comparative,0.8944,0.743,-0.1514,0.8036,Usable,0,-1.5622,1.0358,-0.51,0
+CHK00008,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,TXT,TXT,1,plain,383,509,Q3,comparative,0.8793,0.634,-0.2453,0.7321,Refer to HR,1,0.8498,0.93,-1.438,0
+CHK00009,DOC015,LWP,Learning & workplace,Mentorship Programme,TXT,Word,0,plain,105,140,Q1-short,analytical,0.7581,0.637,-0.1211,0.6854,Refer to HR,1,-1.2197,0.0808,-1.4124,0
+CHK00010,DOC008,CMP,Conduct & compliance,Code of Conduct & Ethics,TXT,TXT,1,plain,253,336,Q2,procedural,0.8171,0.837,0.0199,0.829,Usable,0,-0.118,0.4942,0.2902,0
+CHK00011,DOC015,LWP,Learning & workplace,Mentorship Programme,Word,Word,1,binary,145,193,Q1-short,comparative,0.7345,0.659,-0.0755,0.6892,Refer to HR,1,-0.922,-0.0845,-1.2251,0
+CHK00012,DOC001,LVT,Leave & time,Leave Policy,TXT,HTML,0,plain,126,168,Q1-short,analytical,0.9613,0.746,-0.2153,0.8321,Usable,0,-1.0634,1.5045,-0.4845,0
+CHK00013,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,Word,Word,1,binary,165,219,Q2,summarization,0.5116,0.876,0.3644,0.7302,Refer to HR,1,-0.7731,-1.6462,0.6223,0
+CHK00014,DOC031,LVT,Leave & time,Sabbatical & Career Break,PDF,Markdown,0,binary,435,579,Q4-long,comparative,0.6451,0.663,0.0179,0.6558,Refer to HR,1,1.2369,-0.7108,-1.1911,0
+CHK00015,DOC041,LVT,Leave & time,Leave Encashment Rules,Markdown,TXT,0,markup,411,547,Q4-long,factual,0.5043,0.698,0.1937,0.6205,Refer to HR,1,1.0582,-1.6973,-0.8931,0
+CHK00016,DOC011,LVT,Leave & time,Working Hours & Attendance,Markdown,PDF,0,markup,260,346,Q3,analytical,0.8886,0.861,-0.0276,0.872,Trusted,0,-0.0659,0.9951,0.4946,0
+CHK00017,DOC015,LWP,Learning & workplace,Mentorship Programme,TXT,Word,0,plain,473,629,Q4-long,comparative,0.8175,0.726,-0.0915,0.7626,Usable,0,1.5197,0.497,-0.6547,0
+CHK00018,DOC008,CMP,Conduct & compliance,Code of Conduct & Ethics,Markdown,TXT,0,markup,134,178,Q1-short,summarization,0.9273,0.811,-0.1163,0.8575,Usable,0,-1.0039,1.2663,0.0689,0
+CHK00019,DOC015,LWP,Learning & workplace,Mentorship Programme,Markdown,Word,0,markup,160,213,Q2,analytical,0.9325,0.761,-0.1715,0.8296,Usable,0,-0.8103,1.3027,-0.3568,0
+CHK00020,DOC044,LIF,Employee lifecycle,Employment Contract Terms,HTML,HTML,1,markup,397,528,Q4-long,summarization,0.5072,0.817,0.3098,0.6931,Refer to HR,1,0.954,-1.677,0.12,0
+CHK00021,DOC035,LWP,Learning & workplace,Employee Assistance Programme,HTML,HTML,1,markup,168,223,Q2,summarization,0.6319,0.952,0.3201,0.824,Refer to HR,1,-0.7508,-0.8033,1.2693,0
+CHK00022,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,Word,Markdown,0,binary,83,110,Q1-short,comparative,0.8242,0.787,-0.0372,0.8019,Usable,0,-1.3835,0.544,-0.1354,0
+CHK00023,DOC005,LWP,Learning & workplace,Learning & Development Policy,HTML,HTML,1,markup,229,305,Q2,comparative,0.9404,0.857,-0.0834,0.8904,Trusted,0,-0.2967,1.3581,0.4605,0
+CHK00024,DOC011,LVT,Leave & time,Working Hours & Attendance,PDF,PDF,1,binary,188,250,Q2,analytical,0.6188,0.798,0.1792,0.7263,Refer to HR,1,-0.6019,-0.8951,-0.0418,0
+CHK00025,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,TXT,Word,0,plain,297,395,Q3,analytical,0.8386,0.89,0.0514,0.8694,Trusted,0,0.2096,0.6448,0.7414,0
+CHK00026,DOC032,PAY,Pay & benefits,Relocation Assistance,HTML,PDF,0,markup,437,581,Q4-long,comparative,0.803,0.626,-0.177,0.6968,Refer to HR,1,1.2518,0.3954,-1.5061,0
+CHK00027,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",Word,TXT,0,binary,394,524,Q4-long,procedural,0.8048,0.784,-0.0208,0.7923,Usable,0,0.9317,0.408,-0.161,0
+CHK00028,DOC033,CMP,Conduct & compliance,Social Media Policy,TXT,HTML,0,plain,125,166,Q1-short,summarization,0.5479,1.0,0.4521,0.8192,Refer to HR,1,-1.0709,-1.3918,1.6779,0
+CHK00029,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,TXT,Markdown,0,plain,441,587,Q4-long,analytical,0.5657,0.755,0.1893,0.6793,Refer to HR,1,1.2815,-1.2671,-0.4079,0
+CHK00030,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,PDF,Markdown,0,binary,234,311,Q2,summarization,0.9201,0.981,0.0609,0.9566,Trusted,0,-0.2594,1.2158,1.5161,0
+CHK00031,DOC016,LVT,Leave & time,Holiday Calendar 2026,Word,PDF,0,binary,388,516,Q3,summarization,0.8571,0.989,0.1319,0.9362,Trusted,0,0.887,0.7745,1.5842,0
+CHK00032,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,Markdown,TXT,0,markup,480,638,Q4-long,analytical,0.5944,0.819,0.2246,0.7292,Refer to HR,1,1.5719,-1.0661,0.137,0
+CHK00033,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,HTML,Markdown,0,markup,54,72,Q1-short,procedural,0.7741,0.611,-0.1631,0.6762,Refer to HR,1,-1.5994,0.1929,-1.6338,0
+CHK00034,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,Word,Markdown,0,binary,196,261,Q2,summarization,0.9431,0.835,-0.1081,0.8782,Usable,0,-0.5423,1.377,0.2732,0
+CHK00035,DOC036,LVT,Leave & time,Shift Allowance & Night Work,Markdown,TXT,0,markup,452,601,Q4-long,procedural,0.5394,0.928,0.3886,0.7726,Refer to HR,1,1.3634,-1.4514,1.0649,0
+CHK00036,DOC037,PAY,Pay & benefits,Meal & Transport Benefits,Word,Word,1,binary,85,113,Q1-short,procedural,0.5439,0.724,0.1801,0.652,Refer to HR,1,-1.3686,-1.4199,-0.6718,0
+CHK00037,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,HTML,TXT,0,markup,180,239,Q2,analytical,0.7196,0.965,0.2454,0.8668,Usable,0,-0.6614,-0.1889,1.3799,0
+CHK00038,DOC011,LVT,Leave & time,Working Hours & Attendance,Markdown,PDF,0,markup,441,587,Q4-long,procedural,0.9753,0.82,-0.1553,0.8821,Usable,0,1.2815,1.6026,0.1455,0
+CHK00039,DOC021,LVT,Leave & time,Maternity & Paternity Leave,TXT,Markdown,0,plain,191,254,Q2,procedural,0.6636,0.672,0.0084,0.6686,Refer to HR,1,-0.5795,-0.5812,-1.1145,0
+CHK00040,DOC032,PAY,Pay & benefits,Relocation Assistance,PDF,PDF,1,binary,122,162,Q1-short,factual,0.6788,0.87,0.1912,0.7935,Usable,0,-1.0932,-0.4747,0.5712,0
+CHK00041,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",HTML,TXT,0,markup,231,307,Q2,summarization,0.606,0.79,0.184,0.7164,Refer to HR,1,-0.2818,-0.9848,-0.1099,0
+CHK00042,DOC024,LIF,Employee lifecycle,Background Verification,HTML,HTML,1,markup,440,585,Q4-long,summarization,0.5736,0.718,0.1444,0.6602,Refer to HR,1,1.2741,-1.2118,-0.7228,0
+CHK00043,DOC021,LVT,Leave & time,Maternity & Paternity Leave,HTML,Markdown,0,markup,128,170,Q1-short,procedural,0.9768,0.768,-0.2088,0.8515,Usable,0,-1.0485,1.6131,-0.2972,0
+CHK00044,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,TXT,TXT,1,plain,278,370,Q3,analytical,0.6443,0.636,-0.0083,0.6393,Refer to HR,1,0.0681,-0.7164,-1.4209,0
+CHK00045,DOC021,LVT,Leave & time,Maternity & Paternity Leave,Markdown,Markdown,1,markup,389,517,Q3,analytical,0.6768,0.919,0.2422,0.8221,Usable,0,0.8944,-0.4887,0.9883,0
+CHK00046,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,HTML,HTML,1,markup,106,141,Q1-short,analytical,0.5769,0.791,0.2141,0.7054,Refer to HR,1,-1.2123,-1.1887,-0.1014,0
+CHK00047,DOC015,LWP,Learning & workplace,Mentorship Programme,Markdown,Word,0,markup,79,105,Q1-short,procedural,0.8081,0.697,-0.1111,0.7414,Refer to HR,1,-1.4133,0.4312,-0.9016,0
+CHK00048,DOC008,CMP,Conduct & compliance,Code of Conduct & Ethics,TXT,TXT,1,plain,200,266,Q2,analytical,0.9814,0.699,-0.2824,0.812,Refer to HR,1,-0.5125,1.6453,-0.8846,0
+CHK00049,DOC031,LVT,Leave & time,Sabbatical & Career Break,TXT,Markdown,0,plain,82,109,Q1-short,procedural,0.5131,0.824,0.3109,0.6996,Refer to HR,1,-1.391,-1.6356,0.1796,0
+CHK00050,DOC001,LVT,Leave & time,Leave Policy,HTML,HTML,1,markup,468,622,Q4-long,comparative,0.8616,0.669,-0.1926,0.746,Refer to HR,1,1.4825,0.806,-1.14,0
+CHK00051,DOC029,LIF,Employee lifecycle,Exit Interview Guidelines,Word,TXT,0,binary,117,156,Q1-short,factual,0.7379,0.862,0.1241,0.8124,Usable,0,-1.1304,-0.0607,0.5031,0
+CHK00052,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,Word,Word,1,binary,116,154,Q1-short,procedural,0.5447,0.96,0.4153,0.7939,Refer to HR,1,-1.1379,-1.4143,1.3374,0
+CHK00053,DOC009,LIF,Employee lifecycle,Performance Review & Appraisal,Markdown,Markdown,1,markup,130,173,Q1-short,factual,0.8911,0.95,0.0589,0.9264,Trusted,0,-1.0336,1.0127,1.2522,0
+CHK00054,DOC049,LIF,Employee lifecycle,Retirement Policy,PDF,Markdown,0,binary,137,182,Q1-short,analytical,0.532,0.843,0.311,0.7186,Refer to HR,1,-0.9815,-1.5032,0.3413,0
+CHK00055,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,Markdown,Markdown,1,markup,330,439,Q3,procedural,0.5512,0.805,0.2538,0.7035,Refer to HR,1,0.4552,-1.3687,0.0178,0
+CHK00056,DOC031,LVT,Leave & time,Sabbatical & Career Break,PDF,Markdown,0,binary,320,426,Q3,comparative,0.7981,0.741,-0.0571,0.7638,Usable,0,0.3808,0.3611,-0.527,0
+CHK00057,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,TXT,TXT,1,plain,170,226,Q2,factual,0.6949,0.921,0.2261,0.8306,Usable,0,-0.7359,-0.3619,1.0053,0
+CHK00058,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,TXT,TXT,1,plain,229,305,Q2,summarization,0.7374,0.741,0.0036,0.7396,Usable,0,-0.2967,-0.0642,-0.527,0
+CHK00059,DOC041,LVT,Leave & time,Leave Encashment Rules,TXT,TXT,1,plain,498,662,Q4-long,summarization,0.5896,0.785,0.1954,0.7068,Refer to HR,1,1.7059,-1.0997,-0.1525,0
+CHK00060,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,Word,HTML,0,binary,207,275,Q2,factual,0.647,0.96,0.313,0.8348,Refer to HR,1,-0.4604,-0.6975,1.3374,0
+CHK00061,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,PDF,TXT,0,binary,155,206,Q2,comparative,0.524,0.603,0.079,0.5714,Refer to HR,1,-0.8475,-1.5593,-1.7019,0
+CHK00062,DOC036,LVT,Leave & time,Shift Allowance & Night Work,TXT,TXT,1,plain,419,557,Q4-long,summarization,0.8197,0.745,-0.0747,0.7749,Usable,0,1.1178,0.5124,-0.493,0
+CHK00063,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,Word,Word,1,binary,281,374,Q3,procedural,0.676,0.623,-0.053,0.6442,Refer to HR,1,0.0904,-0.4944,-1.5316,0
+CHK00064,DOC001,LVT,Leave & time,Leave Policy,Word,HTML,0,binary,205,273,Q2,summarization,0.5511,0.711,0.1599,0.647,Refer to HR,1,-0.4753,-1.3694,-0.7824,0
+CHK00065,DOC033,CMP,Conduct & compliance,Social Media Policy,PDF,HTML,0,binary,53,70,Q1-short,comparative,0.7738,0.962,0.1882,0.8867,Trusted,0,-1.6068,0.1908,1.3544,0
+CHK00066,DOC022,PAY,Pay & benefits,Variable Pay & Bonus,Markdown,Markdown,1,markup,424,564,Q4-long,procedural,0.5891,0.824,0.2349,0.73,Refer to HR,1,1.155,-1.1032,0.1796,0
+CHK00067,DOC025,LWP,Learning & workplace,Company Asset Usage,PDF,Word,0,binary,441,587,Q4-long,procedural,0.7746,0.722,-0.0526,0.743,Usable,0,1.2815,0.1964,-0.6888,0
+CHK00068,DOC033,CMP,Conduct & compliance,Social Media Policy,Markdown,HTML,0,markup,288,383,Q3,summarization,0.5909,0.675,0.0841,0.6414,Refer to HR,1,0.1426,-1.0906,-1.0889,0
+CHK00069,DOC017,PAY,Pay & benefits,Provident Fund & Gratuity,TXT,Markdown,0,plain,235,313,Q2,analytical,0.7493,0.804,0.0547,0.7821,Usable,0,-0.252,0.0192,0.0093,0
+CHK00070,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,Markdown,Markdown,1,markup,335,446,Q3,procedural,0.9135,0.942,0.0285,0.9306,Trusted,0,0.4924,1.1696,1.1841,0
+CHK00071,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,PDF,Markdown,0,binary,152,202,Q1-short,procedural,0.5172,0.692,0.1748,0.6221,Refer to HR,1,-0.8699,-1.6069,-0.9442,0
+CHK00072,DOC043,CMP,Conduct & compliance,Equal Opportunity & Anti-Discrimination,Markdown,PDF,0,markup,343,456,Q3,summarization,0.5168,0.695,0.1782,0.6237,Refer to HR,1,0.552,-1.6097,-0.9186,0
+CHK00073,DOC043,CMP,Conduct & compliance,Equal Opportunity & Anti-Discrimination,Markdown,PDF,0,markup,468,622,Q4-long,summarization,0.5781,0.666,0.0879,0.6308,Refer to HR,1,1.4825,-1.1803,-1.1655,0
+CHK00074,DOC047,PAY,Pay & benefits,Employee Referral Bonus,PDF,HTML,0,binary,415,552,Q4-long,analytical,0.6802,0.92,0.2398,0.8241,Usable,0,1.088,-0.4649,0.9968,0
+CHK00075,DOC029,LIF,Employee lifecycle,Exit Interview Guidelines,Markdown,TXT,0,markup,314,418,Q3,summarization,0.535,0.994,0.459,0.8104,Refer to HR,1,0.3361,-1.4822,1.6268,0
+CHK00076,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,PDF,Markdown,0,binary,374,497,Q3,comparative,0.7828,0.866,0.0832,0.8327,Trusted,0,0.7828,0.2539,0.5371,0
+CHK00077,DOC001,LVT,Leave & time,Leave Policy,Word,HTML,0,binary,247,329,Q2,comparative,0.6667,0.925,0.2583,0.8217,Usable,0,-0.1627,-0.5595,1.0394,0
+CHK00078,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,TXT,Word,0,plain,345,459,Q3,factual,0.7466,0.84,0.0934,0.8026,Usable,0,0.5669,0.0003,0.3158,0
+CHK00079,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,Word,PDF,0,binary,258,343,Q3,procedural,0.7402,0.704,-0.0362,0.7185,Refer to HR,1,-0.0808,-0.0446,-0.842,0
+CHK00080,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,PDF,Word,0,binary,115,153,Q1-short,analytical,0.5654,0.877,0.3116,0.7524,Refer to HR,1,-1.1453,-1.2692,0.6308,0
+CHK00081,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,Markdown,Markdown,1,markup,314,418,Q3,summarization,0.6589,0.663,0.0041,0.6614,Refer to HR,1,0.3361,-0.6142,-1.1911,0
+CHK00082,DOC049,LIF,Employee lifecycle,Retirement Policy,PDF,Markdown,0,binary,193,257,Q2,procedural,0.9381,0.861,-0.0771,0.8918,Trusted,0,-0.5646,1.3419,0.4946,0
+CHK00083,DOC012,PAY,Pay & benefits,Health Insurance & Wellness,Markdown,Markdown,1,markup,89,118,Q1-short,summarization,0.7431,0.683,-0.0601,0.707,Refer to HR,1,-1.3389,-0.0242,-1.0208,0
+CHK00084,DOC020,LWP,Learning & workplace,Office Facilities & Seating,Markdown,Markdown,1,markup,424,564,Q4-long,procedural,0.6142,0.7,0.0858,0.6657,Refer to HR,1,1.155,-0.9273,-0.8761,0
+CHK00085,DOC036,LVT,Leave & time,Shift Allowance & Night Work,TXT,TXT,1,plain,94,125,Q1-short,factual,0.8199,0.668,-0.1519,0.7288,Refer to HR,1,-1.3016,0.5138,-1.1485,0
+CHK00086,DOC049,LIF,Employee lifecycle,Retirement Policy,Markdown,Markdown,1,markup,311,414,Q3,procedural,0.8906,0.811,-0.0796,0.8428,Usable,0,0.3138,1.0092,0.0689,0
+CHK00087,DOC035,LWP,Learning & workplace,Employee Assistance Programme,Markdown,HTML,0,markup,217,289,Q2,analytical,0.5703,0.954,0.3837,0.8005,Refer to HR,1,-0.386,-1.2349,1.2863,0
+CHK00088,DOC044,LIF,Employee lifecycle,Employment Contract Terms,Markdown,HTML,0,markup,284,378,Q3,analytical,0.5242,0.679,0.1548,0.6171,Refer to HR,1,0.1128,-1.5579,-1.0549,0
+CHK00089,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,PDF,HTML,0,binary,274,364,Q3,analytical,0.7917,0.743,-0.0487,0.7625,Usable,0,0.0383,0.3163,-0.51,0
+CHK00090,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,TXT,PDF,0,plain,254,338,Q2,summarization,0.9144,0.675,-0.2394,0.7708,Refer to HR,1,-0.1105,1.1759,-1.0889,0
+CHK00091,DOC004,LIF,Employee lifecycle,Onboarding & Probation,TXT,Markdown,0,plain,158,210,Q2,procedural,0.6148,0.647,0.0322,0.6341,Refer to HR,1,-0.8252,-0.9231,-1.3273,0
+CHK00092,DOC037,PAY,Pay & benefits,Meal & Transport Benefits,Word,Word,1,binary,257,342,Q3,factual,0.6246,0.792,0.1674,0.725,Refer to HR,1,-0.0882,-0.8545,-0.0929,0
+CHK00093,DOC009,LIF,Employee lifecycle,Performance Review & Appraisal,HTML,Markdown,0,markup,417,555,Q4-long,summarization,0.9509,0.607,-0.3439,0.7446,Refer to HR,1,1.1029,1.4316,-1.6678,0
+CHK00094,DOC047,PAY,Pay & benefits,Employee Referral Bonus,PDF,HTML,0,binary,407,541,Q4-long,procedural,0.8024,0.867,0.0646,0.8412,Trusted,0,1.0284,0.3912,0.5456,0
+CHK00095,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,TXT,HTML,0,plain,277,368,Q3,summarization,0.9271,0.885,-0.0421,0.9018,Trusted,0,0.0607,1.2649,0.6989,0
+CHK00096,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,HTML,TXT,0,markup,466,620,Q4-long,summarization,0.9722,0.75,-0.2222,0.8389,Usable,0,1.4676,1.5809,-0.4504,0
+CHK00097,DOC043,CMP,Conduct & compliance,Equal Opportunity & Anti-Discrimination,PDF,PDF,1,binary,221,294,Q2,summarization,0.9664,0.823,-0.1434,0.8804,Usable,0,-0.3562,1.5402,0.171,0
+CHK00098,DOC042,PAY,Pay & benefits,Salary Advance & Loans,HTML,PDF,0,markup,301,400,Q3,comparative,0.71,0.638,-0.072,0.6668,Refer to HR,1,0.2393,-0.2561,-1.4039,0
+CHK00099,DOC024,LIF,Employee lifecycle,Background Verification,Markdown,HTML,0,markup,422,561,Q4-long,summarization,0.5562,0.789,0.2328,0.6959,Refer to HR,1,1.1401,-1.3337,-0.1184,0
+CHK00100,DOC049,LIF,Employee lifecycle,Retirement Policy,HTML,Markdown,0,markup,458,609,Q4-long,comparative,0.5941,0.894,0.2999,0.774,Refer to HR,1,1.4081,-1.0682,0.7755,0
+CHK00101,DOC016,LVT,Leave & time,Holiday Calendar 2026,PDF,PDF,1,binary,108,144,Q1-short,factual,0.9599,0.695,-0.2649,0.801,Refer to HR,1,-1.1974,1.4947,-0.9186,0
+CHK00102,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,Word,TXT,0,binary,274,364,Q3,comparative,0.7597,0.84,0.0803,0.8079,Usable,0,0.0383,0.0921,0.3158,0
+CHK00103,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,Markdown,Word,0,markup,473,629,Q4-long,procedural,0.8188,0.71,-0.1088,0.7535,Refer to HR,1,1.5197,0.5061,-0.7909,0
+CHK00104,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,PDF,HTML,0,binary,59,78,Q1-short,comparative,0.7695,0.854,0.0845,0.8202,Trusted,0,-1.5622,0.1607,0.435,0
+CHK00105,DOC042,PAY,Pay & benefits,Salary Advance & Loans,Word,PDF,0,binary,262,348,Q3,procedural,0.5575,0.933,0.3755,0.7828,Refer to HR,1,-0.051,-1.3246,1.1075,0
+CHK00106,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,Markdown,Markdown,1,markup,222,295,Q2,comparative,0.6165,0.733,0.1165,0.6864,Refer to HR,1,-0.3488,-0.9112,-0.5951,0
+CHK00107,DOC011,LVT,Leave & time,Working Hours & Attendance,Word,PDF,0,binary,394,524,Q4-long,factual,0.7335,0.926,0.1925,0.849,Usable,0,0.9317,-0.0915,1.0479,0
+CHK00108,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,PDF,TXT,0,binary,383,509,Q3,analytical,0.6628,0.746,0.0832,0.7127,Usable,0,0.8498,-0.5868,-0.4845,0
+CHK00109,DOC022,PAY,Pay & benefits,Variable Pay & Bonus,PDF,Markdown,0,binary,78,104,Q1-short,summarization,0.7038,0.848,0.1442,0.7903,Usable,0,-1.4207,-0.2996,0.3839,0
+CHK00110,DOC004,LIF,Employee lifecycle,Onboarding & Probation,Markdown,Markdown,1,markup,126,168,Q1-short,summarization,0.6096,0.645,0.0354,0.6308,Refer to HR,1,-1.0634,-0.9596,-1.3443,0
+CHK00111,DOC044,LIF,Employee lifecycle,Employment Contract Terms,Markdown,HTML,0,markup,328,436,Q3,procedural,0.9433,0.94,-0.0033,0.9413,Trusted,0,0.4403,1.3784,1.1671,0
+CHK00112,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,Markdown,Word,0,markup,220,293,Q2,procedural,0.5453,0.993,0.4477,0.8139,Refer to HR,1,-0.3637,-1.4101,1.6183,0
+CHK00113,DOC035,LWP,Learning & workplace,Employee Assistance Programme,TXT,HTML,0,plain,405,539,Q4-long,comparative,0.7612,0.926,0.1648,0.8601,Trusted,0,1.0135,0.1026,1.0479,0
+CHK00114,DOC043,CMP,Conduct & compliance,Equal Opportunity & Anti-Discrimination,Word,PDF,0,binary,400,532,Q4-long,summarization,0.7982,0.858,0.0598,0.8341,Trusted,0,0.9763,0.3618,0.469,0
+CHK00115,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,TXT,Word,0,plain,465,618,Q4-long,summarization,0.8259,0.82,-0.0059,0.8224,Usable,0,1.4602,0.5559,0.1455,0
+CHK00116,DOC035,LWP,Learning & workplace,Employee Assistance Programme,PDF,HTML,0,binary,167,222,Q2,procedural,0.9337,0.691,-0.2427,0.7881,Refer to HR,1,-0.7582,1.3111,-0.9527,0
+CHK00117,DOC035,LWP,Learning & workplace,Employee Assistance Programme,TXT,HTML,0,plain,89,118,Q1-short,procedural,0.8847,0.896,0.0113,0.8915,Trusted,0,-1.3389,0.9678,0.7925,0
+CHK00118,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,PDF,Markdown,0,binary,217,289,Q2,comparative,0.7175,0.65,-0.0675,0.677,Refer to HR,1,-0.386,-0.2036,-1.3017,0
+CHK00119,DOC016,LVT,Leave & time,Holiday Calendar 2026,Word,PDF,0,binary,237,315,Q2,comparative,0.967,0.806,-0.161,0.8704,Usable,0,-0.2371,1.5444,0.0263,0
+CHK00120,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,TXT,Markdown,0,plain,97,129,Q1-short,comparative,0.6802,0.726,0.0458,0.7077,Usable,0,-1.2793,-0.4649,-0.6547,0
+CHK00121,DOC031,LVT,Leave & time,Sabbatical & Career Break,Markdown,Markdown,1,markup,198,263,Q2,factual,0.743,0.809,0.066,0.7826,Usable,0,-0.5274,-0.0249,0.0519,0
+CHK00122,DOC015,LWP,Learning & workplace,Mentorship Programme,Word,Word,1,binary,495,658,Q4-long,procedural,0.8594,0.627,-0.2324,0.72,Refer to HR,1,1.6835,0.7906,-1.4975,0
+CHK00123,DOC038,CMP,Conduct & compliance,Disciplinary Action Procedure,HTML,Markdown,0,markup,343,456,Q3,summarization,0.7405,0.909,0.1685,0.8416,Usable,0,0.552,-0.0425,0.9032,0
+CHK00124,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,TXT,Markdown,0,plain,121,161,Q1-short,summarization,0.833,0.934,0.101,0.8936,Trusted,0,-1.1006,0.6056,1.116,0
+CHK00125,DOC049,LIF,Employee lifecycle,Retirement Policy,Markdown,Markdown,1,markup,414,551,Q4-long,factual,0.5827,0.804,0.2213,0.7155,Refer to HR,1,1.0805,-1.148,0.0093,0
+CHK00126,DOC042,PAY,Pay & benefits,Salary Advance & Loans,Word,PDF,0,binary,252,335,Q2,factual,0.7123,0.717,0.0047,0.7151,Refer to HR,1,-0.1254,-0.24,-0.7314,0
+CHK00127,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,TXT,Markdown,0,plain,154,205,Q1-short,comparative,0.8424,0.836,-0.0064,0.8386,Usable,0,-0.855,0.6715,0.2817,0
+CHK00128,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,TXT,TXT,1,plain,256,340,Q2,procedural,0.7099,0.616,-0.0939,0.6536,Refer to HR,1,-0.0957,-0.2568,-1.5912,0
+CHK00129,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,Markdown,Markdown,1,markup,241,321,Q2,factual,0.9595,0.849,-0.1105,0.8932,Usable,0,-0.2073,1.4919,0.3924,0
+CHK00130,DOC001,LVT,Leave & time,Leave Policy,HTML,HTML,1,markup,164,218,Q2,comparative,0.9947,0.753,-0.2417,0.8497,Usable,0,-0.7805,1.7385,-0.4249,0
+CHK00131,DOC006,LVT,Leave & time,Hybrid & Remote Work Policy,Markdown,HTML,0,markup,58,77,Q1-short,comparative,0.924,0.765,-0.159,0.8286,Usable,0,-1.5696,1.2432,-0.3227,0
+CHK00132,DOC010,LWP,Learning & workplace,Certification Sponsorship,Word,Word,1,binary,73,97,Q1-short,summarization,0.789,0.72,-0.069,0.7476,Usable,0,-1.458,0.2973,-0.7058,0
+CHK00133,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,Markdown,HTML,0,markup,208,277,Q2,summarization,0.6785,0.993,0.3145,0.8672,Usable,0,-0.453,-0.4768,1.6183,0
+CHK00134,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,HTML,HTML,1,markup,492,654,Q4-long,analytical,0.6069,0.982,0.3751,0.832,Refer to HR,1,1.6612,-0.9785,1.5247,0
+CHK00135,DOC045,LWP,Learning & workplace,Rewards & Recognition,Word,HTML,0,binary,233,310,Q2,comparative,0.6722,0.7,0.0278,0.6889,Refer to HR,1,-0.2669,-0.521,-0.8761,0
+CHK00136,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,Markdown,HTML,0,markup,194,258,Q2,summarization,0.9235,0.65,-0.2735,0.7594,Refer to HR,1,-0.5572,1.2397,-1.3017,0
+CHK00137,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,Word,Markdown,0,binary,95,126,Q1-short,comparative,0.5802,0.876,0.2958,0.7577,Refer to HR,1,-1.2942,-1.1655,0.6223,0
+CHK00138,DOC046,LVT,Leave & time,Bereavement & Emergency Leave,HTML,HTML,1,markup,196,261,Q2,factual,0.5102,0.943,0.4328,0.7699,Refer to HR,1,-0.5423,-1.656,1.1926,0
+CHK00139,DOC025,LWP,Learning & workplace,Company Asset Usage,PDF,Word,0,binary,332,442,Q3,analytical,0.667,0.897,0.23,0.805,Usable,0,0.4701,-0.5574,0.801,0
+CHK00140,DOC020,LWP,Learning & workplace,Office Facilities & Seating,Word,Markdown,0,binary,229,305,Q2,analytical,0.971,0.669,-0.302,0.7898,Refer to HR,1,-0.2967,1.5724,-1.14,0
+CHK00141,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,Markdown,Markdown,1,markup,145,193,Q1-short,factual,0.712,0.62,-0.092,0.6568,Refer to HR,1,-0.922,-0.2421,-1.5571,0
+CHK00142,DOC022,PAY,Pay & benefits,Variable Pay & Bonus,Markdown,Markdown,1,markup,256,340,Q2,summarization,0.5163,0.677,0.1607,0.6127,Refer to HR,1,-0.0957,-1.6132,-1.0719,0
+CHK00143,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,HTML,HTML,1,markup,433,576,Q4-long,summarization,0.5331,0.936,0.4029,0.7748,Refer to HR,1,1.222,-1.4955,1.133,0
+CHK00144,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,HTML,HTML,1,markup,195,259,Q2,procedural,0.5234,0.626,0.1026,0.585,Refer to HR,1,-0.5498,-1.5635,-1.5061,0
+CHK00145,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,Markdown,Markdown,1,markup,408,543,Q4-long,analytical,0.9184,0.674,-0.2444,0.7718,Refer to HR,1,1.0359,1.2039,-1.0974,0
+CHK00146,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,HTML,Markdown,0,markup,362,481,Q3,procedural,0.6608,0.667,0.0062,0.6645,Refer to HR,1,0.6934,-0.6008,-1.157,0
+CHK00147,DOC025,LWP,Learning & workplace,Company Asset Usage,Markdown,Word,0,markup,191,254,Q2,factual,0.8368,0.96,0.1232,0.9107,Trusted,0,-0.5795,0.6322,1.3374,0
+CHK00148,DOC041,LVT,Leave & time,Leave Encashment Rules,Markdown,TXT,0,markup,261,347,Q3,comparative,0.6322,0.793,0.1608,0.7287,Refer to HR,1,-0.0584,-0.8012,-0.0843,0
+CHK00149,DOC037,PAY,Pay & benefits,Meal & Transport Benefits,PDF,Word,0,binary,75,100,Q1-short,analytical,0.5209,0.891,0.3701,0.743,Refer to HR,1,-1.4431,-1.581,0.7499,0
+CHK00150,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,PDF,PDF,1,binary,485,645,Q4-long,comparative,0.9965,0.987,-0.0095,0.9908,Trusted,0,1.6091,1.7511,1.5672,0
+CHK00151,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,TXT,Markdown,0,plain,216,287,Q2,summarization,0.7987,0.96,0.1613,0.8955,Trusted,0,-0.3934,0.3653,1.3374,0
+CHK00152,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,TXT,TXT,1,plain,318,423,Q3,procedural,0.8884,0.823,-0.0654,0.8492,Usable,0,0.3659,0.9937,0.171,0
+CHK00153,DOC020,LWP,Learning & workplace,Office Facilities & Seating,Word,Markdown,0,binary,490,652,Q4-long,analytical,0.9372,0.864,-0.0732,0.8933,Trusted,0,1.6463,1.3356,0.5201,0
+CHK00154,DOC020,LWP,Learning & workplace,Office Facilities & Seating,Markdown,Markdown,1,markup,266,354,Q3,analytical,0.5614,0.913,0.3516,0.7724,Refer to HR,1,-0.0212,-1.2973,0.9372,0
+CHK00155,DOC001,LVT,Leave & time,Leave Policy,HTML,HTML,1,markup,407,541,Q4-long,factual,0.8338,0.862,0.0282,0.8507,Trusted,0,1.0284,0.6112,0.5031,0
+CHK00156,DOC015,LWP,Learning & workplace,Mentorship Programme,Word,Word,1,binary,426,567,Q4-long,summarization,0.5978,0.791,0.1932,0.7137,Refer to HR,1,1.1699,-1.0422,-0.1014,0
+CHK00157,DOC004,LIF,Employee lifecycle,Onboarding & Probation,PDF,Markdown,0,binary,427,568,Q4-long,factual,0.8797,0.985,0.1053,0.9429,Trusted,0,1.1773,0.9328,1.5502,0
+CHK00158,DOC025,LWP,Learning & workplace,Company Asset Usage,Word,Word,1,binary,274,364,Q3,comparative,0.7055,0.743,0.0375,0.728,Usable,0,0.0383,-0.2877,-0.51,0
+CHK00159,DOC020,LWP,Learning & workplace,Office Facilities & Seating,PDF,Markdown,0,binary,238,317,Q2,analytical,0.7189,0.904,0.1851,0.83,Usable,0,-0.2297,-0.1938,0.8606,0
+CHK00160,DOC022,PAY,Pay & benefits,Variable Pay & Bonus,TXT,Markdown,0,plain,186,247,Q2,procedural,0.7387,0.635,-0.1037,0.6765,Refer to HR,1,-0.6168,-0.0551,-1.4294,0
+CHK00161,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,Markdown,HTML,0,markup,499,664,Q4-long,summarization,0.8733,0.998,0.1247,0.9481,Trusted,0,1.7133,0.888,1.6609,0
+CHK00162,DOC047,PAY,Pay & benefits,Employee Referral Bonus,HTML,HTML,1,markup,64,85,Q1-short,comparative,0.9886,0.883,-0.1056,0.9252,Trusted,0,-1.525,1.6958,0.6818,0
+CHK00163,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,PDF,TXT,0,binary,460,612,Q4-long,procedural,0.9325,0.782,-0.1505,0.8422,Usable,0,1.423,1.3027,-0.178,0
+CHK00164,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,PDF,Markdown,0,binary,379,504,Q3,summarization,0.5209,0.9,0.3791,0.7484,Refer to HR,1,0.82,-1.581,0.8266,0
+CHK00165,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,Markdown,Markdown,1,markup,385,512,Q3,procedural,0.9372,0.611,-0.3262,0.7415,Refer to HR,1,0.8647,1.3356,-1.6338,0
+CHK00166,DOC024,LIF,Employee lifecycle,Background Verification,TXT,HTML,0,plain,143,190,Q1-short,summarization,0.9684,0.727,-0.2414,0.8236,Usable,0,-0.9369,1.5542,-0.6462,0
+CHK00167,DOC047,PAY,Pay & benefits,Employee Referral Bonus,Markdown,HTML,0,markup,307,408,Q3,comparative,0.9666,0.912,-0.0546,0.9338,Trusted,0,0.284,1.5416,0.9287,0
+CHK00168,DOC047,PAY,Pay & benefits,Employee Referral Bonus,PDF,HTML,0,binary,175,233,Q2,summarization,0.9839,0.715,-0.2689,0.8226,Refer to HR,1,-0.6986,1.6628,-0.7484,0
+CHK00169,DOC010,LWP,Learning & workplace,Certification Sponsorship,HTML,Word,0,markup,52,69,Q1-short,factual,0.5146,0.953,0.4384,0.7776,Refer to HR,1,-1.6143,-1.6251,1.2778,0
+CHK00170,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,Markdown,TXT,0,markup,318,423,Q3,comparative,0.685,0.896,0.211,0.8116,Usable,0,0.3659,-0.4313,0.7925,0
+CHK00171,DOC025,LWP,Learning & workplace,Company Asset Usage,Word,Word,1,binary,216,287,Q2,procedural,0.5458,0.728,0.1822,0.6551,Refer to HR,1,-0.3934,-1.4065,-0.6377,0
+CHK00172,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",TXT,TXT,1,plain,218,290,Q2,procedural,0.7627,0.666,-0.0967,0.7047,Refer to HR,1,-0.3785,0.1131,-1.1655,0
+CHK00173,DOC017,PAY,Pay & benefits,Provident Fund & Gratuity,TXT,Markdown,0,plain,431,573,Q4-long,factual,0.7486,0.713,-0.0356,0.7272,Refer to HR,1,1.2071,0.0143,-0.7654,0
+CHK00174,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,HTML,Markdown,0,markup,322,428,Q3,comparative,0.5601,0.625,0.0649,0.599,Refer to HR,1,0.3957,-1.3064,-1.5146,0
+CHK00175,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,Word,TXT,0,binary,109,145,Q1-short,analytical,0.9212,0.608,-0.3132,0.7333,Refer to HR,1,-1.19,1.2235,-1.6593,0
+CHK00176,DOC025,LWP,Learning & workplace,Company Asset Usage,HTML,Word,0,markup,389,517,Q3,summarization,0.8622,0.783,-0.0792,0.8147,Usable,0,0.8944,0.8102,-0.1695,0
+CHK00177,DOC024,LIF,Employee lifecycle,Background Verification,PDF,HTML,0,binary,396,527,Q4-long,comparative,0.7198,0.724,0.0042,0.7223,Usable,0,0.9465,-0.1875,-0.6718,0
+CHK00178,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,HTML,TXT,0,markup,193,257,Q2,comparative,0.6336,0.73,0.0964,0.6914,Refer to HR,1,-0.5646,-0.7914,-0.6207,0
+CHK00179,DOC044,LIF,Employee lifecycle,Employment Contract Terms,HTML,HTML,1,markup,360,479,Q3,summarization,0.5682,0.699,0.1308,0.6467,Refer to HR,1,0.6785,-1.2496,-0.8846,0
+CHK00180,DOC049,LIF,Employee lifecycle,Retirement Policy,PDF,Markdown,0,binary,242,322,Q2,factual,0.5886,0.842,0.2534,0.7406,Refer to HR,1,-0.1999,-1.1067,0.3328,0
+CHK00181,DOC011,LVT,Leave & time,Working Hours & Attendance,TXT,PDF,0,plain,215,286,Q2,analytical,0.8862,0.68,-0.2062,0.7625,Refer to HR,1,-0.4009,0.9783,-1.0463,0
+CHK00182,DOC015,LWP,Learning & workplace,Mentorship Programme,Word,Word,1,binary,176,234,Q2,comparative,0.9746,0.68,-0.2946,0.7978,Refer to HR,1,-0.6912,1.5977,-1.0463,0
+CHK00183,DOC035,LWP,Learning & workplace,Employee Assistance Programme,PDF,HTML,0,binary,276,367,Q3,procedural,0.5266,0.874,0.3474,0.735,Refer to HR,1,0.0532,-1.5411,0.6052,0
+CHK00184,DOC021,LVT,Leave & time,Maternity & Paternity Leave,PDF,Markdown,0,binary,218,290,Q2,factual,0.6813,0.964,0.2827,0.8509,Usable,0,-0.3785,-0.4572,1.3714,0
+CHK00185,DOC017,PAY,Pay & benefits,Provident Fund & Gratuity,PDF,Markdown,0,binary,323,430,Q3,factual,0.8132,0.989,0.1758,0.9187,Trusted,0,0.4031,0.4669,1.5842,0
+CHK00186,DOC021,LVT,Leave & time,Maternity & Paternity Leave,TXT,Markdown,0,plain,323,430,Q3,analytical,0.8137,0.87,0.0563,0.8475,Trusted,0,0.4031,0.4704,0.5712,0
+CHK00187,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,PDF,Word,0,binary,471,626,Q4-long,analytical,0.7516,0.954,0.2024,0.873,Trusted,0,1.5049,0.0353,1.2863,0
+CHK00188,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,HTML,TXT,0,markup,456,606,Q4-long,factual,0.7858,0.848,0.0622,0.8231,Usable,0,1.3932,0.2749,0.3839,0
+CHK00189,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,Word,TXT,0,binary,315,419,Q3,procedural,0.7507,0.666,-0.0847,0.6999,Refer to HR,1,0.3436,0.029,-1.1655,0
+CHK00190,DOC041,LVT,Leave & time,Leave Encashment Rules,TXT,TXT,1,plain,230,306,Q2,analytical,0.7113,0.655,-0.0563,0.6775,Refer to HR,1,-0.2892,-0.247,-1.2592,0
+CHK00191,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,HTML,Markdown,0,markup,241,321,Q2,procedural,0.7915,0.7,-0.0915,0.7366,Refer to HR,1,-0.2073,0.3149,-0.8761,0
+CHK00192,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,PDF,HTML,0,binary,228,303,Q2,comparative,0.6792,0.838,0.1588,0.7745,Usable,0,-0.3041,-0.4719,0.2987,0
+CHK00193,DOC008,CMP,Conduct & compliance,Code of Conduct & Ethics,TXT,TXT,1,plain,326,434,Q3,summarization,0.7835,0.609,-0.1745,0.6788,Refer to HR,1,0.4254,0.2588,-1.6508,0
+CHK00194,DOC011,LVT,Leave & time,Working Hours & Attendance,Word,PDF,0,binary,68,90,Q1-short,factual,0.53,0.821,0.291,0.7046,Refer to HR,1,-1.4952,-1.5172,0.154,0
+CHK00195,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,PDF,HTML,0,binary,495,658,Q4-long,comparative,0.6285,0.709,0.0805,0.6768,Refer to HR,1,1.6835,-0.8271,-0.7995,0
+CHK00196,DOC029,LIF,Employee lifecycle,Exit Interview Guidelines,TXT,TXT,1,plain,411,547,Q4-long,analytical,0.7455,0.678,-0.0675,0.705,Refer to HR,1,1.0582,-0.0074,-1.0634,0
+CHK00197,DOC020,LWP,Learning & workplace,Office Facilities & Seating,Markdown,Markdown,1,markup,380,505,Q3,factual,0.7791,0.974,0.1949,0.896,Trusted,0,0.8274,0.228,1.4565,0
+CHK00198,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,TXT,Markdown,0,plain,100,133,Q1-short,summarization,0.7563,0.794,0.0377,0.7789,Usable,0,-1.257,0.0682,-0.0758,0
+CHK00199,DOC011,LVT,Leave & time,Working Hours & Attendance,PDF,PDF,1,binary,115,153,Q1-short,summarization,0.8932,0.763,-0.1302,0.8151,Usable,0,-1.1453,1.0274,-0.3397,0
+CHK00200,DOC033,CMP,Conduct & compliance,Social Media Policy,PDF,HTML,0,binary,85,113,Q1-short,procedural,0.5954,0.735,0.1396,0.6792,Refer to HR,1,-1.3686,-1.059,-0.5781,0
+CHK00201,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,HTML,Markdown,0,markup,156,207,Q2,factual,0.7386,0.81,0.0714,0.7814,Usable,0,-0.8401,-0.0558,0.0604,0
+CHK00202,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,TXT,HTML,0,plain,216,287,Q2,analytical,0.838,0.932,0.094,0.8944,Trusted,0,-0.3934,0.6406,1.099,0
+CHK00203,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,Markdown,HTML,0,markup,184,245,Q2,comparative,0.8714,0.874,0.0026,0.873,Trusted,0,-0.6316,0.8746,0.6052,0
+CHK00204,DOC015,LWP,Learning & workplace,Mentorship Programme,HTML,Word,0,markup,343,456,Q3,procedural,0.5969,0.626,0.0291,0.6144,Refer to HR,1,0.552,-1.0485,-1.5061,0
+CHK00205,DOC017,PAY,Pay & benefits,Provident Fund & Gratuity,HTML,Markdown,0,markup,430,572,Q4-long,summarization,0.719,0.845,0.126,0.7946,Usable,0,1.1996,-0.1931,0.3583,0
+CHK00206,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,PDF,PDF,1,binary,103,137,Q1-short,summarization,0.7407,0.735,-0.0057,0.7373,Usable,0,-1.2346,-0.0411,-0.5781,0
+CHK00207,DOC012,PAY,Pay & benefits,Health Insurance & Wellness,Markdown,Markdown,1,markup,388,516,Q3,factual,0.7303,0.948,0.2177,0.8609,Usable,0,0.887,-0.1139,1.2352,0
+CHK00208,DOC026,LVT,Leave & time,Compensatory Off & Overtime,PDF,Markdown,0,binary,291,387,Q3,analytical,0.9576,0.772,-0.1856,0.8462,Usable,0,0.1649,1.4786,-0.2631,0
+CHK00209,DOC038,CMP,Conduct & compliance,Disciplinary Action Procedure,Markdown,Markdown,1,markup,301,400,Q3,factual,0.7503,0.701,-0.0493,0.7207,Refer to HR,1,0.2393,0.0262,-0.8676,0
+CHK00210,DOC037,PAY,Pay & benefits,Meal & Transport Benefits,Word,Word,1,binary,433,576,Q4-long,factual,0.8543,0.6,-0.2543,0.7017,Refer to HR,1,1.222,0.7548,-1.7274,0
+CHK00211,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,Word,Word,1,binary,169,225,Q2,factual,0.8889,0.719,-0.1699,0.787,Refer to HR,1,-0.7433,0.9972,-0.7143,0
+CHK00212,DOC037,PAY,Pay & benefits,Meal & Transport Benefits,PDF,Word,0,binary,229,305,Q2,factual,0.745,0.876,0.131,0.8236,Usable,0,-0.2967,-0.0109,0.6223,0
+CHK00213,DOC049,LIF,Employee lifecycle,Retirement Policy,PDF,Markdown,0,binary,472,628,Q4-long,summarization,0.9152,0.825,-0.0902,0.8611,Usable,0,1.5123,1.1815,0.1881,0
+CHK00214,DOC038,CMP,Conduct & compliance,Disciplinary Action Procedure,Markdown,Markdown,1,markup,310,412,Q3,analytical,0.8955,0.764,-0.1315,0.8166,Usable,0,0.3063,1.0435,-0.3312,0
+CHK00215,DOC044,LIF,Employee lifecycle,Employment Contract Terms,TXT,HTML,0,plain,103,137,Q1-short,factual,0.797,0.808,0.011,0.8036,Usable,0,-1.2346,0.3534,0.0433,0
+CHK00216,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,Word,Word,1,binary,442,588,Q4-long,summarization,0.5845,0.906,0.3215,0.7774,Refer to HR,1,1.289,-1.1354,0.8776,0
+CHK00217,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,Markdown,Markdown,1,markup,388,516,Q3,factual,0.902,0.656,-0.246,0.7544,Refer to HR,1,0.887,1.089,-1.2507,0
+CHK00218,DOC020,LWP,Learning & workplace,Office Facilities & Seating,TXT,Markdown,0,plain,140,186,Q1-short,procedural,0.5216,0.954,0.4324,0.781,Refer to HR,1,-0.9592,-1.5761,1.2863,0
+CHK00219,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,Word,HTML,0,binary,478,636,Q4-long,summarization,0.8665,0.65,-0.2165,0.7366,Refer to HR,1,1.557,0.8403,-1.3017,0
+CHK00220,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,Markdown,Markdown,1,markup,162,215,Q2,comparative,0.8095,0.826,0.0165,0.8194,Usable,0,-0.7954,0.441,0.1966,0
+CHK00221,DOC036,LVT,Leave & time,Shift Allowance & Night Work,Word,TXT,0,binary,66,88,Q1-short,analytical,0.9434,0.617,-0.3264,0.7476,Refer to HR,1,-1.5101,1.3791,-1.5827,0
+CHK00222,DOC010,LWP,Learning & workplace,Certification Sponsorship,Word,Word,1,binary,181,241,Q2,comparative,0.6295,0.923,0.2935,0.8056,Refer to HR,1,-0.654,-0.8201,1.0224,0
+CHK00223,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,HTML,TXT,0,markup,62,82,Q1-short,comparative,0.9041,0.605,-0.2991,0.7246,Refer to HR,1,-1.5398,1.1037,-1.6848,0
+CHK00224,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,HTML,TXT,0,markup,403,536,Q4-long,factual,0.6173,0.947,0.3297,0.8151,Refer to HR,1,0.9986,-0.9056,1.2267,0
+CHK00225,DOC017,PAY,Pay & benefits,Provident Fund & Gratuity,Markdown,Markdown,1,markup,498,662,Q4-long,procedural,0.6686,0.879,0.2104,0.7948,Usable,0,1.7059,-0.5462,0.6478,0
+CHK00226,DOC042,PAY,Pay & benefits,Salary Advance & Loans,PDF,PDF,1,binary,160,213,Q2,procedural,0.8612,0.606,-0.2552,0.7081,Refer to HR,1,-0.8103,0.8032,-1.6763,0
+CHK00227,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,Markdown,Markdown,1,markup,348,463,Q3,analytical,0.7933,0.935,0.1417,0.8783,Trusted,0,0.5892,0.3275,1.1245,0
+CHK00228,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,Word,HTML,0,binary,441,587,Q4-long,analytical,0.5791,0.941,0.3619,0.7962,Refer to HR,1,1.2815,-1.1732,1.1756,0
+CHK00229,DOC043,CMP,Conduct & compliance,Equal Opportunity & Anti-Discrimination,PDF,PDF,1,binary,260,346,Q3,procedural,0.5916,0.847,0.2554,0.7448,Refer to HR,1,-0.0659,-1.0857,0.3754,0
+CHK00230,DOC021,LVT,Leave & time,Maternity & Paternity Leave,Word,Markdown,0,binary,247,329,Q2,summarization,0.5474,0.787,0.2396,0.6912,Refer to HR,1,-0.1627,-1.3953,-0.1354,0
+CHK00231,DOC037,PAY,Pay & benefits,Meal & Transport Benefits,Markdown,Word,0,markup,345,459,Q3,analytical,0.6402,0.602,-0.0382,0.6173,Refer to HR,1,0.5669,-0.7452,-1.7104,0
+CHK00232,DOC026,LVT,Leave & time,Compensatory Off & Overtime,HTML,Markdown,0,markup,452,601,Q4-long,summarization,0.9797,0.64,-0.3397,0.7759,Refer to HR,1,1.3634,1.6334,-1.3869,0
+CHK00233,DOC022,PAY,Pay & benefits,Variable Pay & Bonus,Word,Markdown,0,binary,461,613,Q4-long,factual,0.7079,0.76,0.0521,0.7392,Usable,0,1.4304,-0.2709,-0.3653,0
+CHK00234,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,Markdown,Markdown,1,markup,442,588,Q4-long,comparative,0.5439,0.983,0.4391,0.8074,Refer to HR,1,1.289,-1.4199,1.5332,0
+CHK00235,DOC037,PAY,Pay & benefits,Meal & Transport Benefits,Word,Word,1,binary,488,649,Q4-long,procedural,0.9833,0.606,-0.3773,0.7569,Refer to HR,1,1.6314,1.6586,-1.6763,0
+CHK00236,DOC001,LVT,Leave & time,Leave Policy,PDF,HTML,0,binary,391,520,Q3,comparative,0.8651,0.667,-0.1981,0.7462,Refer to HR,1,0.9093,0.8305,-1.157,0
+CHK00237,DOC024,LIF,Employee lifecycle,Background Verification,Markdown,HTML,0,markup,242,322,Q2,analytical,0.8656,0.781,-0.0846,0.8148,Usable,0,-0.1999,0.834,-0.1865,0
+CHK00238,DOC011,LVT,Leave & time,Working Hours & Attendance,HTML,PDF,0,markup,237,315,Q2,comparative,0.5422,0.951,0.4088,0.7875,Refer to HR,1,-0.2371,-1.4318,1.2607,0
+CHK00239,DOC047,PAY,Pay & benefits,Employee Referral Bonus,HTML,HTML,1,markup,60,80,Q1-short,factual,0.6637,0.625,-0.0387,0.6405,Refer to HR,1,-1.5547,-0.5805,-1.5146,0
+CHK00240,DOC041,LVT,Leave & time,Leave Encashment Rules,PDF,TXT,0,binary,200,266,Q2,factual,0.5026,0.711,0.2084,0.6276,Refer to HR,1,-0.5125,-1.7092,-0.7824,0
+CHK00241,DOC041,LVT,Leave & time,Leave Encashment Rules,HTML,TXT,0,markup,194,258,Q2,analytical,0.9294,0.866,-0.0634,0.8914,Trusted,0,-0.5572,1.281,0.5371,0
+CHK00242,DOC025,LWP,Learning & workplace,Company Asset Usage,TXT,Word,0,plain,446,593,Q4-long,analytical,0.8294,0.7,-0.1294,0.7518,Refer to HR,1,1.3188,0.5804,-0.8761,0
+CHK00243,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,PDF,TXT,0,binary,179,238,Q2,summarization,0.9489,0.843,-0.1059,0.8854,Usable,0,-0.6689,1.4176,0.3413,0
+CHK00244,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,Markdown,HTML,0,markup,419,557,Q4-long,procedural,0.8248,0.754,-0.0708,0.7823,Usable,0,1.1178,0.5482,-0.4164,0
+CHK00245,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,TXT,HTML,0,plain,218,290,Q2,procedural,0.9152,0.868,-0.0472,0.8869,Trusted,0,-0.3785,1.1815,0.5541,0
+CHK00246,DOC026,LVT,Leave & time,Compensatory Off & Overtime,Word,Markdown,0,binary,195,259,Q2,factual,0.664,0.64,-0.024,0.6496,Refer to HR,1,-0.5498,-0.5784,-1.3869,0
+CHK00247,DOC036,LVT,Leave & time,Shift Allowance & Night Work,PDF,TXT,0,binary,84,112,Q1-short,summarization,0.669,0.834,0.165,0.768,Usable,0,-1.3761,-0.5434,0.2647,0
+CHK00248,DOC046,LVT,Leave & time,Bereavement & Emergency Leave,Word,HTML,0,binary,458,609,Q4-long,factual,0.8726,0.954,0.0814,0.9214,Trusted,0,1.4081,0.883,1.2863,0
+CHK00249,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",TXT,TXT,1,plain,223,297,Q2,summarization,0.5115,0.752,0.2405,0.6558,Refer to HR,1,-0.3413,-1.6469,-0.4334,0
+CHK00250,DOC035,LWP,Learning & workplace,Employee Assistance Programme,Word,HTML,0,binary,435,579,Q4-long,factual,0.8354,0.655,-0.1804,0.7272,Refer to HR,1,1.2369,0.6224,-1.2592,0
+CHK00251,DOC012,PAY,Pay & benefits,Health Insurance & Wellness,TXT,Markdown,0,plain,61,81,Q1-short,comparative,0.7292,0.744,0.0148,0.7381,Usable,0,-1.5473,-0.1216,-0.5015,0
+CHK00252,DOC021,LVT,Leave & time,Maternity & Paternity Leave,Markdown,Markdown,1,markup,332,442,Q3,analytical,0.7083,0.619,-0.0893,0.6547,Refer to HR,1,0.4701,-0.2681,-1.5657,0
+CHK00253,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,HTML,Word,0,markup,78,104,Q1-short,analytical,0.6591,0.623,-0.0361,0.6374,Refer to HR,1,-1.4207,-0.6128,-1.5316,0
+CHK00254,DOC041,LVT,Leave & time,Leave Encashment Rules,PDF,TXT,0,binary,357,475,Q3,comparative,0.5874,0.615,0.0276,0.604,Refer to HR,1,0.6562,-1.1151,-1.5997,0
+CHK00255,DOC032,PAY,Pay & benefits,Relocation Assistance,PDF,PDF,1,binary,360,479,Q3,factual,0.5981,0.995,0.3969,0.8362,Refer to HR,1,0.6785,-1.0401,1.6353,0
+CHK00256,DOC004,LIF,Employee lifecycle,Onboarding & Probation,Markdown,Markdown,1,markup,376,500,Q3,analytical,0.5165,0.885,0.3685,0.7376,Refer to HR,1,0.7977,-1.6118,0.6989,0
+CHK00257,DOC043,CMP,Conduct & compliance,Equal Opportunity & Anti-Discrimination,TXT,PDF,0,plain,433,576,Q4-long,factual,0.6112,0.723,0.1118,0.6783,Refer to HR,1,1.222,-0.9483,-0.6803,0
+CHK00258,DOC032,PAY,Pay & benefits,Relocation Assistance,TXT,PDF,0,plain,231,307,Q2,procedural,0.8833,0.843,-0.0403,0.8591,Usable,0,-0.2818,0.958,0.3413,0
+CHK00259,DOC045,LWP,Learning & workplace,Rewards & Recognition,Word,HTML,0,binary,115,153,Q1-short,summarization,0.609,0.701,0.092,0.6642,Refer to HR,1,-1.1453,-0.9638,-0.8676,0
+CHK00260,DOC020,LWP,Learning & workplace,Office Facilities & Seating,TXT,Markdown,0,plain,101,134,Q1-short,summarization,0.6119,0.987,0.3751,0.837,Refer to HR,1,-1.2495,-0.9434,1.5672,0
+CHK00261,DOC021,LVT,Leave & time,Maternity & Paternity Leave,Markdown,Markdown,1,markup,337,448,Q3,summarization,0.5638,0.794,0.2302,0.7019,Refer to HR,1,0.5073,-1.2804,-0.0758,0
+CHK00262,DOC024,LIF,Employee lifecycle,Background Verification,HTML,HTML,1,markup,450,598,Q4-long,comparative,0.6229,0.75,0.1271,0.6992,Refer to HR,1,1.3485,-0.8664,-0.4504,0
+CHK00263,DOC026,LVT,Leave & time,Compensatory Off & Overtime,TXT,Markdown,0,plain,432,575,Q4-long,analytical,0.5587,0.655,0.0963,0.6165,Refer to HR,1,1.2145,-1.3162,-1.2592,0
+CHK00264,DOC031,LVT,Leave & time,Sabbatical & Career Break,Markdown,Markdown,1,markup,498,662,Q4-long,analytical,0.9152,0.979,0.0638,0.9535,Trusted,0,1.7059,1.1815,1.4991,0
+CHK00265,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,Markdown,Markdown,1,markup,64,85,Q1-short,comparative,0.5601,0.996,0.4359,0.8216,Refer to HR,1,-1.525,-1.3064,1.6438,0
+CHK00266,DOC015,LWP,Learning & workplace,Mentorship Programme,Word,Word,1,binary,246,327,Q2,comparative,0.5011,0.877,0.3759,0.7266,Refer to HR,1,-0.1701,-1.7197,0.6308,0
+CHK00267,DOC005,LWP,Learning & workplace,Learning & Development Policy,HTML,HTML,1,markup,91,121,Q1-short,summarization,0.5431,0.909,0.3659,0.7626,Refer to HR,1,-1.324,-1.4255,0.9032,0
+CHK00268,DOC047,PAY,Pay & benefits,Employee Referral Bonus,HTML,HTML,1,markup,215,286,Q2,procedural,0.8157,0.941,0.1253,0.8909,Trusted,0,-0.4009,0.4844,1.1756,0
+CHK00269,DOC046,LVT,Leave & time,Bereavement & Emergency Leave,Word,HTML,0,binary,370,492,Q3,procedural,0.5788,0.654,0.0752,0.6239,Refer to HR,1,0.753,-1.1753,-1.2677,0
+CHK00270,DOC032,PAY,Pay & benefits,Relocation Assistance,Markdown,PDF,0,markup,81,108,Q1-short,factual,0.7784,0.951,0.1726,0.882,Trusted,0,-1.3984,0.2231,1.2607,0
+CHK00271,DOC015,LWP,Learning & workplace,Mentorship Programme,PDF,Word,0,binary,61,81,Q1-short,factual,0.7551,0.637,-0.1181,0.6842,Refer to HR,1,-1.5473,0.0598,-1.4124,0
+CHK00272,DOC029,LIF,Employee lifecycle,Exit Interview Guidelines,TXT,TXT,1,plain,82,109,Q1-short,summarization,0.5372,0.908,0.3708,0.7597,Refer to HR,1,-1.391,-1.4668,0.8947,0
+CHK00273,DOC005,LWP,Learning & workplace,Learning & Development Policy,Markdown,HTML,0,markup,166,221,Q2,procedural,0.605,0.906,0.301,0.7856,Refer to HR,1,-0.7656,-0.9918,0.8776,0
+CHK00274,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,HTML,HTML,1,markup,110,146,Q1-short,procedural,0.933,0.687,-0.246,0.7854,Refer to HR,1,-1.1825,1.3062,-0.9868,0
+CHK00275,DOC020,LWP,Learning & workplace,Office Facilities & Seating,PDF,Markdown,0,binary,111,148,Q1-short,analytical,0.7721,0.733,-0.0391,0.7486,Usable,0,-1.1751,0.1789,-0.5951,0
+CHK00276,DOC045,LWP,Learning & workplace,Rewards & Recognition,Markdown,HTML,0,markup,163,217,Q2,summarization,0.7786,0.748,-0.0306,0.7602,Usable,0,-0.788,0.2245,-0.4674,0
+CHK00277,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,Markdown,HTML,0,markup,419,557,Q4-long,summarization,0.7683,0.854,0.0857,0.8197,Trusted,0,1.1178,0.1523,0.435,0
+CHK00278,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,TXT,Markdown,0,plain,73,97,Q1-short,summarization,0.9378,0.988,0.0502,0.9679,Trusted,0,-1.458,1.3398,1.5757,0
+CHK00279,DOC045,LWP,Learning & workplace,Rewards & Recognition,Markdown,HTML,0,markup,456,606,Q4-long,analytical,0.8795,0.884,0.0045,0.8822,Trusted,0,1.3932,0.9314,0.6904,0
+CHK00280,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,HTML,HTML,1,markup,443,589,Q4-long,factual,0.6942,0.882,0.1878,0.8069,Usable,0,1.2964,-0.3668,0.6733,0
+CHK00281,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,TXT,Markdown,0,plain,440,585,Q4-long,summarization,0.8073,0.819,0.0117,0.8143,Usable,0,1.2741,0.4255,0.137,0
+CHK00282,DOC045,LWP,Learning & workplace,Rewards & Recognition,HTML,HTML,1,markup,282,375,Q3,summarization,0.9033,0.843,-0.0603,0.8671,Usable,0,0.0979,1.0981,0.3413,0
+CHK00283,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,HTML,HTML,1,markup,380,505,Q3,comparative,0.8206,0.61,-0.2106,0.6942,Refer to HR,1,0.8274,0.5187,-1.6423,0
+CHK00284,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,PDF,Word,0,binary,444,591,Q4-long,analytical,0.8763,0.914,0.0377,0.8989,Trusted,0,1.3039,0.909,0.9458,0
+CHK00285,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,PDF,PDF,1,binary,195,259,Q2,comparative,0.884,0.624,-0.26,0.728,Refer to HR,1,-0.5498,0.9629,-1.5231,0
+CHK00286,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,Markdown,HTML,0,markup,107,142,Q1-short,procedural,0.812,0.958,0.146,0.8996,Trusted,0,-1.2049,0.4585,1.3203,0
+CHK00287,DOC016,LVT,Leave & time,Holiday Calendar 2026,Markdown,PDF,0,markup,116,154,Q1-short,comparative,0.9781,0.957,-0.0211,0.9654,Trusted,0,-1.1379,1.6222,1.3118,0
+CHK00288,DOC004,LIF,Employee lifecycle,Onboarding & Probation,Word,Markdown,0,binary,282,375,Q3,factual,0.6004,0.785,0.1846,0.7112,Refer to HR,1,0.0979,-1.024,-0.1525,0
+CHK00289,DOC037,PAY,Pay & benefits,Meal & Transport Benefits,TXT,Word,0,plain,448,596,Q4-long,factual,0.654,0.747,0.093,0.7098,Usable,0,1.3336,-0.6485,-0.476,0
+CHK00290,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,Word,HTML,0,binary,318,423,Q3,summarization,0.7355,0.934,0.1985,0.8546,Usable,0,0.3659,-0.0775,1.116,0
+CHK00291,DOC009,LIF,Employee lifecycle,Performance Review & Appraisal,PDF,Markdown,0,binary,329,438,Q3,factual,0.64,0.895,0.255,0.793,Refer to HR,1,0.4478,-0.7466,0.784,0
+CHK00292,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,HTML,Markdown,0,markup,158,210,Q2,summarization,0.9989,0.738,-0.2609,0.8424,Usable,0,-0.8252,1.7679,-0.5526,0
+CHK00293,DOC010,LWP,Learning & workplace,Certification Sponsorship,Markdown,Word,0,markup,453,602,Q4-long,procedural,0.7928,0.969,0.1762,0.8985,Trusted,0,1.3709,0.324,1.414,0
+CHK00294,DOC032,PAY,Pay & benefits,Relocation Assistance,Word,PDF,0,binary,79,105,Q1-short,comparative,0.7416,0.621,-0.1206,0.6692,Refer to HR,1,-1.4133,-0.0348,-1.5486,0
+CHK00295,DOC038,CMP,Conduct & compliance,Disciplinary Action Procedure,TXT,Markdown,0,plain,156,207,Q2,comparative,0.8208,0.796,-0.0248,0.8059,Usable,0,-0.8401,0.5201,-0.0588,0
+CHK00296,DOC043,CMP,Conduct & compliance,Equal Opportunity & Anti-Discrimination,PDF,PDF,1,binary,80,106,Q1-short,analytical,0.748,0.648,-0.1,0.688,Refer to HR,1,-1.4059,0.0101,-1.3188,0
+CHK00297,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,HTML,Markdown,0,markup,238,317,Q2,factual,0.7848,0.974,0.1892,0.8983,Trusted,0,-0.2297,0.2679,1.4565,0
+CHK00298,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,TXT,TXT,1,plain,70,93,Q1-short,comparative,0.785,0.615,-0.17,0.683,Refer to HR,1,-1.4803,0.2693,-1.5997,0
+CHK00299,DOC011,LVT,Leave & time,Working Hours & Attendance,TXT,PDF,0,plain,79,105,Q1-short,analytical,0.8167,0.944,0.1273,0.8931,Trusted,0,-1.4133,0.4914,1.2012,0
+CHK00300,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,PDF,Word,0,binary,337,448,Q3,procedural,0.8893,0.942,0.0527,0.9209,Trusted,0,0.5073,1.0,1.1841,0
+CHK00301,DOC008,CMP,Conduct & compliance,Code of Conduct & Ethics,PDF,TXT,0,binary,349,464,Q3,summarization,0.5482,0.995,0.4468,0.8163,Refer to HR,1,0.5967,-1.3897,1.6353,0
+CHK00302,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,Word,Word,1,binary,107,142,Q1-short,summarization,0.6131,0.603,-0.0101,0.607,Refer to HR,1,-1.2049,-0.935,-1.7019,0
+CHK00303,DOC011,LVT,Leave & time,Working Hours & Attendance,PDF,PDF,1,binary,426,567,Q4-long,comparative,0.9424,0.773,-0.1694,0.8408,Usable,0,1.1699,1.3721,-0.2546,0
+CHK00304,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,HTML,PDF,0,markup,131,174,Q1-short,factual,0.6921,0.891,0.1989,0.8114,Usable,0,-1.0262,-0.3816,0.7499,0
+CHK00305,DOC025,LWP,Learning & workplace,Company Asset Usage,Word,Word,1,binary,251,334,Q2,analytical,0.5127,0.909,0.3963,0.7505,Refer to HR,1,-0.1329,-1.6384,0.9032,0
+CHK00306,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,Markdown,HTML,0,markup,453,602,Q4-long,summarization,0.6849,0.891,0.2061,0.8086,Usable,0,1.3709,-0.432,0.7499,0
+CHK00307,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,Markdown,Markdown,1,markup,346,460,Q3,summarization,0.8348,0.661,-0.1738,0.7305,Refer to HR,1,0.5743,0.6182,-1.2081,0
+CHK00308,DOC046,LVT,Leave & time,Bereavement & Emergency Leave,HTML,HTML,1,markup,177,235,Q2,summarization,0.5095,0.807,0.2975,0.688,Refer to HR,1,-0.6838,-1.6609,0.0348,0
+CHK00309,DOC010,LWP,Learning & workplace,Certification Sponsorship,HTML,Word,0,markup,433,576,Q4-long,procedural,0.7204,0.781,0.0606,0.7568,Usable,0,1.222,-0.1833,-0.1865,0
+CHK00310,DOC012,PAY,Pay & benefits,Health Insurance & Wellness,PDF,Markdown,0,binary,125,166,Q1-short,analytical,0.9319,0.814,-0.1179,0.8612,Usable,0,-1.0709,1.2985,0.0944,0
+CHK00311,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,HTML,HTML,1,markup,130,173,Q1-short,summarization,0.6329,0.989,0.3561,0.8466,Refer to HR,1,-1.0336,-0.7963,1.5842,0
+CHK00312,DOC045,LWP,Learning & workplace,Rewards & Recognition,TXT,HTML,0,plain,199,265,Q2,factual,0.5369,0.732,0.1951,0.654,Refer to HR,1,-0.52,-1.4689,-0.6037,0
+CHK00313,DOC033,CMP,Conduct & compliance,Social Media Policy,HTML,HTML,1,markup,90,120,Q1-short,procedural,0.6945,0.938,0.2435,0.8406,Usable,0,-1.3314,-0.3647,1.1501,0
+CHK00314,DOC005,LWP,Learning & workplace,Learning & Development Policy,HTML,HTML,1,markup,279,371,Q3,summarization,0.7339,0.718,-0.0159,0.7244,Refer to HR,1,0.0756,-0.0887,-0.7228,0
+CHK00315,DOC041,LVT,Leave & time,Leave Encashment Rules,TXT,TXT,1,plain,282,375,Q3,comparative,0.9664,0.738,-0.2284,0.8294,Usable,0,0.0979,1.5402,-0.5526,0
+CHK00316,DOC017,PAY,Pay & benefits,Provident Fund & Gratuity,Markdown,Markdown,1,markup,491,653,Q4-long,summarization,0.5531,0.82,0.2669,0.7132,Refer to HR,1,1.6537,-1.3554,0.1455,0
+CHK00317,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",PDF,TXT,0,binary,468,622,Q4-long,procedural,0.9193,0.857,-0.0623,0.8819,Trusted,0,1.4825,1.2102,0.4605,0
+CHK00318,DOC016,LVT,Leave & time,Holiday Calendar 2026,PDF,PDF,1,binary,378,503,Q3,summarization,0.8177,0.619,-0.1987,0.6985,Refer to HR,1,0.8125,0.4984,-1.5657,0
+CHK00319,DOC047,PAY,Pay & benefits,Employee Referral Bonus,HTML,HTML,1,markup,110,146,Q1-short,procedural,0.6614,0.704,0.0426,0.687,Refer to HR,1,-1.1825,-0.5966,-0.842,0
+CHK00320,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",Word,TXT,0,binary,215,286,Q2,summarization,0.6396,0.842,0.2024,0.761,Refer to HR,1,-0.4009,-0.7494,0.3328,0
+CHK00321,DOC025,LWP,Learning & workplace,Company Asset Usage,TXT,Word,0,plain,167,222,Q2,procedural,0.5383,0.979,0.4407,0.8027,Refer to HR,1,-0.7582,-1.4591,1.4991,0
+CHK00322,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,TXT,HTML,0,plain,239,318,Q2,comparative,0.8684,0.954,0.0856,0.9198,Trusted,0,-0.2222,0.8536,1.2863,0
+CHK00323,DOC049,LIF,Employee lifecycle,Retirement Policy,PDF,Markdown,0,binary,169,225,Q2,summarization,0.5377,0.636,0.0983,0.5967,Refer to HR,1,-0.7433,-1.4633,-1.4209,0
+CHK00324,DOC029,LIF,Employee lifecycle,Exit Interview Guidelines,TXT,TXT,1,plain,473,629,Q4-long,comparative,0.695,0.956,0.261,0.8516,Usable,0,1.5197,-0.3612,1.3033,0
+CHK00325,DOC044,LIF,Employee lifecycle,Employment Contract Terms,HTML,HTML,1,markup,442,588,Q4-long,analytical,0.5375,0.947,0.4095,0.7832,Refer to HR,1,1.289,-1.4647,1.2267,0
+CHK00326,DOC035,LWP,Learning & workplace,Employee Assistance Programme,HTML,HTML,1,markup,413,549,Q4-long,comparative,0.7628,0.728,-0.0348,0.7419,Usable,0,1.0731,0.1138,-0.6377,0
+CHK00327,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,HTML,HTML,1,markup,350,466,Q3,factual,0.9328,0.656,-0.2768,0.7667,Refer to HR,1,0.6041,1.3048,-1.2507,0
+CHK00328,DOC049,LIF,Employee lifecycle,Retirement Policy,Markdown,Markdown,1,markup,167,222,Q2,analytical,0.5766,0.647,0.0704,0.6188,Refer to HR,1,-0.7582,-1.1908,-1.3273,0
+CHK00329,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,Word,Word,1,binary,289,384,Q3,procedural,0.9547,0.822,-0.1327,0.8751,Usable,0,0.15,1.4582,0.1625,0
+CHK00330,DOC033,CMP,Conduct & compliance,Social Media Policy,HTML,HTML,1,markup,470,625,Q4-long,factual,0.7883,0.701,-0.0873,0.7359,Refer to HR,1,1.4974,0.2924,-0.8676,0
+CHK00331,DOC036,LVT,Leave & time,Shift Allowance & Night Work,TXT,TXT,1,plain,370,492,Q3,comparative,0.8586,0.615,-0.2436,0.7124,Refer to HR,1,0.753,0.785,-1.5997,0
+CHK00332,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,HTML,Markdown,0,markup,237,315,Q2,analytical,0.7574,0.974,0.2166,0.8874,Trusted,0,-0.2371,0.0759,1.4565,0
+CHK00333,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,Word,Word,1,binary,351,467,Q3,factual,0.5741,0.891,0.3169,0.7642,Refer to HR,1,0.6115,-1.2083,0.7499,0
+CHK00334,DOC038,CMP,Conduct & compliance,Disciplinary Action Procedure,Markdown,Markdown,1,markup,171,227,Q2,factual,0.9697,0.928,-0.0417,0.9447,Trusted,0,-0.7284,1.5633,1.0649,0
+CHK00335,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,Word,HTML,0,binary,442,588,Q4-long,comparative,0.9053,0.985,0.0797,0.9531,Trusted,0,1.289,1.1121,1.5502,0
+CHK00336,DOC016,LVT,Leave & time,Holiday Calendar 2026,PDF,PDF,1,binary,150,200,Q1-short,procedural,0.7996,0.949,0.1494,0.8892,Trusted,0,-0.8848,0.3716,1.2437,0
+CHK00337,DOC029,LIF,Employee lifecycle,Exit Interview Guidelines,Markdown,TXT,0,markup,396,527,Q4-long,summarization,0.7382,0.792,0.0538,0.7705,Usable,0,0.9465,-0.0586,-0.0929,0
+CHK00338,DOC035,LWP,Learning & workplace,Employee Assistance Programme,Word,HTML,0,binary,205,273,Q2,summarization,0.8468,0.963,0.1162,0.9165,Trusted,0,-0.4753,0.7023,1.3629,0
+CHK00339,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,Word,Word,1,binary,219,291,Q2,factual,0.7161,0.963,0.2469,0.8642,Usable,0,-0.3711,-0.2134,1.3629,0
+CHK00340,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,Markdown,TXT,0,markup,50,66,Q1-short,analytical,0.6543,0.641,-0.0133,0.6463,Refer to HR,1,-1.6292,-0.6464,-1.3784,0
+CHK00341,DOC012,PAY,Pay & benefits,Health Insurance & Wellness,HTML,Markdown,0,markup,58,77,Q1-short,procedural,0.6034,0.642,0.0386,0.6266,Refer to HR,1,-1.5696,-1.003,-1.3698,0
+CHK00342,DOC047,PAY,Pay & benefits,Employee Referral Bonus,Markdown,HTML,0,markup,313,416,Q3,comparative,0.936,0.897,-0.039,0.9126,Trusted,0,0.3287,1.3272,0.801,0
+CHK00343,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,Markdown,Markdown,1,markup,277,368,Q3,comparative,0.7345,0.936,0.2015,0.8554,Usable,0,0.0607,-0.0845,1.133,0
+CHK00344,DOC009,LIF,Employee lifecycle,Performance Review & Appraisal,PDF,Markdown,0,binary,141,188,Q1-short,analytical,0.5342,0.845,0.3108,0.7207,Refer to HR,1,-0.9518,-1.4878,0.3583,0
+CHK00345,DOC021,LVT,Leave & time,Maternity & Paternity Leave,Markdown,Markdown,1,markup,441,587,Q4-long,procedural,0.8779,0.828,-0.0499,0.848,Usable,0,1.2815,0.9202,0.2136,0
+CHK00346,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,PDF,PDF,1,binary,467,621,Q4-long,summarization,0.9254,0.751,-0.1744,0.8208,Usable,0,1.4751,1.253,-0.4419,0
+CHK00347,DOC036,LVT,Leave & time,Shift Allowance & Night Work,TXT,TXT,1,plain,51,68,Q1-short,analytical,0.6082,0.793,0.1848,0.7191,Refer to HR,1,-1.6217,-0.9694,-0.0843,0
+CHK00348,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,TXT,Word,0,plain,201,267,Q2,procedural,0.9809,0.905,-0.0759,0.9354,Trusted,0,-0.5051,1.6418,0.8691,0
+CHK00349,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,TXT,TXT,1,plain,231,307,Q2,analytical,0.5518,0.662,0.1102,0.6179,Refer to HR,1,-0.2818,-1.3645,-1.1996,0
+CHK00350,DOC035,LWP,Learning & workplace,Employee Assistance Programme,HTML,HTML,1,markup,405,539,Q4-long,summarization,0.953,0.826,-0.127,0.8768,Usable,0,1.0135,1.4463,0.1966,0
+CHK00351,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",Word,TXT,0,binary,125,166,Q1-short,factual,0.7675,0.76,-0.0075,0.763,Usable,0,-1.0709,0.1467,-0.3653,0
+CHK00352,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,HTML,HTML,1,markup,134,178,Q1-short,analytical,0.6607,0.747,0.0863,0.7125,Usable,0,-1.0039,-0.6015,-0.476,0
+CHK00353,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,PDF,PDF,1,binary,364,484,Q3,procedural,0.9526,0.856,-0.0966,0.8946,Trusted,0,0.7083,1.4435,0.452,0
+CHK00354,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,Markdown,Word,0,markup,111,148,Q1-short,summarization,0.9971,0.979,-0.0181,0.9862,Trusted,0,-1.1751,1.7553,1.4991,0
+CHK00355,DOC022,PAY,Pay & benefits,Variable Pay & Bonus,HTML,Markdown,0,markup,387,515,Q3,analytical,0.6923,0.92,0.2277,0.8289,Usable,0,0.8795,-0.3802,0.9968,0
+CHK00356,DOC049,LIF,Employee lifecycle,Retirement Policy,Markdown,Markdown,1,markup,465,618,Q4-long,comparative,0.7101,0.978,0.2679,0.8708,Usable,0,1.4602,-0.2554,1.4906,0
+CHK00357,DOC046,LVT,Leave & time,Bereavement & Emergency Leave,PDF,HTML,0,binary,135,180,Q1-short,procedural,0.8412,0.952,0.1108,0.9077,Trusted,0,-0.9964,0.6631,1.2693,0
+CHK00358,DOC041,LVT,Leave & time,Leave Encashment Rules,Word,TXT,0,binary,113,150,Q1-short,analytical,0.9373,0.99,0.0527,0.9689,Trusted,0,-1.1602,1.3363,1.5928,0
+CHK00359,DOC031,LVT,Leave & time,Sabbatical & Career Break,Markdown,Markdown,1,markup,53,70,Q1-short,procedural,0.6174,0.739,0.1216,0.6904,Refer to HR,1,-1.6068,-0.9049,-0.5441,0
+CHK00360,DOC044,LIF,Employee lifecycle,Employment Contract Terms,Word,HTML,0,binary,60,80,Q1-short,comparative,0.9138,0.904,-0.0098,0.9079,Trusted,0,-1.5547,1.1717,0.8606,0
+CHK00361,DOC042,PAY,Pay & benefits,Salary Advance & Loans,PDF,PDF,1,binary,419,557,Q4-long,comparative,0.59,0.6,0.01,0.596,Refer to HR,1,1.1178,-1.0969,-1.7274,0
+CHK00362,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,Word,Markdown,0,binary,486,646,Q4-long,analytical,0.7146,0.933,0.2184,0.8456,Usable,0,1.6165,-0.2239,1.1075,0
+CHK00363,DOC025,LWP,Learning & workplace,Company Asset Usage,TXT,Word,0,plain,449,597,Q4-long,procedural,0.6905,0.713,0.0225,0.704,Refer to HR,1,1.3411,-0.3928,-0.7654,0
+CHK00364,DOC036,LVT,Leave & time,Shift Allowance & Night Work,PDF,TXT,0,binary,495,658,Q4-long,summarization,0.6683,0.758,0.0897,0.7221,Usable,0,1.6835,-0.5483,-0.3823,0
+CHK00365,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,Markdown,HTML,0,markup,451,600,Q4-long,summarization,0.76,0.731,-0.029,0.7426,Usable,0,1.356,0.0942,-0.6122,0
+CHK00366,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,Markdown,Word,0,markup,481,640,Q4-long,procedural,0.6885,0.973,0.2845,0.8592,Usable,0,1.5793,-0.4068,1.448,0
+CHK00367,DOC038,CMP,Conduct & compliance,Disciplinary Action Procedure,Markdown,Markdown,1,markup,297,395,Q3,factual,0.584,0.78,0.196,0.7016,Refer to HR,1,0.2096,-1.1389,-0.195,0
+CHK00368,DOC033,CMP,Conduct & compliance,Social Media Policy,HTML,HTML,1,markup,457,608,Q4-long,procedural,0.9914,0.914,-0.0774,0.945,Trusted,0,1.4006,1.7154,0.9458,0
+CHK00369,DOC027,PAY,Pay & benefits,Employee Stock Option Plan,Word,Word,1,binary,147,196,Q1-short,factual,0.718,0.656,-0.062,0.6808,Refer to HR,1,-0.9071,-0.2001,-1.2507,0
+CHK00370,DOC029,LIF,Employee lifecycle,Exit Interview Guidelines,TXT,TXT,1,plain,480,638,Q4-long,procedural,0.6084,0.946,0.3376,0.811,Refer to HR,1,1.5719,-0.968,1.2182,0
+CHK00371,DOC037,PAY,Pay & benefits,Meal & Transport Benefits,TXT,Word,0,plain,402,535,Q4-long,procedural,0.9756,0.963,-0.0126,0.968,Trusted,0,0.9912,1.6047,1.3629,0
+CHK00372,DOC045,LWP,Learning & workplace,Rewards & Recognition,PDF,HTML,0,binary,62,82,Q1-short,factual,0.7686,0.708,-0.0606,0.7322,Refer to HR,1,-1.5398,0.1544,-0.808,0
+CHK00373,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,HTML,Markdown,0,markup,157,209,Q2,factual,0.7639,0.876,0.1121,0.8312,Trusted,0,-0.8326,0.1215,0.6223,0
+CHK00374,DOC020,LWP,Learning & workplace,Office Facilities & Seating,PDF,Markdown,0,binary,376,500,Q3,factual,0.569,0.611,0.042,0.5942,Refer to HR,1,0.7977,-1.244,-1.6338,0
+CHK00375,DOC017,PAY,Pay & benefits,Provident Fund & Gratuity,Markdown,Markdown,1,markup,372,495,Q3,procedural,0.9474,0.923,-0.0244,0.9328,Trusted,0,0.7679,1.4071,1.0224,0
+CHK00376,DOC001,LVT,Leave & time,Leave Policy,HTML,HTML,1,markup,186,247,Q2,comparative,0.8695,0.785,-0.0845,0.8188,Usable,0,-0.6168,0.8613,-0.1525,0
+CHK00377,DOC044,LIF,Employee lifecycle,Employment Contract Terms,PDF,HTML,0,binary,229,305,Q2,factual,0.6326,0.728,0.0954,0.6898,Refer to HR,1,-0.2967,-0.7984,-0.6377,0
+CHK00378,DOC035,LWP,Learning & workplace,Employee Assistance Programme,PDF,HTML,0,binary,474,630,Q4-long,summarization,0.8147,0.783,-0.0317,0.7957,Usable,0,1.5272,0.4774,-0.1695,0
+CHK00379,DOC032,PAY,Pay & benefits,Relocation Assistance,TXT,PDF,0,plain,86,114,Q1-short,factual,0.7063,0.771,0.0647,0.7451,Usable,0,-1.3612,-0.2821,-0.2716,0
+CHK00380,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,HTML,Word,0,markup,119,158,Q1-short,analytical,0.7162,0.93,0.2138,0.8445,Usable,0,-1.1155,-0.2127,1.082,0
+CHK00381,DOC010,LWP,Learning & workplace,Certification Sponsorship,Word,Word,1,binary,226,301,Q2,comparative,0.5505,0.996,0.4455,0.8178,Refer to HR,1,-0.319,-1.3736,1.6438,0
+CHK00382,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,Markdown,HTML,0,markup,106,141,Q1-short,summarization,0.5654,0.748,0.1826,0.675,Refer to HR,1,-1.2123,-1.2692,-0.4674,0
+CHK00383,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,HTML,HTML,1,markup,165,219,Q2,procedural,0.9222,0.613,-0.3092,0.7367,Refer to HR,1,-0.7731,1.2305,-1.6167,0
+CHK00384,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,Word,PDF,0,binary,293,390,Q3,procedural,0.888,0.971,0.083,0.9378,Trusted,0,0.1798,0.9909,1.431,0
+CHK00385,DOC024,LIF,Employee lifecycle,Background Verification,HTML,HTML,1,markup,314,418,Q3,factual,0.8444,0.645,-0.1994,0.7248,Refer to HR,1,0.3361,0.6855,-1.3443,0
+CHK00386,DOC047,PAY,Pay & benefits,Employee Referral Bonus,Markdown,HTML,0,markup,338,450,Q3,factual,0.6454,0.845,0.1996,0.7652,Refer to HR,1,0.5148,-0.7087,0.3583,0
+CHK00387,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,Markdown,TXT,0,markup,98,130,Q1-short,procedural,0.8616,0.88,0.0184,0.8726,Trusted,0,-1.2719,0.806,0.6563,0
+CHK00388,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",TXT,TXT,1,plain,106,141,Q1-short,analytical,0.8114,0.803,-0.0084,0.8064,Usable,0,-1.2123,0.4543,0.0008,0
+CHK00389,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,HTML,HTML,1,markup,82,109,Q1-short,summarization,0.9764,0.979,0.0026,0.978,Trusted,0,-1.391,1.6103,1.4991,0
+CHK00390,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",TXT,TXT,1,plain,249,331,Q2,analytical,0.8382,0.968,0.1298,0.9161,Trusted,0,-0.1478,0.642,1.4055,0
+CHK00391,DOC005,LWP,Learning & workplace,Learning & Development Policy,TXT,HTML,0,plain,303,403,Q3,comparative,0.5204,0.835,0.3146,0.7092,Refer to HR,1,0.2542,-1.5845,0.2732,0
+CHK00392,DOC045,LWP,Learning & workplace,Rewards & Recognition,HTML,HTML,1,markup,84,112,Q1-short,factual,0.685,0.815,0.13,0.763,Usable,0,-1.3761,-0.4313,0.1029,0
+CHK00393,DOC006,LVT,Leave & time,Hybrid & Remote Work Policy,HTML,HTML,1,markup,456,606,Q4-long,comparative,0.95,0.635,-0.315,0.761,Refer to HR,1,1.3932,1.4253,-1.4294,0
+CHK00394,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,TXT,PDF,0,plain,158,210,Q2,factual,0.6611,0.837,0.1759,0.7666,Usable,0,-0.8252,-0.5987,0.2902,0
+CHK00395,DOC001,LVT,Leave & time,Leave Policy,TXT,HTML,0,plain,148,197,Q1-short,summarization,0.8341,0.609,-0.2251,0.699,Refer to HR,1,-0.8996,0.6133,-1.6508,0
+CHK00396,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,TXT,TXT,1,plain,383,509,Q3,procedural,0.5008,0.652,0.1512,0.5915,Refer to HR,1,0.8498,-1.7218,-1.2847,0
+CHK00397,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,PDF,HTML,0,binary,402,535,Q4-long,procedural,0.6947,0.71,0.0153,0.7039,Refer to HR,1,0.9912,-0.3633,-0.7909,0
+CHK00398,DOC031,LVT,Leave & time,Sabbatical & Career Break,PDF,Markdown,0,binary,432,575,Q4-long,summarization,0.6366,0.925,0.2884,0.8096,Refer to HR,1,1.2145,-0.7704,1.0394,0
+CHK00399,DOC026,LVT,Leave & time,Compensatory Off & Overtime,PDF,Markdown,0,binary,461,613,Q4-long,comparative,0.9724,0.705,-0.2674,0.812,Refer to HR,1,1.4304,1.5823,-0.8335,0
+CHK00400,DOC045,LWP,Learning & workplace,Rewards & Recognition,PDF,HTML,0,binary,277,368,Q3,factual,0.894,0.783,-0.111,0.8274,Usable,0,0.0607,1.033,-0.1695,0
+CHK00401,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,TXT,HTML,0,plain,282,375,Q3,procedural,0.5241,0.922,0.3979,0.7628,Refer to HR,1,0.0979,-1.5586,1.0139,0
+CHK00402,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,HTML,PDF,0,markup,131,174,Q1-short,factual,0.7436,0.695,-0.0486,0.7144,Refer to HR,1,-1.0262,-0.0207,-0.9186,0
+CHK00403,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,HTML,TXT,0,markup,433,576,Q4-long,factual,0.8804,0.829,-0.0514,0.8496,Usable,0,1.222,0.9377,0.2221,0
+CHK00404,DOC005,LWP,Learning & workplace,Learning & Development Policy,PDF,HTML,0,binary,251,334,Q2,procedural,0.7814,0.876,0.0946,0.8382,Trusted,0,-0.1329,0.2441,0.6223,0
+CHK00405,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,Word,Word,1,binary,296,394,Q3,comparative,0.5048,0.717,0.2122,0.6321,Refer to HR,1,0.2021,-1.6938,-0.7314,0
+CHK00406,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,PDF,TXT,0,binary,376,500,Q3,procedural,0.6947,0.895,0.2003,0.8149,Usable,0,0.7977,-0.3633,0.784,0
+CHK00407,DOC047,PAY,Pay & benefits,Employee Referral Bonus,HTML,HTML,1,markup,72,96,Q1-short,summarization,0.6198,0.686,0.0662,0.6595,Refer to HR,1,-1.4654,-0.8881,-0.9953,0
+CHK00408,DOC009,LIF,Employee lifecycle,Performance Review & Appraisal,Markdown,Markdown,1,markup,474,630,Q4-long,analytical,0.664,0.912,0.248,0.8128,Usable,0,1.5272,-0.5784,0.9287,0
+CHK00409,DOC004,LIF,Employee lifecycle,Onboarding & Probation,Word,Markdown,0,binary,493,656,Q4-long,analytical,0.8059,0.63,-0.1759,0.7004,Refer to HR,1,1.6686,0.4157,-1.472,0
+CHK00410,DOC046,LVT,Leave & time,Bereavement & Emergency Leave,TXT,HTML,0,plain,379,504,Q3,comparative,0.9244,0.687,-0.2374,0.782,Refer to HR,1,0.82,1.246,-0.9868,0
+CHK00411,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,Word,HTML,0,binary,198,263,Q2,summarization,0.8149,0.636,-0.1789,0.7076,Refer to HR,1,-0.5274,0.4788,-1.4209,0
+CHK00412,DOC046,LVT,Leave & time,Bereavement & Emergency Leave,HTML,HTML,1,markup,390,519,Q3,procedural,0.9512,0.944,-0.0072,0.9469,Trusted,0,0.9019,1.4337,1.2012,0
+CHK00413,DOC020,LWP,Learning & workplace,Office Facilities & Seating,Markdown,Markdown,1,markup,91,121,Q1-short,factual,0.8808,0.981,0.1002,0.9409,Trusted,0,-1.324,0.9405,1.5161,0
+CHK00414,DOC049,LIF,Employee lifecycle,Retirement Policy,Markdown,Markdown,1,markup,150,200,Q1-short,summarization,0.9094,0.967,0.0576,0.944,Trusted,0,-0.8848,1.1409,1.397,0
+CHK00415,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,Word,HTML,0,binary,130,173,Q1-short,summarization,0.7247,0.912,0.1873,0.8371,Usable,0,-1.0336,-0.1532,0.9287,0
+CHK00416,DOC039,LIF,Employee lifecycle,Internship Programme Guidelines,Markdown,Markdown,1,markup,269,358,Q3,factual,0.5782,0.845,0.2668,0.7383,Refer to HR,1,0.0011,-1.1795,0.3583,0
+CHK00417,DOC038,CMP,Conduct & compliance,Disciplinary Action Procedure,PDF,Markdown,0,binary,151,201,Q1-short,summarization,0.7998,0.746,-0.0538,0.7675,Usable,0,-0.8773,0.373,-0.4845,0
+CHK00418,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,TXT,Word,0,plain,215,286,Q2,summarization,0.9824,0.601,-0.3814,0.7536,Refer to HR,1,-0.4009,1.6523,-1.7189,0
+CHK00419,DOC010,LWP,Learning & workplace,Certification Sponsorship,Word,Word,1,binary,262,348,Q3,factual,0.8244,0.909,0.0846,0.8752,Trusted,0,-0.051,0.5454,0.9032,0
+CHK00420,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,TXT,TXT,1,plain,368,489,Q3,comparative,0.5545,0.792,0.2375,0.697,Refer to HR,1,0.7381,-1.3456,-0.0929,0
+CHK00421,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,HTML,HTML,1,markup,372,495,Q3,factual,0.8704,0.639,-0.2314,0.7316,Refer to HR,1,0.7679,0.8676,-1.3954,0
+CHK00422,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,TXT,Markdown,0,plain,56,74,Q1-short,procedural,0.9117,0.986,0.0743,0.9563,Trusted,0,-1.5845,1.157,1.5587,0
+CHK00423,DOC036,LVT,Leave & time,Shift Allowance & Night Work,Word,TXT,0,binary,499,664,Q4-long,factual,0.5661,0.806,0.2399,0.71,Refer to HR,1,1.7133,-1.2643,0.0263,0
+CHK00424,DOC049,LIF,Employee lifecycle,Retirement Policy,TXT,Markdown,0,plain,498,662,Q4-long,comparative,0.6909,0.891,0.2001,0.811,Usable,0,1.7059,-0.39,0.7499,0
+CHK00425,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,PDF,Word,0,binary,172,229,Q2,analytical,0.5018,0.966,0.4642,0.7803,Refer to HR,1,-0.721,-1.7148,1.3884,0
+CHK00426,DOC038,CMP,Conduct & compliance,Disciplinary Action Procedure,HTML,Markdown,0,markup,108,144,Q1-short,comparative,0.6807,0.962,0.2813,0.8495,Usable,0,-1.1974,-0.4614,1.3544,0
+CHK00427,DOC033,CMP,Conduct & compliance,Social Media Policy,Markdown,HTML,0,markup,427,568,Q4-long,summarization,0.7,0.808,0.108,0.7648,Usable,0,1.1773,-0.3262,0.0433,0
+CHK00428,DOC032,PAY,Pay & benefits,Relocation Assistance,PDF,PDF,1,binary,79,105,Q1-short,comparative,0.8127,0.758,-0.0547,0.7799,Usable,0,-1.4133,0.4634,-0.3823,0
+CHK00429,DOC026,LVT,Leave & time,Compensatory Off & Overtime,Markdown,Markdown,1,markup,249,331,Q2,comparative,0.8468,0.88,0.0332,0.8667,Trusted,0,-0.1478,0.7023,0.6563,0
+CHK00430,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",Word,TXT,0,binary,396,527,Q4-long,procedural,0.7779,0.794,0.0161,0.7876,Usable,0,0.9465,0.2196,-0.0758,0
+CHK00431,DOC016,LVT,Leave & time,Holiday Calendar 2026,Word,PDF,0,binary,287,382,Q3,factual,0.9871,0.811,-0.1761,0.8814,Usable,0,0.1351,1.6852,0.0689,0
+CHK00432,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",Markdown,TXT,0,markup,320,426,Q3,factual,0.8117,0.905,0.0933,0.8677,Trusted,0,0.3808,0.4564,0.8691,0
+CHK00433,DOC009,LIF,Employee lifecycle,Performance Review & Appraisal,TXT,Markdown,0,plain,327,435,Q3,procedural,0.9733,0.855,-0.1183,0.9023,Trusted,0,0.4329,1.5886,0.4435,0
+CHK00434,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,Markdown,PDF,0,markup,449,597,Q4-long,summarization,0.8834,0.778,-0.1054,0.8202,Usable,0,1.3411,0.9587,-0.212,0
+CHK00435,DOC040,LWP,Learning & workplace,Diversity & Inclusion Charter,Word,HTML,0,binary,226,301,Q2,summarization,0.6425,0.763,0.1205,0.7148,Refer to HR,1,-0.319,-0.7291,-0.3397,0
+CHK00436,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,Markdown,Markdown,1,markup,317,422,Q3,procedural,0.5162,0.894,0.3778,0.7429,Refer to HR,1,0.3584,-1.6139,0.7755,0
+CHK00437,DOC007,PAY,Pay & benefits,Travel & Expense Reimbursement,HTML,PDF,0,markup,414,551,Q4-long,analytical,0.6607,0.7,0.0393,0.6843,Refer to HR,1,1.0805,-0.6015,-0.8761,0
+CHK00438,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,PDF,HTML,0,binary,403,536,Q4-long,summarization,0.6157,0.654,0.0383,0.6387,Refer to HR,1,0.9986,-0.9168,-1.2677,0
+CHK00439,DOC010,LWP,Learning & workplace,Certification Sponsorship,TXT,Word,0,plain,161,214,Q2,procedural,0.6042,0.747,0.1428,0.6899,Refer to HR,1,-0.8029,-0.9974,-0.476,0
+CHK00440,DOC017,PAY,Pay & benefits,Provident Fund & Gratuity,Word,Markdown,0,binary,494,657,Q4-long,comparative,0.6701,0.696,0.0259,0.6856,Refer to HR,1,1.6761,-0.5357,-0.9101,0
+CHK00441,DOC006,LVT,Leave & time,Hybrid & Remote Work Policy,PDF,HTML,0,binary,212,282,Q2,summarization,0.554,0.774,0.22,0.686,Refer to HR,1,-0.4232,-1.3491,-0.2461,0
+CHK00442,DOC036,LVT,Leave & time,Shift Allowance & Night Work,Markdown,TXT,0,markup,286,380,Q3,summarization,0.7427,0.675,-0.0677,0.7021,Refer to HR,1,0.1277,-0.027,-1.0889,0
+CHK00443,DOC016,LVT,Leave & time,Holiday Calendar 2026,HTML,PDF,0,markup,340,452,Q3,analytical,0.7366,0.874,0.1374,0.819,Usable,0,0.5297,-0.0698,0.6052,0
+CHK00444,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,Markdown,TXT,0,markup,435,579,Q4-long,summarization,0.6819,0.856,0.1741,0.7864,Usable,0,1.2369,-0.453,0.452,0
+CHK00445,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",Markdown,TXT,0,markup,233,310,Q2,factual,0.664,0.631,-0.033,0.6442,Refer to HR,1,-0.2669,-0.5784,-1.4635,0
+CHK00446,DOC048,CMP,Conduct & compliance,Workplace Health & Safety,TXT,TXT,1,plain,91,121,Q1-short,comparative,0.8117,0.695,-0.1167,0.7417,Refer to HR,1,-1.324,0.4564,-0.9186,0
+CHK00447,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,TXT,TXT,1,plain,382,508,Q3,summarization,0.8139,0.865,0.0511,0.8446,Trusted,0,0.8423,0.4718,0.5286,0
+CHK00448,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,Markdown,Markdown,1,markup,426,567,Q4-long,procedural,0.7366,0.777,0.0404,0.7608,Usable,0,1.1699,-0.0698,-0.2206,0
+CHK00449,DOC032,PAY,Pay & benefits,Relocation Assistance,TXT,PDF,0,plain,259,344,Q3,procedural,0.6038,0.979,0.3752,0.8289,Refer to HR,1,-0.0733,-1.0002,1.4991,0
+CHK00450,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,HTML,HTML,1,markup,331,440,Q3,summarization,0.8552,0.776,-0.0792,0.8077,Usable,0,0.4627,0.7611,-0.2291,0
+CHK00451,DOC028,CMP,Conduct & compliance,Conflict of Interest Policy,TXT,Markdown,0,plain,88,117,Q1-short,comparative,0.5539,0.856,0.3021,0.7352,Refer to HR,1,-1.3463,-1.3498,0.452,0
+CHK00452,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,PDF,Markdown,0,binary,330,439,Q3,procedural,0.7347,0.942,0.2073,0.8591,Usable,0,0.4552,-0.0831,1.1841,0
+CHK00453,DOC016,LVT,Leave & time,Holiday Calendar 2026,TXT,PDF,0,plain,217,289,Q2,procedural,0.8058,0.992,0.1862,0.9175,Trusted,0,-0.386,0.415,1.6098,0
+CHK00454,DOC006,LVT,Leave & time,Hybrid & Remote Work Policy,TXT,HTML,0,plain,270,359,Q3,summarization,0.7557,0.979,0.2233,0.8897,Trusted,0,0.0086,0.064,1.4991,0
+CHK00455,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,Word,Word,1,binary,294,391,Q3,summarization,0.6494,0.698,0.0486,0.6786,Refer to HR,1,0.1872,-0.6807,-0.8931,0
+CHK00456,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,PDF,TXT,0,binary,403,536,Q4-long,factual,0.7991,0.962,0.1629,0.8968,Trusted,0,0.9986,0.3681,1.3544,0
+CHK00457,DOC026,LVT,Leave & time,Compensatory Off & Overtime,Markdown,Markdown,1,markup,159,211,Q2,factual,0.9472,0.816,-0.1312,0.8685,Usable,0,-0.8178,1.4057,0.1115,0
+CHK00458,DOC014,LIF,Employee lifecycle,"Resignation, Notice Period & Full-and-Final Settlement",HTML,TXT,0,markup,479,637,Q4-long,summarization,0.8913,0.75,-0.1413,0.8065,Usable,0,1.5644,1.0141,-0.4504,0
+CHK00459,DOC004,LIF,Employee lifecycle,Onboarding & Probation,Word,Markdown,0,binary,354,471,Q3,analytical,0.6643,0.81,0.1457,0.7517,Usable,0,0.6339,-0.5763,0.0604,0
+CHK00460,DOC015,LWP,Learning & workplace,Mentorship Programme,Word,Word,1,binary,424,564,Q4-long,summarization,0.64,0.812,0.172,0.7432,Refer to HR,1,1.155,-0.7466,0.0774,0
+CHK00461,DOC032,PAY,Pay & benefits,Relocation Assistance,PDF,PDF,1,binary,235,313,Q2,procedural,0.5237,0.882,0.3583,0.7387,Refer to HR,1,-0.252,-1.5614,0.6733,0
+CHK00462,DOC020,LWP,Learning & workplace,Office Facilities & Seating,Markdown,Markdown,1,markup,224,298,Q2,analytical,0.8086,0.799,-0.0096,0.8028,Usable,0,-0.3339,0.4347,-0.0333,0
+CHK00463,DOC012,PAY,Pay & benefits,Health Insurance & Wellness,PDF,Markdown,0,binary,274,364,Q3,comparative,0.8133,0.889,0.0757,0.8587,Trusted,0,0.0383,0.4676,0.7329,0
+CHK00464,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,Word,TXT,0,binary,433,576,Q4-long,factual,0.6501,0.889,0.2389,0.7934,Usable,0,1.222,-0.6758,0.7329,0
+CHK00465,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,PDF,TXT,0,binary,71,94,Q1-short,procedural,0.9782,0.918,-0.0602,0.9421,Trusted,0,-1.4728,1.6229,0.9798,0
+CHK00466,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,Word,Word,1,binary,74,98,Q1-short,summarization,0.8835,0.758,-0.1255,0.8082,Usable,0,-1.4505,0.9594,-0.3823,0
+CHK00467,DOC008,CMP,Conduct & compliance,Code of Conduct & Ethics,PDF,TXT,0,binary,250,332,Q2,comparative,0.6617,0.72,0.0583,0.6967,Usable,0,-0.1403,-0.5945,-0.7058,0
+CHK00468,DOC018,CMP,Conduct & compliance,Grievance & Whistleblower Policy,Word,TXT,0,binary,82,109,Q1-short,analytical,0.9628,0.771,-0.1918,0.8477,Usable,0,-1.391,1.515,-0.2716,0
+CHK00469,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,TXT,Word,0,plain,232,309,Q2,factual,0.8074,0.726,-0.0814,0.7586,Usable,0,-0.2743,0.4262,-0.6547,0
+CHK00470,DOC002,PAY,Pay & benefits,Payroll & Salary Structure,Word,HTML,0,binary,466,620,Q4-long,analytical,0.7274,0.878,0.1506,0.8178,Usable,0,1.4676,-0.1342,0.6393,0
+CHK00471,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,Markdown,Word,0,markup,256,340,Q2,procedural,0.8261,0.708,-0.1181,0.7552,Refer to HR,1,-0.0957,0.5573,-0.808,0
+CHK00472,DOC030,LWP,Learning & workplace,Business Travel Booking Guide,Markdown,HTML,0,markup,432,575,Q4-long,procedural,0.9592,0.904,-0.0552,0.9261,Trusted,0,1.2145,1.4898,0.8606,0
+CHK00473,DOC025,LWP,Learning & workplace,Company Asset Usage,TXT,Word,0,plain,349,464,Q3,factual,0.8465,0.938,0.0915,0.9014,Trusted,0,0.5967,0.7002,1.1501,0
+CHK00474,DOC026,LVT,Leave & time,Compensatory Off & Overtime,Markdown,Markdown,1,markup,98,130,Q1-short,factual,0.9736,0.72,-0.2536,0.8214,Usable,0,-1.2719,1.5907,-0.7058,0
+CHK00475,DOC001,LVT,Leave & time,Leave Policy,HTML,HTML,1,markup,211,281,Q2,factual,0.5247,0.613,0.0883,0.5777,Refer to HR,1,-0.4307,-1.5544,-1.6167,0
+CHK00476,DOC022,PAY,Pay & benefits,Variable Pay & Bonus,PDF,Markdown,0,binary,98,130,Q1-short,comparative,0.6387,0.869,0.2303,0.7769,Refer to HR,1,-1.2719,-0.7557,0.5627,0
+CHK00477,DOC013,CMP,Conduct & compliance,IT & Data Security Policy,PDF,Word,0,binary,51,68,Q1-short,factual,0.685,0.673,-0.012,0.6778,Refer to HR,1,-1.6217,-0.4313,-1.1059,0
+CHK00478,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,Word,Word,1,binary,57,76,Q1-short,comparative,0.951,0.729,-0.222,0.8178,Usable,0,-1.5771,1.4323,-0.6292,0
+CHK00479,DOC015,LWP,Learning & workplace,Mentorship Programme,PDF,Word,0,binary,316,420,Q3,summarization,0.6207,0.773,0.1523,0.7121,Refer to HR,1,0.351,-0.8818,-0.2546,0
+CHK00480,DOC025,LWP,Learning & workplace,Company Asset Usage,Word,Word,1,binary,93,124,Q1-short,summarization,0.9517,0.734,-0.2177,0.8211,Usable,0,-1.3091,1.4372,-0.5866,0
+CHK00481,DOC012,PAY,Pay & benefits,Health Insurance & Wellness,Word,Markdown,0,binary,214,285,Q2,analytical,0.9949,0.941,-0.0539,0.9626,Trusted,0,-0.4083,1.7399,1.1756,0
+CHK00482,DOC041,LVT,Leave & time,Leave Encashment Rules,Word,TXT,0,binary,465,618,Q4-long,analytical,0.8434,0.663,-0.1804,0.7352,Refer to HR,1,1.4602,0.6785,-1.1911,0
+CHK00483,DOC004,LIF,Employee lifecycle,Onboarding & Probation,TXT,Markdown,0,plain,113,150,Q1-short,procedural,0.8504,0.638,-0.2124,0.723,Refer to HR,1,-1.1602,0.7275,-1.4039,0
+CHK00484,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,Word,Markdown,0,binary,481,640,Q4-long,procedural,0.9605,0.982,0.0215,0.9734,Trusted,0,1.5793,1.4989,1.5247,0
+CHK00485,DOC034,LIF,Employee lifecycle,Rehire & Alumni Policy,Markdown,TXT,0,markup,341,454,Q3,factual,0.6095,0.668,0.0585,0.6446,Refer to HR,1,0.5371,-0.9603,-1.1485,0
+CHK00486,DOC015,LWP,Learning & workplace,Mentorship Programme,Markdown,Word,0,markup,309,411,Q3,procedural,0.8102,0.741,-0.0692,0.7687,Usable,0,0.2989,0.4459,-0.527,0
+CHK00487,DOC005,LWP,Learning & workplace,Learning & Development Policy,TXT,HTML,0,plain,339,451,Q3,factual,0.8785,0.97,0.0915,0.9334,Trusted,0,0.5222,0.9244,1.4225,0
+CHK00488,DOC008,CMP,Conduct & compliance,Code of Conduct & Ethics,HTML,TXT,0,markup,312,415,Q3,summarization,0.8747,0.65,-0.2247,0.7399,Refer to HR,1,0.3212,0.8978,-1.3017,0
+CHK00489,DOC003,CMP,Conduct & compliance,Prevention of Sexual Harassment (POSH) Policy,TXT,HTML,0,plain,178,237,Q2,analytical,0.7989,0.846,0.0471,0.8272,Usable,0,-0.6763,0.3667,0.3669,0
+CHK00490,DOC043,CMP,Conduct & compliance,Equal Opportunity & Anti-Discrimination,HTML,PDF,0,markup,86,114,Q1-short,summarization,0.8617,0.84,-0.0217,0.8487,Usable,0,-1.3612,0.8067,0.3158,0
+CHK00491,DOC023,CMP,Conduct & compliance,Anti-Bribery & Gifts Policy,HTML,Markdown,0,markup,253,336,Q2,analytical,0.7723,0.999,0.2267,0.9083,Trusted,0,-0.118,0.1803,1.6694,0
+CHK00492,DOC045,LWP,Learning & workplace,Rewards & Recognition,TXT,HTML,0,plain,291,387,Q3,analytical,0.539,0.928,0.389,0.7724,Refer to HR,1,0.1649,-1.4542,1.0649,0
+CHK00493,DOC021,LVT,Leave & time,Maternity & Paternity Leave,TXT,Markdown,0,plain,86,114,Q1-short,summarization,0.981,0.868,-0.113,0.9132,Trusted,0,-1.3612,1.6425,0.5541,0
+CHK00494,DOC050,LWP,Learning & workplace,HR Helpdesk SLA & Escalation Matrix,Markdown,Markdown,1,markup,193,257,Q2,analytical,0.7895,0.846,0.0565,0.8234,Usable,0,-0.5646,0.3008,0.3669,0
+CHK00495,DOC008,CMP,Conduct & compliance,Code of Conduct & Ethics,HTML,TXT,0,markup,139,185,Q1-short,analytical,0.7093,0.72,0.0107,0.7157,Usable,0,-0.9666,-0.2611,-0.7058,0
+CHK00496,DOC038,CMP,Conduct & compliance,Disciplinary Action Procedure,Word,Markdown,0,binary,334,444,Q3,procedural,0.783,0.693,-0.09,0.729,Refer to HR,1,0.485,0.2553,-0.9357,0
+CHK00497,DOC019,LIF,Employee lifecycle,Promotion & Internal Transfer,Markdown,Word,0,markup,74,98,Q1-short,procedural,0.5541,0.628,0.0739,0.5984,Refer to HR,1,-1.4505,-1.3484,-1.489,0
+CHK00498,DOC004,LIF,Employee lifecycle,Onboarding & Probation,Markdown,Markdown,1,markup,315,419,Q3,analytical,0.8653,0.86,-0.0053,0.8621,Trusted,0,0.3436,0.8319,0.486,0
+CHK00499,DOC047,PAY,Pay & benefits,Employee Referral Bonus,TXT,HTML,0,plain,83,110,Q1-short,comparative,0.7464,0.642,-0.1044,0.6838,Refer to HR,1,-1.3835,-0.0011,-1.3698,0
+CHK00500,DOC020,LWP,Learning & workplace,Office Facilities & Seating,PDF,Markdown,0,binary,80,106,Q1-short,analytical,0.6576,0.936,0.2784,0.8246,Usable,0,-1.4059,-0.6233,1.133,0

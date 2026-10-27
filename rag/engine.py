@@ -1,4 +1,4 @@
-"""DocQuery RAG engine: ingestion, hybrid retrieval, prompting and generation.
+"""PolicyPal RAG engine: ingestion, hybrid retrieval, prompting and generation.
 
 Pipeline
     load -> chunk -> index (ChromaDB dense vectors + BM25 sparse index)
@@ -27,6 +27,7 @@ except ImportError:
 from rank_bm25 import BM25Okapi
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+NOT_FOUND = "I couldn't find this in the policy documents. Please check with HR."
 
 # --------------------------------------------------------------------------- text utils
 STOP = set(
@@ -165,7 +166,7 @@ class HybridIndex:
 
                 client = chromadb.EphemeralClient()
                 self.collection = client.create_collection(
-                    name=f"docquery_{uuid.uuid4().hex[:8]}", metadata={"hnsw:space": "cosine"}
+                    name=f"policypal_{uuid.uuid4().hex[:8]}", metadata={"hnsw:space": "cosine"}
                 )
             except Exception as e:  # noqa: BLE001 - keep the app usable without dense search
                 self.dense_error = str(e)
@@ -182,14 +183,15 @@ class HybridIndex:
                 c = Chunk(f"CHK{len(self.chunks) + 1:05d}", d, i, text)
                 self.chunks.append(c)
                 new.append(c)
-        self.bm25 = BM25Okapi([tokens(c.text) or ["_"] for c in self.chunks], k1=1.4, b=0.75)
+        # The document title is indexed with each chunk, so "POSH complaint" finds the POSH policy's clauses.
+        self.bm25 = BM25Okapi([tokens(f"{c.doc.title} {c.text}") or ["_"] for c in self.chunks], k1=1.4, b=0.75)
         if self.collection is not None and new:
             try:
                 for s in range(0, len(new), 64):
                     batch = new[s : s + 64]
                     self.collection.add(
                         ids=[c.chunk_id for c in batch],
-                        documents=[c.text for c in batch],
+                        documents=[f"{c.doc.title}. {c.text}" for c in batch],
                         metadatas=[{"doc_id": c.doc.doc_id} for c in batch],
                     )
             except Exception as e:  # noqa: BLE001 - e.g. embedding model download blocked
@@ -245,14 +247,14 @@ def build_prompt(question: str, hits: list[Hit]) -> str:
         f"{', opening of the document: usually title, authors, abstract' if h.header else ''})\n{h.chunk.text}"
         for i, h in enumerate(hits, 1)
     )
-    return f"""You are a document question-answering assistant in a RAG system. Answer the QUESTION using ONLY the numbered CONTEXT chunks below. Rules:
-- Do not use outside knowledge. If the context does not contain the answer, reply exactly: "I could not find this in the documents."
-- Cite the chunk numbers you used in square brackets after each claim, e.g. [1] or [2][3].
+    return f"""You are PolicyPal, an HR policy assistant. Answer the employee's QUESTION using ONLY the numbered POLICY EXTRACTS below. Rules:
+- Do not use outside knowledge or general HR practice. If the extracts do not contain the answer, reply exactly: "{NOT_FOUND}"
+- Cite the extract numbers you used in square brackets after each claim, e.g. [1] or [2][3].
 - Start with a direct one-sentence answer, then add supporting detail only if it helps.
-- When the answer is a set of items (for example authors, steps, features, conditions), list EVERY item from the context as a bullet line starting with "- ", one item per line.
-- Use **bold** for the key names, numbers or terms. No headings, no preamble. Keep it under 180 words.
+- When the answer is a set of items (for example steps, conditions, documents, limits), list EVERY item from the extracts as a bullet line starting with "- ", one item per line.
+- Use **bold** for key numbers, limits, dates and names. No headings, no preamble. Keep it under 150 words.
 
-CONTEXT:
+POLICY EXTRACTS:
 {ctx}
 
 QUESTION: {question}
@@ -366,7 +368,7 @@ def _clip(s: str) -> str:
 
 def extractive_answer(index: HybridIndex, question: str, hits: list[Hit]) -> str:
     if not hits:
-        return "I could not find this in the documents."
+        return NOT_FOUND
     if re.search(r"\b(authors?|written by|who wrote|wrote)\b", question, re.I):
         authors = find_authors(index, hits)
         if authors:
@@ -390,7 +392,7 @@ def extractive_answer(index: HybridIndex, question: str, hits: list[Hit]) -> str
             if sc > 0:
                 sents.append((sc, hi, si, _clip(s)))
     if not sents:
-        return "I could not find this in the documents."
+        return NOT_FOUND
     sents.sort(reverse=True)
     best, keep = sents[0][0], []
     for x in sents:

@@ -1,18 +1,24 @@
-column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description
-doc_id,object,DOC002,DOC034,DOC013,No,Unique identifier of the source document in the corpus (DOC001-DOC050). Groups chunks belonging to the same document.
-doc_type,object,TXT,TXT,HTML,No,"File format of the source document: PDF, Word, TXT, HTML or Markdown. Determines the loader/parser used during ingestion."
-chunk_id,object,CHK00001,CHK00002,CHK00003,No,Unique identifier of a text chunk produced by splitting a document for embedding (CHK00001-CHK00500). Primary key.
-word_count,numeric,457,302,52,No,Number of words in the chunk (range 50-499). Indicates chunk size used by the text splitter.
-retrieval_score,numeric,0.5962,0.7397,0.7735,No,Similarity score (0-1) between the user query embedding and the chunk embedding returned by the vector store (ChromaDB). Higher means more relevant.
-query_type,object,analytical,factual,comparative,No,"Category of the user question: factual, analytical, comparative, procedural or summarization."
-answer_quality_score,numeric,0.942,0.976,0.66,No,Evaluation score (0-1) of the LLM-generated answer for the query using this chunk as context (faithfulness/relevance). Higher is better.
-is_outlier,numeric,0,0,0,No,"Engineered: 1 if word_count, retrieval_score or answer_quality_score lies outside 1.5xIQR, else 0."
-chunk_size_category,object,long,long,short,No,"Engineered: word_count bucket - short (<=150), medium (151-300), long (>300)."
-retrieval_band,object,low,medium,medium,No,"Engineered: retrieval_score bucket - low (<0.65), medium (0.65-0.80), high (>=0.80)."
-quality_band,object,good,good,poor,No,"Engineered: answer_quality_score bucket - poor (<0.70), acceptable (0.70-0.85), good (>=0.85)."
-is_relevant_retrieval,numeric,0,1,1,No,"Engineered: 1 if retrieval_score >= 0.70 (chunk considered relevant), else 0."
-is_high_quality_answer,numeric,1,1,0,No,"Engineered: 1 if answer_quality_score >= 0.80, else 0."
-low_confidence_flag,numeric,1,0,1,No,Engineered: 1 if retrieval_score < 0.60 or answer_quality_score < 0.70; such answers should be shown with a hallucination warning.
-word_count_norm,numeric,0.9065,0.5612,0.0045,No,Engineered: min-max normalised word_count (0-1).
-retrieval_score_norm,numeric,0.1915,0.4796,0.5475,No,Engineered: min-max normalised retrieval_score (0-1).
-answer_quality_score_norm,numeric,0.855,0.94,0.15,No,Engineered: min-max normalised answer_quality_score (0-1).
+column_name,data_type,origin,example_value,value_range,missing_values,description
+chunk_id,string,Original,CHK00001,500 distinct values,0,Primary key. Identifier of one text chunk produced when a policy document is split for embedding (CHK00001-CHK00500).
+doc_id,string,Original,DOC002,50 distinct values,0,Identifier of the source HR document the chunk came from (DOC001-DOC050).
+policy_code,string,Derived (catalogue),PAY,5 distinct values,0,"Three-letter code of the HR policy area: LVT, PAY, CMP, LIF or LWP."
+policy_area,string,Derived (catalogue),Pay & benefits,5 distinct values,0,"HR policy area of the document: Leave & time, Pay & benefits, Conduct & compliance, Employee lifecycle or Learning & workplace."
+doc_title,string,Derived (catalogue),Payroll & Salary Structure,50 distinct values,0,Title of the document in the sample company's HR handbook that doc_id is mapped to (labelling assumption for this project).
+doc_type,string,Original,TXT,5 distinct values,0,"File format of the chunk's source file: PDF, Word, TXT, HTML or Markdown. Decides which loader parses it."
+canonical_doc_type,string,Engineered,HTML,5 distinct values,0,Most frequent doc_type recorded for the doc_id (ties broken alphabetically); used because the raw data lists several formats per document.
+format_matches_canonical,integer,Engineered,0,0 to 1,0,"1 if the row's doc_type equals canonical_doc_type, else 0."
+loader_family,string,Engineered,plain,3 distinct values,0,"Group of loader needed: binary (PDF, Word), markup (HTML, Markdown) or plain (TXT)."
+word_count,integer,Original,457,50 to 499,0,Number of words in the chunk (50-499); reflects the text-splitter chunk size.
+est_tokens,integer,Engineered,608,66 to 664,0,Approximate LLM tokens for the chunk = round(word_count x 1.33); used to size the context window.
+chunk_length_quartile,string,Engineered,Q4-long,4 distinct values,0,"Quartile of word_count: Q1-short, Q2, Q3, Q4-long."
+query_type,string,Original,analytical,5 distinct values,0,"Kind of employee question: factual, analytical, comparative, procedural or summarization."
+retrieval_score,float,Original,0.5962,0.5008 to 0.9989,0,Similarity (0-1) between the question embedding and the chunk embedding returned by the vector store. Higher = more relevant.
+answer_quality_score,float,Original,0.942,0.6 to 1.0,0,Evaluation score (0-1) of the LLM answer generated from this chunk (faithfulness and relevance). Higher = better.
+grounding_gap,float,Engineered,0.3458,-0.3814 to 0.4642,0,answer_quality_score minus retrieval_score. Positive = answer better than retrieval suggested; negative = good retrieval but weak answer.
+reliability_index,float,Engineered,0.8037,0.5714 to 0.9908,0,Weighted score 0.4 x retrieval_score + 0.6 x answer_quality_score (0-1); answer quality is weighted higher because employees act on the answer.
+confidence_tier,string,Engineered,Refer to HR,3 distinct values,0,"Trusted (retrieval >= 0.75 and quality >= 0.85), Usable (retrieval >= 0.65 and quality >= 0.72), otherwise Refer to HR."
+refer_to_hr,integer,Engineered,1,0 to 1,0,1 if confidence_tier is Refer to HR: PolicyPal shows the answer with a warning and suggests contacting the HR helpdesk.
+word_count_z,float,Engineered,1.4006,-1.6292 to 1.7133,0,Z-score (standardised value) of word_count.
+retrieval_score_z,float,Engineered,-1.0534,-1.7218 to 1.7679,0,Z-score (standardised value) of retrieval_score.
+answer_quality_score_z,float,Engineered,1.1841,-1.7274 to 1.6779,0,Z-score (standardised value) of answer_quality_score.
+is_extreme_z,integer,Engineered,0,0 to 0,0,"1 if any of the three z-scores has absolute value above 3 (extreme value), else 0."
