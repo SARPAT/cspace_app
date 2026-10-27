@@ -558,9 +558,3 @@ with tab_how:
     st.write("")
     with st.expander("Prompt template"):
         st.code(build_prompt("{employee question}", []).replace("POLICY EXTRACTS:\n", "POLICY EXTRACTS:\n[1..k] ({policy title}, {chunk id})\n{clause text}"), language=None)
-
-st.markdown(
-    """<div class="foot"><span>PolicyPal · RAG-Based Document Q&amp;A System · HCLTech Project 72</span>
-<span>Saransh Patel · 2300320120225</span><span>Mentor: Sir S.P Gautam</span><span>ABES Engineering College</span></div>""",
-    unsafe_allow_html=True,
-)
